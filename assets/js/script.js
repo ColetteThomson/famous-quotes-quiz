@@ -31,11 +31,36 @@ function submitQuiz() {
             (document.getElementById(correctOptionNumber).innerHTML) + "</strong>");
     }
 
-    
-
-    /** if statments for correctAnswer function */
-    {
-
+    /** use correctAnswer function to print correct answers, if user answers incorrectly */
+    if (answerTally('question1') === 0) {
+        document.getElementById('correctAnswer1').innerHTML = correctAnswer('correctOption1', 1);
+    }
+    if (answerTally('question2') === 0) {
+        document.getElementById('correctAnswer2').innerHTML = correctAnswer('correctOption2', 2);
+    }
+    if (answerTally('question3') === 0) {
+        document.getElementById('correctAnswer3').innerHTML = correctAnswer('correctOption3', 3);
+    }
+    if (answerTally('question4') === 0) {
+        document.getElementById('correctAnswer4').innerHTML = correctAnswer('correctOption4', 4);
+    }
+    if (answerTally('question5') === 0) {
+        document.getElementById('correctAnswer5').innerHTML = correctAnswer('correctOption5', 5);
+    }
+    if (answerTally('question6') === 0) {
+        document.getElementById('correctAnswer6').innerHTML = correctAnswer('correctOption6', 6);
+    }
+    if (answerTally('question7') === 0) {
+        document.getElementById('correctAnswer7').innerHTML = correctAnswer('correctOption7', 7);
+    }
+    if (answerTally('question8') === 0) {
+        document.getElementById('correctAnswer8').innerHTML = correctAnswer('correctOption8', 8);
+    }
+    if (answerTally('question9') === 0) {
+        document.getElementById('correctAnswer9').innerHTML = correctAnswer('correctOption9', 9);
+    }
+    if (answerTally('question10') === 0) {
+        document.getElementById('correctAnswer10').innerHTML = correctAnswer('correctOption10', 10);
     }
 
     var questionCount =
