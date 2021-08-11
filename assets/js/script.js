@@ -63,7 +63,18 @@ function submitQuiz() {
         document.getElementById('correctAnswer10').innerHTML = correctAnswer('correctOption10', 10);
     }
 
-    var questionCount =
+    /** calculate number of questions using html class 'question'*/
+    var questionCount = document.getElementsByClassName('question');
 
+    var questionCounter = 0;
+    for (var i = 0, length = questionCount.length; i < length; i++) {
+        questionCounter++;
+    }
 
-    var showResults =
+    /** show correct answers out of questionCount" */
+    var showResults = "Your Score: " + calculateScore +"/" + questionCounter;
+    if (calculateScore === questionCounter) {
+        showResults = showResults + "&nbsp; <strong>Well done, a perfect score!</strong>"
+    };
+    document.getElementById('userScore').innerHTML = showResults;
+}
