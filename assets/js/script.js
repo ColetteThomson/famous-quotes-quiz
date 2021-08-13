@@ -81,7 +81,7 @@ function submitQuiz() {
     };
     document.getElementById('userScore').innerHTML = showResults;
 }
-
+/** button to reset quiz */
 function resetQuiz () {
     window.location.reload(false);
 }
