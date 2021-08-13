@@ -64,7 +64,7 @@ function submitQuiz() {
         document.getElementById('userAnswer10').innerHTML = correctAnswer('correctOption10', 10);
     }
 
-    /** calculate number of questions using html class 'question'*/
+    /** calculate number of questions using html class'question'*/
     var questionCount = document.getElementsByClassName('question');
 
     var questionCounter = 0;
@@ -76,6 +76,8 @@ function submitQuiz() {
     var showResults = "Your Score: " + calculateScore +"/" + questionCounter;
     if (calculateScore === questionCounter) {
         showResults = showResults + "&nbsp; <strong>Well done, a perfect score!</strong>"
+    } else {
+        showResults = showResults + "&nbsp; <strong>Better luck next time!</strong>"
     };
     document.getElementById('userScore').innerHTML = showResults;
 }
