@@ -81,3 +81,7 @@ function submitQuiz() {
     };
     document.getElementById('userScore').innerHTML = showResults;
 }
+
+function resetQuiz () {
+    window.location.reload(false);
+}
