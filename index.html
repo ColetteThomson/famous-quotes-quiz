@@ -9,31 +9,54 @@
 </head>
 <body>
     <section class="home-page-container">
+        <!--heading with business name and byline-->
         <h1>Quizz-Pro</h1>
-        <h3>...for quizzing from the entertainment world</h3>
+        <p class="logo_byline">...for quizzing from the entertainment world</p>
         <div>
-            <h4>Want to test your knowledge of famous quotes?</h4>
-            
-            <p>Try our Movie Quotes Quiz to see if you can match the Quote to the Movie</p>
-                <form method="get" action="/movie_quotes_quiz.html">
-                <button type="submit">Start Movie Quotes Quiz</button></form>
             <br>
-            <p>Fancy something a bit more challenging?</p>
-            <p>Try our Actor Quotes Quiz to see if you can match the Actor to the Quote</p>
-                <form method="get" action="/actor_quotes_quiz.html">
-                <button type="submit">Start Actor Quotes Quiz</button></form>
+            <!--image on home page-->
+            <div class="image">
+
+            </div>
+            <!--body of home page (1)-->
+            <p class="paragraph"><strong>Want to test your knowledge of famous quotes?</strong>
+            </p>
+            
+            <p>Try our Movie Quotes Quiz to see if you can <strong>match the Quote to the Movie</strong>
+            </p>
+                <!--button to start 'movie quotes quiz'-->
+                <form method="get" action="/movie_quotes_quiz.html">
+                <button type="submit" class="quiz_button">Start Movie Quotes Quiz!</button>
+                </form>
+            <br>
         </div>
+
+        <!--body of home page (2)-->
         <div>
-            <h4>Rules</h4>
+            <p class="paragraph"><strong>Fancy something a bit more challenging?</strong>
+            </p>
+            <p>Try our Actor Quotes Quiz to see if you can <strong>match the Actor to the Quote</strong>
+            </p>
+                <!--button to start 'actor quotes quiz'-->
+                <form method="get" action="/actor_quotes_quiz.html">
+                <button type="submit" class="quiz_button">Start Actor Quotes Quiz!</button></form>
+        </div>
+        <!--rules for quizzes-->
+        <div>
+            <h2>Rules</h2>
             <ul>
                 <li>Questions are multiple choice and only one answer can be selected.</li>
-                <li>If a questions is unanswered, it will be given a score of incorrect.</li>
+                <li>If a question is unanswered, it will be given a score of incorrect.</li>
             </ul>
         </div>
     </section>
-    <footer>
-        <a href="/contact_us.html">Contact Us</a>
-        <a href="/terms_of_service.html">Terms of Service</a>
+
+    <footer class="footer">
+        <a class="btn btn-outline-success footer_link" href="/contact_us.html"
+        role="button" aria-pressed="true">Contact Us</a>
+        
+        <a class="btn btn-outline-success footer_link" href="/terms_of_service.html"
+        role="button" aria-pressed="true">Terms of Service</a>
     </footer>
       
 <script src="assets/js/script.js"></script> 
