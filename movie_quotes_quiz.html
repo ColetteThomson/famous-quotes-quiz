@@ -4,22 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--link to css style sheet-->
     <link href="assets/css/style.css" rel="stylesheet" type="text/css">
     <title>Famous Movie Quotes!</title>
 </head>
 <body>
-    <h1 class="quiz-heading">Famous Movie Quotes!</h1>
+  <!--page heading-->
+  <h1 class="quiz-heading">Famous Movie Quotes!</h1>
   
 	<!--button to 'return to home page'-->
-	<form method="get" action="/index.html">
-		<button class=returnHomepage type="submit">Return to Home Page</button></form>
+	<a class="btn btn-outline-success return_homepage" href="/index.html"
+        role="button" aria-pressed="true">Return to Home Page</a>
 
-	<!--button to move to a different quiz-->
-	<form method="get" action="/actor_quotes_quiz.html">
-		<button class="nextQuiz" type="submit">Try our Actor Quotes Quiz!</button></form>
-        
-<!--'movie quotes quiz' questions and possible radio button answers-->
-<form>
+	<!--'movie quotes quiz' questions and possible radio button answers-->
+<form class="positioning">
     <div class="question-left">
       <p class="question">1. "Frankly, my dear, I don't give a damn."</p>
 
@@ -167,7 +165,26 @@
   <input class="answer" type="radio" name="question10" value="1">
   <label id="correctOption10">A Few Good Men</label>
 </p>
+</div>
+</form>
 
+<section>
+	<!--button to move to a different quiz -->
+	<form method="get" action="/actor_quotes_quiz.html">
+		<button class="next_quiz" type="submit">Try our Actor Quotes Quiz!</button>
+  </form>
+</section>
+
+<!--footer-->
+<footer class="footer">
+	<a class="btn btn-outline-success footer_link" href="/contact_us.html"
+        role="button" aria-pressed="true">Contact Us</a>
+
+    <a class="btn btn-outline-success footer_link" href="/terms_of_service.html"
+        role="button" aria-pressed="true">Terms of Service</a>
+</footer>
+
+<!--link to javascript file-->
     <script src="assets/js/script.js"></script>    
 </body>
 </html>
