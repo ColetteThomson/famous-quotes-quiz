@@ -167,8 +167,23 @@
 		<label id="correctOption10">Dustin Hoffman</label>
 	</p>
   	</div>
+	  	<!--button: on click - resets current quiz-->
+		<div>
+		<input id="resetButton" class="reset_styling"
+		type="reset" value="Reset" onclick="resetQuiz()">
+		</div>
 	</form>
 	
+	<div>
+
+	</div>
+	
+	<!--submit button for quiz-->
+	<div class="submitter">
+		<input class="quiz_submit" id="submitButton" onclick="submitQuiz()"
+		   type="submit" value="Submit">
+	</div>
+
 	<section>
 		<!--button: to move to a different quiz -->
 		<form method="get" action="/movie_quotes_quiz.html">
