@@ -47,3 +47,29 @@ h1 {
     line-height: 35px;
     padding-left: 20px;
   }
+
+  form {
+    padding-left: 20px;
+  }
+
+  /*home page image */
+
+
+  /* button: start quiz on 'home page' */
+.quiz_button {
+    color: lightblue;
+    background-color: black;
+    border: 2px;
+    border-radius: 12px;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    box-shadow: 0 0 10px 5px lightblue;
+  }
+
+  .quiz_button:hover {
+    background-color: lightblue;
+    color: black;
+  }
+  
