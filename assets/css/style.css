@@ -72,4 +72,22 @@ h1 {
     background-color: lightblue;
     color: black;
   }
-  
+
+  /* 'movie quotes quiz' and 'actor quotes quiz' question & answer blocks */
+    .question-left {
+    float:left;
+    width: 46%;
+    margin-right: 0;
+  }
+
+  .question-right {
+    float: right;
+    width: 43%;
+    margin-right: 20px;
+    clear: right;
+  }
+
+  .question {
+    color: pink;
+    font-weight: 600;
+  }
