@@ -1,2 +1,24 @@
 /* fonts for logo, headings and body text */
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Mitr:wght@300&family=WindSong:wght@500&display=swap');
+
+/*body headings and paragraphs */
+h1 {
+    font-family: "WindSong", sans-serif;
+    font-size: 50px;
+    color: lightblue;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.logo_byline {
+    font-family: "WindSong", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: lightblue;
+    letter-spacing: 2px;
+    margin: 0;
+    padding-left: 20px;
+  }
+
+  
