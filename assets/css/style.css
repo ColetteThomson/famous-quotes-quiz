@@ -116,3 +116,23 @@ h1 {
     font-weight: 600;
     text-decoration: none;
   }
+
+  /* button: submit */
+.submitter {
+    width: 100px;
+    bottom: -4px;
+    left: 10px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .quiz_submit {
+    color: black;
+    background-color: lightblue;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+  }
