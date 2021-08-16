@@ -21,4 +21,29 @@ h1 {
     padding-left: 20px;
   }
 
+  body {
+    margin: 0;
+    font-family: "Comfortaa", sans-serif;
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    background: black;
+    z-index: -1;
+  }
+
+  h2, h3, h4 {
+    font-family: "Mitr", sans-serif;
+    color: pink;
+    padding-left: 20px;
+  }
   
+  p {
+    padding-left: 20px;
+  }
+  
+  .paragraph {
+    color: pink;
+    font-size: 25px;
+    line-height: 35px;
+    padding-left: 20px;
+  }
