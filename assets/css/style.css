@@ -88,7 +88,7 @@ h1 {
     border: 2px;
     border-radius: 12px;
     padding: 10px;
-    font-size: 20px;
+    font-size: 25px;
     text-decoration: none;
     transition-duration: 0.5s;
     box-shadow: 0 0 10px 5px lightblue;
@@ -101,7 +101,7 @@ h1 {
 
   /* 'movie quotes quiz' and 'actor quotes quiz' question & answer blocks */
     .question-left {
-    float:left;
+    float: left;
     width: 46%;
     margin-right: 0;
   }
@@ -148,7 +148,7 @@ h1 {
     width: 100px;
     bottom: -4px;
     left: 10px;
-    padding-left: 20px;
+    padding-left: 30px;
     margin-bottom: 20px;
     margin-top: 20px;
   }
@@ -162,3 +162,18 @@ h1 {
     font-weight: 600;
     text-decoration: none;
   }
+
+  /* container: to display user results */
+.results_container {
+  float: left;
+  position: absolute;
+  z-index: 8;
+  padding-left: 35px;
+  line-height: 35px;
+}
+
+.quizScore {
+  font-size: 25px;
+  color: pink;
+  padding-left: 5px;
+}
