@@ -319,4 +319,19 @@ h1 {
     margin-top: 300px;
   }
 
+  /* button: start quiz on 'home page' */
+  .quiz_button {
+    font-size: 20px;
+  }
+
+  /* 'movie quotes quiz' and 'actor quotes quiz' heading and positioning */
+  .quiz_heading {
+    font-size: 35px;
+    padding-right: 20px;
+  }
+
+  .quiz_positioning {
+    padding-top: 30px;
+  }
+
 }
