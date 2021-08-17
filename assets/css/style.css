@@ -334,4 +334,21 @@ h1 {
     padding-top: 30px;
   }
 
+  /* 'movie quotes quiz' and 'actor quotes quiz' question & answer blocks */
+  .question-left {
+    float: left;
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .question-right {
+    float: left;
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
 }
