@@ -269,4 +269,10 @@ h1 {
     margin-right: 20px;
   }
 
+  /*  FOOTER */
+  /* button: to go to next quiz */
+  .next_quiz {
+    font-size: 18px;
+    margin-right: 20px;
+  }
 }
