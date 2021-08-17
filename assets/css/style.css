@@ -382,5 +382,20 @@ h1 {
     margin-right: 10px;
   }
 
+  /* container: to display user results */
+  .results_container {
+    padding-left: 17px;
+    padding-right: 15px;
+    margin-top: 10px;
+    line-height: 20px;
+    font-size: 18px;
+    z-index: 10;
+    background-color: black;
+  }
+
+  .quizScore {
+    font-size: 20px;
+  }
+
 
 }
