@@ -28,7 +28,7 @@ function submitQuiz() {
     function correctAnswer (correctOptionNumber, questionNumber) {
         console.log("questionNumber: " + questionNumber);  
 
-        return ("The correct answer for question " + questionNumber + " is &nbsp;<strong>" +
+        return ("The correct answer for Q" + questionNumber + " is &nbsp;<strong>" +
             (document.getElementById(correctOptionNumber).innerHTML) + "</strong>");
     }
 
@@ -64,7 +64,7 @@ function submitQuiz() {
         document.getElementById('userAnswer10').innerHTML = correctAnswer('correctOption10', 10);
     }
 
-    /** calculate number of questions using html class'question'*/
+    /** calculate number of questions using html class'question' */
     var questionCount = document.getElementsByClassName('question');
 
     var questionCounter = 0;
@@ -72,8 +72,8 @@ function submitQuiz() {
         questionCounter++;
     }
 
-    /** show correct answers out of questionCount" */
-    var showResults = "Your Score: " + calculateScore +"/" + questionCounter;
+    /** show correct answers out of questionCount */
+    var showResults = "<strong>Your Score: </strong>" + calculateScore +"/" + questionCounter;
     if (calculateScore === questionCounter) {
         showResults = showResults + "&nbsp; <strong>Well done, a perfect score!</strong>"
     } else {
