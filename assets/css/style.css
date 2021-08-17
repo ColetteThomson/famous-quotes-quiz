@@ -249,4 +249,15 @@ h1 {
     margin-right: 50px;
   }
 
+  /* 'movie quotes quiz' and 'actor quotes quiz' question & answer blocks */
+  .question-left {
+    width: 44%;
+  }
+
+  .question-right {
+    width: 44%;
+  }
+
+  
+
 }
