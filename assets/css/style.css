@@ -397,5 +397,27 @@ h1 {
     font-size: 20px;
   }
 
+  /* FOOTER */
+  .footer {
+    padding: 0;
+  }
+
+  .next_quiz {
+    float: left;
+    display: block;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 30px;
+    margin-top: 150px;
+    font-size: 22px;
+  }
+
+  .footer_link {
+    font-size: 20px;
+    display: block;
+    padding-top: 20px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+  }
 
 }
