@@ -288,10 +288,24 @@ h1 {
     padding: 0;
   }
 
-  .container {
-    overflow-x: hidden !important;
-    max-width: 100% !important;
+  /* body headings and paragraphs */
+  h1 {
+    font-size: 40px;
+  } 
+
+  .logo_byline {
+    font-size: 23px;
   }
 
+  .paragraph {
+    font-size: 18px;
+    padding-left: 15px;
+    padding-right: 10px;
+  }
+
+  p {
+    padding-left: 15px;
+    padding-right: 10px;
+  }
 
 }
