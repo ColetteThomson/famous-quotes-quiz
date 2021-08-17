@@ -220,3 +220,24 @@ h1 {
   margin-left: 10px;
   margin-right: 20px;
 }
+
+/* M E D I A   Q U E R I E S   for tablets and mobiles */
+
+/* T A B L E T S */
+@media screen and (max-width: 770px) {
+
+  /* body headings and paragraphs */
+  .logo_byline {
+    font-size: 30px;
+  }
+
+  .paragraph {
+    font-size: 20px;
+    margin-right: 0;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+}
