@@ -4,7 +4,7 @@
 /*body headings and paragraphs */
 h1 {
     font-family: "WindSong", sans-serif;
-    font-size: 50px;
+    font-size: 60px;
     color: lightblue;
     letter-spacing: 2px;
     margin-bottom: 10px;
@@ -13,7 +13,7 @@ h1 {
 
 .logo_byline {
     font-family: "WindSong", sans-serif;
-    font-size: 25px;
+    font-size: 35px;
     font-weight: 400;
     color: lightblue;
     letter-spacing: 2px;
@@ -52,8 +52,30 @@ h1 {
     padding-left: 20px;
   }
 
-  /*home page image */
+  /* image on home page */
+  .image {
+    float: right;
+    padding-top: 30px;
+    padding-left: 20px;
+    margin-right: 50px;
+  }
 
+  /* images on 'movie quotes quiz', 'actor quotes quiz' pages*/
+  .image_positioning {
+    float: right;
+    position: relative;
+    margin-right: 100px;
+    margin-top: 0;
+    padding: 0;
+  }
+
+  .image_positioning_2 {
+    float: right;
+    position: relative;
+    margin-right: 100px;
+    margin-top: 0;
+    padding: 0;
+  }
 
   /* button: start quiz on 'home page' */
 .quiz_button {
