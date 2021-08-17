@@ -177,3 +177,40 @@ h1 {
   color: pink;
   padding-left: 5px;
 }
+
+/* FOOTER */
+.footer {
+  clear: both;
+  padding-top: 120px;
+  padding-bottom: 50px;
+  padding-left: 25px;
+}
+
+.footer_link {
+  color: lightblue;
+  font-size: 20px;
+  padding-right: 60px;
+}
+
+/* button: to go to next quiz */
+.next_quiz {
+  float: right;
+  margin-right: 90px;
+  padding-bottom: 30px;
+  display: block;
+    
+  color: lightblue;
+  background-color: black;
+  border: 2px;
+  border-radius: 12px;
+  padding: 10px;
+  font-size: 25px;
+  text-decoration: none;
+  transition-duration: 0.5s;
+  box-shadow: 0 0 10px 5px lightblue;
+}
+
+.next_quiz:hover {
+  background-color: lightblue;
+  color: black;
+  }
