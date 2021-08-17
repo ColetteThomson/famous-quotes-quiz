@@ -276,3 +276,22 @@ h1 {
     margin-right: 20px;
   }
 }
+
+/* M O B I L E S */
+@media screen and (max-width: 426px) {
+
+  /* settings to prevent horizontal scrolling for mobile screen */
+  html, body {
+    overflow-x: hidden !important;
+    max-width: 100% !important;
+    margin: auto;
+    padding: 0;
+  }
+
+  .container {
+    overflow-x: hidden !important;
+    max-width: 100% !important;
+  }
+
+
+}
