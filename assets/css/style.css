@@ -61,6 +61,10 @@ h1 {
   }
 
   /* images on 'movie quotes quiz', 'actor quotes quiz' pages*/
+  .quiz_positioning {
+    position: relative;
+  }
+  
   .image_positioning {
     float: right;
     position: relative;
