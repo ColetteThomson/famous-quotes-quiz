@@ -214,3 +214,9 @@ h1 {
   background-color: lightblue;
   color: black;
   }
+
+  /* terms of service page */
+ .body_margins {
+  margin-left: 10px;
+  margin-right: 20px;
+}
