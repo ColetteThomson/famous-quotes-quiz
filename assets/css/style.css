@@ -308,4 +308,15 @@ h1 {
     padding-right: 10px;
   }
 
+  /* image on home page */
+  .image {
+    float: left;
+    margin: 0;
+    padding: 0;
+  }
+
+  .mq {
+    margin-top: 300px;
+  }
+
 }
