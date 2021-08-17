@@ -258,6 +258,15 @@ h1 {
     width: 44%;
   }
 
-  
+  /* images on 'movie quotes quiz', 'actor quotes quiz' */
+  .image_positioning {
+    float: right;
+    margin-right: 20px;
+  }
+
+  .image_positioning_2 {
+    float: right;
+    margin-right: 20px;
+  }
 
 }
