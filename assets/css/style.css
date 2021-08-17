@@ -240,4 +240,13 @@ h1 {
     font-size: 18px;
   }
 
+  /* image on home page */
+  .image {
+    float: right;
+    width: 40%;
+    height: auto;
+    margin-left: 0;
+    margin-right: 50px;
+  }
+
 }
