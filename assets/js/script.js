@@ -1,5 +1,4 @@
-/** code for 'MOVIE QUOTES QUIZ' */
-
+/* submit quiz function */
 function submitQuiz() {
     console.log('submitted');
 
@@ -18,11 +17,17 @@ function submitQuiz() {
     return answerValue;
 }
 
-    /** use answerTally function to calculate score*/ 
+    /** use answerTally function to calculate score for 'movie quotes quiz' */ 
     var calculateScore = (answerTally('question1') + answerTally('question2') + answerTally('question3') + answerTally('question4')
     + answerTally('question5') + answerTally('question6') + answerTally('question7') + answerTally('question8') 
     + answerTally('question9') + answerTally('question10'));
     console.log("CalculateScore: " + calculateScore); 
+
+    /** use answerTally function to calculate score for 'actor quotes quiz'*/ 
+    var calculateScore1 = (answerTally('question1') + answerTally('question2') + answerTally('question3') + answerTally('question4')
+    + answerTally('question5') + answerTally('question6') + answerTally('question7') + answerTally('question8') 
+    + answerTally('question9') + answerTally('question10'));
+    console.log("CalculateScore1: " + calculateScore1); 
 
     /** use correctAnswer function to return correct option as a string */
     function correctAnswer (correctOptionNumber, questionNumber) {
@@ -97,7 +102,7 @@ var timeRemaining = 20;
     }
   }, 1000);
 
-  /*prompt user to enter username and display in 'result' */
+/*prompt user to enter username and display in 'result' */
 const form = document.getElementById('form1')
 form.addEventListener("submit", (event) => {
     event.preventDefault();
