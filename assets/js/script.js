@@ -85,3 +85,14 @@ function submitQuiz() {
 function resetQuiz () {
     window.location.reload(false);
 }
+
+/* countdown timer for quizzes, starts when page loads */
+var timeRemaining = 20;
+  var downloadTimer = setInterval(function () {
+    document.getElementById("countdown").innerHTML = `${timeRemaining} seconds left`;
+    timeRemaining -= 1;
+    if (timeRemaining <= 0) {
+      clearInterval(downloadTimer);
+      document.getElementById("countdown").innerHTML = "Time's up!  Click Reset button to try again.";
+    }
+  }, 1000);
