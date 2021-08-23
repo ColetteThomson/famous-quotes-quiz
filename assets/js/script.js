@@ -96,3 +96,13 @@ var timeRemaining = 20;
       document.getElementById("countdown").innerHTML = "Time's up!  Click Reset button to try again.";
     }
   }, 1000);
+
+  /*prompt user to enter username and display in 'result' */
+const form = document.getElementById('form1')
+form.addEventListener("submit", (event) => {
+    event.preventDefault();
+    const userName = event.target.name.value;
+    document.getElementById("result").innerText = "Hello " + userName;
+    /* to hide form, once 'submit' is pressed */
+    document.getElementById("form1").style.display="none";
+});
