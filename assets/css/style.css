@@ -60,6 +60,8 @@ h1 {
     margin-right: 50px;
   }
 
+  /* username prompt on home page */
+  
   /* images on 'movie quotes quiz', 'actor quotes quiz' pages*/
   .quiz_positioning {
     position: relative;
@@ -141,6 +143,12 @@ h1 {
     font-size: 20px;
     font-weight: 600;
     text-decoration: none;
+  }
+
+  /*countdown timer on 'movie quotes', 'actor quotes' pages */
+  #countdown {
+    color: rgb(253, 75, 104);
+    margin-left: 25%;
   }
 
   /* button: submit */
@@ -323,6 +331,11 @@ h1 {
   .quiz_button {
     font-size: 20px;
   }
+
+  /*countdown timer on 'movie quotes', 'actor quotes' pages */
+  #countdown {
+    margin-left: 5px;
+  } 
 
   /* 'movie quotes quiz' and 'actor quotes quiz' heading and positioning */
   .quiz_heading {
