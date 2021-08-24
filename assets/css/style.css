@@ -56,6 +56,48 @@ h1 {
     padding-left: 20px;
   }
 
+  /* username prompt on home page */
+  .prompt {
+    float: left;
+    max-width: 45%;
+    padding-left: 20px;
+    padding-bottom: 0;
+    margin: 0;
+  }
+
+  #form1 {
+    font-size: 20px;
+    z-index: 1;
+  }
+
+  #name {
+    font-size: 20px;
+    z-index: 1;
+  }
+
+  #submitPrompt {
+    font-size: 20px;
+  }
+
+  #result {
+    color: rgb(253, 75, 104);
+    font-size: 25px;
+    background-color: black;
+    margin-top: 0;
+    padding-top: 0;
+    z-index: 2;
+    display: block;
+    padding-bottom: 20px;
+  }
+  
+  /* image on home page */
+  .image {
+    float: right;
+    padding-top: 30px;
+    padding-left: 20px;
+    margin-right: 50px;
+  }
+
   /* div positioning on homepage */
   .homepage_div {
     float: left;
@@ -71,16 +113,6 @@ h1 {
     padding-left: 20px;
   }
 
-  /* image on home page */
-  .image {
-    float: right;
-    padding-top: 30px;
-    padding-left: 20px;
-    margin-right: 50px;
-  }
-
-  /* username prompt on home page */
-  
   /* images on 'movie quotes quiz', 'actor quotes quiz' pages*/
   .quiz_positioning {
     position: relative;
@@ -271,6 +303,28 @@ h1 {
     font-size: 20px;
   }
 
+  /* username prompt on home page */
+  #form1 {
+    font-size: 18px;
+  }
+  
+  #name {
+    font-size: 18px;
+  }
+  
+  #submitPrompt {
+    font-size: 18px;
+  }
+
+  /* image on home page */
+  .image {
+    float: right;
+    width: 40%;
+    height: auto;
+    margin-left: 0;
+    margin-right: 50px;
+  }
+
   /* div positioning on homepage */
   .homepage_div {
     float: left;
@@ -282,15 +336,6 @@ h1 {
     float: left;
     width: 95%;
     padding-left: 20px;
-  }
-
-  /* image on home page */
-  .image {
-    float: right;
-    width: 40%;
-    height: auto;
-    margin-left: 0;
-    margin-right: 50px;
   }
 
   /* 'movie quotes quiz' and 'actor quotes quiz' question & answer blocks */
@@ -362,6 +407,34 @@ h1 {
     padding-right: 10px;
   }
 
+  /* username prompt on home page */
+  .prompt {
+    float: left;
+    max-width: 100%;
+    padding-top: 15px;
+    padding-left: 5px;
+    margin: 0;
+  }
+
+  #form1 {
+    font-size: 16px;
+  }
+  
+  #name {
+    font-size: 16px;
+  }
+  
+  #submitPrompt {
+    font-size: 16px;
+  }
+
+  /* image on home page */
+  .image {
+    float: left;
+    margin: 0;
+    padding: 0;
+  }
+
   /* div positioning on homepage */
   .homepage_div {
     float: left;
@@ -375,17 +448,6 @@ h1 {
     float: left;
     width: 90%;
     padding-left: 15px; 
-  }
-
-  /* image on home page */
-  .image {
-    float: left;
-    margin: 0;
-    padding: 0;
-  }
-
-  .mq {
-    margin-top: 300px;
   }
 
   /* button: start quiz on 'home page' */
