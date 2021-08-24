@@ -118,14 +118,6 @@ h1 {
     position: relative;
   }
   
-  .image_positioning {
-    float: right;
-    position: relative;
-    margin-right: 100px;
-    margin-top: 0;
-    padding: 0;
-  }
-
   .image_positioning_2 {
     float: right;
     position: relative;
