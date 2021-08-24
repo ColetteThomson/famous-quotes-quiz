@@ -13,7 +13,7 @@ h1 {
     color: lightblue;
     letter-spacing: 2px;
     margin-bottom: 10px;
-    padding-left: 20px;
+    padding-left: 30px;
 }
 
 .logo_byline {
@@ -23,7 +23,7 @@ h1 {
     color: lightblue;
     letter-spacing: 2px;
     margin: 0;
-    padding-left: 20px;
+    padding-left: 30px;
   }
 
   body {
@@ -50,7 +50,6 @@ h1 {
     color: pink;
     font-size: 25px;
     line-height: 35px;
-    padding-left: 20px;
   }
 
   form {
@@ -249,12 +248,12 @@ h1 {
   }
 
   .paragraph {
-    font-size: 20px;
+    font-size: 22px;
     margin-right: 0;
   }
 
   p {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   /* image on home page */
@@ -314,14 +313,24 @@ h1 {
     font-size: 23px;
   }
 
+  h2 {
+    padding-left: 10px;
+  }
+
+  ul {
+    padding: 17px;
+    margin: 0;
+  }
+
   .paragraph {
-    font-size: 18px;
+    font-size: 20px;
     padding-left: 15px;
     padding-right: 10px;
+    margin-top: 0;
   }
 
   p {
-    padding-left: 15px;
+    padding-left: 10px;
     padding-right: 10px;
   }
 
