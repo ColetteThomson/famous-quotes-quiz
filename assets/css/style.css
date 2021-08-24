@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Mitr:wght@300&family=WindSong:wght@500&display=swap');
 
 /*body headings and paragraphs */
+
+#content {
+  width: 1024px;
+}
+
 h1 {
     font-family: "WindSong", sans-serif;
     font-size: 60px;
@@ -232,9 +237,13 @@ h1 {
 /* M E D I A   Q U E R I E S   for tablets and mobiles */
 
 /* T A B L E T S */
-@media screen and (max-width: 770px) {
+@media (max-width: 769px) and (min-width: 426px) {
 
   /* body headings and paragraphs */
+  #content {
+    width: 768px;
+  }
+
   .logo_byline {
     font-size: 30px;
   }
@@ -431,6 +440,14 @@ h1 {
     padding-top: 20px;
     padding-left: 15px;
     margin-bottom: 10px;
+  }
+}
+
+/* L A R G E   L A P T O P  Screens between 1025px and 1441px */
+@media (max-width: 1441px) and (min-width: 1025px) {
+  
+  #content {
+    width: 1440px;
   }
 
 }
