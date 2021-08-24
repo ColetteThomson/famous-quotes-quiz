@@ -23,7 +23,7 @@
         <!--user name prompt -->
         <div class="prompt">
             <form name="myPrompt" id="form1">
-                <label for="name">Your user name</label>
+                <label for="name">Your user name</label><br>
                 <input type="text" name="name" id="name" required>
                 <input type="submit" id="submitPrompt" value="Submit">
             </form>
@@ -31,8 +31,8 @@
         </div>
 
             <!--body of home page (1)-->
-        <div>
-            <p class="paragraph mq"><strong>Want to test your knowledge of famous quotes?</strong>
+        <div class="homepage_div">
+            <p class="paragraph"><strong>Want to test your knowledge of famous quotes?</strong>
             </p>
             
             <p>Try our Movie Quotes Quiz to see if you can <strong>match the Quote to the Movie</strong>
@@ -40,13 +40,13 @@
 
             <!--button to start 'movie quotes quiz'-->
             <form method="get" action="/movie_quotes_quiz.html">
-                <button type="submit" class="quiz_button">Start Movie Quotes Quiz!</button>
+                <button type="submit" style="cursor: pointer" class="quiz_button">Start Movie Quotes Quiz!</button>
             </form>
             <br>
         </div>
 
         <!--body of home page (2)-->
-        <div>
+        <div class="homepage_div_2">
             <p class="paragraph"><strong>Fancy something a bit more challenging?</strong>
             </p>
             <p>Try our Actor Quotes Quiz to see if you can <strong>match the Actor to the Quote</strong>
@@ -54,13 +54,11 @@
 
             <!--button to start 'actor quotes quiz'-->
             <form method="get" action="/actor_quotes_quiz.html">
-                <button type="submit" class="quiz_button">Start Actor Quotes Quiz!</button>
+                <button type="submit" style="cursor: pointer" class="quiz_button">Start Actor Quotes Quiz!</button>
             </form>
-        </div>
-        
+                
         <!--rules for quizzes-->
-        <div>
-            <br>
+        <br>
             <h2>Rules</h2>
             <ul>
                 <li>Questions are multiple choice and only one answer can be selected.</li>
