@@ -16,7 +16,8 @@
 	<a class="btn btn-outline-success return_homepage" href="/index.html"
         role="button" aria-pressed="true">Home Page</a>
 
-  <p id="countdown">Countdown beginning...</p>
+  <!--countdown timer when page loads-->
+  <div id="countdown"></div>
 
 	<!--'movie quotes quiz' questions and possible radio button answers-->
 <form class="quiz_positioning">
@@ -110,80 +111,76 @@
 </div>
 
 <div class="question-left">
-<p class="question">7. "We rob banks."</p>
+  <p class="question">7. "We rob banks."</p>
 
-<p>
-  <input class="answer" type="radio" name="question7" value="0">
-  <label>Wall Street</label>
-  <br>
-  <input class="answer" type="radio" name="question7" value="0">
-  <label>Sunset Boulevard</label>
-  <br>
-  <input class="answer" type="radio" name="question7" value="1">
-  <label id="correctOption7">Bonnie and Clyde</label>
-</p>
-<br>
+  <p>
+    <input class="answer" type="radio" name="question7" value="0">
+    <label>Wall Street</label>
+    <br>
+    <input class="answer" type="radio" name="question7" value="0">
+    <label>Sunset Boulevard</label>
+    <br>
+    <input class="answer" type="radio" name="question7" value="1">
+    <label id="correctOption7">Bonnie and Clyde</label>
+  </p>
 </div>
 
 <div class="question-right">
-<p class="question">8. "What we've got here is failure to communicate."</p>
+  <p class="question">8. "What we've got here is failure to communicate."</p>
 
-<p>
-<input class="answer" type="radio" name="question8" value="1">
-<label id="correctOption8">Cool Hand Luke</label>
-<br>  
-<input class="answer" type="radio" name="question8" value="0">
-  <label>Taxi Driver</label>
-  <br>
+  <p>
+  <input class="answer" type="radio" name="question8" value="1">
+  <label id="correctOption8">Cool Hand Luke</label>
+  <br>  
   <input class="answer" type="radio" name="question8" value="0">
-  <label>Apocalypse Now</label>
-</p>
-<br>	
+    <label>Taxi Driver</label>
+    <br>
+    <input class="answer" type="radio" name="question8" value="0">
+    <label>Apocalypse Now</label>
+  </p>
 </div>
 
 <div class="question-left">
-<p class="question">9. "Wait a minute. You ain't heard nothin' yet!"</p>
+  <p class="question">9. "Wait a minute. You ain't heard nothin' yet!"</p>
 
-<p>
-<input class="answer" type="radio" name="question9" value="1">
-  <label id="correctOption9">The Jazz Singer</label>
-  <br>  
-<input class="answer" type="radio" name="question9" value="0">
-  <label>Casablanca</label>
-  <br>
+  <p>
+  <input class="answer" type="radio" name="question9" value="1">
+    <label id="correctOption9">The Jazz Singer</label>
+    <br>  
   <input class="answer" type="radio" name="question9" value="0">
-  <label>All About Eve</label>
-</p>
+    <label>Casablanca</label>
+    <br>
+    <input class="answer" type="radio" name="question9" value="0">
+    <label>All About Eve</label>
+  </p>
 </div>
 
 <div class="question-right">
-<p class="question">10. "You can't handle the truth!"</p>
+  <p class="question">10. "You can't handle the truth!"</p>
 
-<p>
-  <input class="answer" type="radio" name="question10" value="0">
-  <label>Star Wars</label>
+  <p>
+    <input class="answer" type="radio" name="question10" value="0">
+    <label>Star Wars</label>
+    <br>
+    <input class="answer" type="radio" name="question10" value="0">
+    <label>Rocky</label>
+    <br>
+    <input class="answer" type="radio" name="question10" value="1">
+    <label id="correctOption10">A Few Good Men</label>
+  </p>
   <br>
-  <input class="answer" type="radio" name="question10" value="0">
-  <label>Rocky</label>
-  <br>
-  <input class="answer" type="radio" name="question10" value="1">
-  <label id="correctOption10">A Few Good Men</label>
-</p>
-<br>
-</div>
-
-  <!--button: on click - resets current quiz-->
-	<div>
-		<input id="resetButton" class="reset_styling"
-		type="reset" value="Reset" onclick="resetQuiz()">
-	</div>
+  </div>
 </form>
 
-<!--submit button for quiz-->
+ <!--submit button for quiz-->
 <div class="submitter">
-  <input class="quiz_submit" id="submitButton" onclick="submitQuiz()"
-       type="submit" value="Submit">
-</div>
+  <span><input class="quiz_submit" id="submitButton" onclick="submitQuiz()"
+     type="submit" value="Submit">
+
+   <!--reset button for quiz-->
+   <input id="resetButton" class="reset_styling"
+  type="reset" value="Reset" onclick="resetQuiz()"></span>
+</div> 
 
 <!--image on 'movie quotes quiz' page-->
 <div>
@@ -216,6 +213,7 @@
     <form method="get" action="/actor_quotes_quiz.html">
       <button class="next_quiz" type="submit">Try our Actor Quotes Quiz!</button>
     </form>
+  </section>
 
 	<a class="btn btn-outline-success footer_link" href="/contact_us.html"
         role="button" aria-pressed="true">Contact Us</a>
