@@ -147,8 +147,9 @@ h1 {
   /* 'movie quotes quiz' and 'actor quotes quiz' question & answer blocks */
     .question-left {
     float: left;
-    width: 46%;
+    width: 45%;
     margin-right: 0;
+    clear: both;
   }
 
   .question-right {
@@ -332,11 +333,11 @@ h1 {
 
   /* 'movie quotes quiz' and 'actor quotes quiz' question & answer blocks */
   .question-left {
-    width: 44%;
+    width: 41%;
   }
 
   .question-right {
-    width: 44%;
+    width: 43%;
   }
 
   /* images on 'movie quotes quiz', 'actor quotes quiz' */
@@ -460,13 +461,15 @@ h1 {
 
   .quiz_positioning {
     padding-top: 30px;
+    margin-right: 0;
+    padding-left: 0;
   }
 
   /* 'movie quotes quiz' and 'actor quotes quiz' question & answer blocks */
   .question-left {
     float: left;
     display: block;
-    width: 100%;
+    width: 77%;
     margin: 0;
     padding: 0;
   }
@@ -474,7 +477,7 @@ h1 {
   .question-right {
     float: left;
     display: block;
-    width: 100%;
+    width: 77%;
     margin: 0;
     padding: 0;
   }
@@ -556,4 +559,12 @@ h1 {
     width: 1440px;
   }
 
+  /* 'movie quotes quiz' and 'actor quotes quiz' question & answer blocks */
+  .question-left {
+    width: 46%;
+  }
+
+  .question-right {
+    width: 46%;
+  }
 }
