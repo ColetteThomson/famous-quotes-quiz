@@ -16,7 +16,7 @@
 	<a class="btn btn-outline-success return_homepage" href="/index.html"
         role="button" aria-pressed="true">Home Page</a>
 
-	<p id="countdown">Countdown beginning...</p>
+	<p id="countdown"></p>
 
 	<!--'actor quotes quiz' questions and possible radio button answers-->
 	<form class="quiz_positioning">
@@ -92,7 +92,6 @@
 		  <input class="answer" type="radio" name="question5" value="0">
 		  <label>Virginia Mayo</label>
 		</p>
-		<br>
 	</div>
 	  
 	<div class="question-right">
@@ -108,7 +107,6 @@
 			<input class="answer" type="radio" name="question6" value="0">
 			<label>Tom Hardy</label>
 		  </p>
-		  <br>
 	</div>
   
 	<div class="question-left">
@@ -139,8 +137,7 @@
 		<input class="answer" type="radio" name="question8" value="0">
 		<label>Jennifer Grey</label>
 	  </p>
-	  <br>	
-  </div>
+	</div>
   
   <div class="question-left">
 	  <p class="question">9. "I have always depended on the kindness of strangers." (1951)</p>
@@ -170,20 +167,18 @@
 		<input class="answer" type="radio" name="question10" value="1">
 		<label id="correctOption10">Dustin Hoffman</label>
 	</p>
+	</div>
 	<br>
-  	</div>
-
-	  	<!--button: on click - resets current quiz-->
-		<div>
-		<input id="resetButton" class="reset_styling"
-		type="reset" value="Reset" onclick="resetQuiz()">
-		</div>
 	</form>
-	
+
 	<!--submit button for quiz-->
 	<div class="submitter">
-		<input class="quiz_submit" id="submitButton" onclick="submitQuiz()"
-		   type="submit" value="Submit">
+    	<span><input class="quiz_submit" id="submitButton" onclick="submitQuiz()"
+       		type="submit" value="Submit">
+
+	   	<!--reset button for quiz-->
+	   	<input id="resetButton" class="reset_styling"
+			type="reset" value="Reset" onclick="resetQuiz()"></span>
 	</div>
 
 	<!--image on 'actor quotes quiz' page-->
@@ -216,7 +211,8 @@
 		<section>
 			<!--button: to move to a different quiz -->
 			<form method="get" action="/movie_quotes_quiz.html">
-				<button class="next_quiz" type="submit">Try our Movie Quotes Quiz!</button></form>
+				<button class="next_quiz" type="submit">Try our Movie Quotes Quiz!</button>
+			</form>
 		</section>
 
 		<a class="btn btn-outline-success footer_link" href="/contact_us.html"
@@ -227,6 +223,6 @@
 	</footer>
 
 	<!--link to javascript file-->
-    <script src="assets/js/script2.js"></script>    
+    <script src="assets/js/script.js"></script>    
 </body>
 </html>   
