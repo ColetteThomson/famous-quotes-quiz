@@ -93,9 +93,11 @@ h1 {
   /* image on home page */
   .image {
     float: right;
-    padding-top: 30px;
-    padding-left: 20px;
-    margin-right: 50px;
+    width: 425px;
+    height: 425px;
+    padding-right: 20px;
+    height: auto;
+    clear: both;
   }
 
   /* div positioning on homepage */
@@ -315,11 +317,14 @@ h1 {
 
   /* image on home page */
   .image {
+    content: url(/assets/images/lpopcorn_sq_c_comp.jpg);
     float: right;
-    width: 40%;
-    height: auto;
-    margin-left: 0;
-    margin-right: 50px;
+    width: 250px;
+    height: 250px;
+    margin-right: 20px;
+    margin-top: 30px;
+    padding: 0;
+    clear: right;
   }
 
   /* div positioning on homepage */
@@ -434,9 +439,14 @@ h1 {
 
   /* image on home page */
   .image {
+    content: url(/assets/images/lpopcorn_sq_c_comp.jpg);
+    width: 325px;
+    height: 325px;
     float: left;
     margin: 0;
     padding: 0;
+    width: 100%;
+    height: 50%;
   }
 
   /* div positioning on homepage */
