@@ -120,12 +120,24 @@ h1 {
     position: relative;
   }
   
+  .image_positioning {
+    float: right;
+    position: relative;
+    margin-right: 100px;
+    margin-top: 0;
+    padding: 0;
+    width: 280px;
+    height: 350px;
+  }
+
   .image_positioning_2 {
     float: right;
     position: relative;
     margin-right: 100px;
     margin-top: 0;
     padding: 0;
+    width: 248px;
+    height: 325px;
   }
 
   /* button: start quiz on 'home page' */
@@ -219,6 +231,7 @@ h1 {
     position: fixed;
     max-width: 95px;
     background-color: rgba(255, 255, 255, 0.3);
+    z-index: 20;
   }
 
   /* container: to display user results */
