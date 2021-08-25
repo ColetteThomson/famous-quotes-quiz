@@ -18,15 +18,15 @@ function submitQuiz() {
 }
 
     /** use answerTally function to calculate score for 'movie quotes quiz' */ 
-    var calculateScore = (answerTally('question1') + answerTally('question2') + answerTally('question3') + answerTally('question4')
-    + answerTally('question5') + answerTally('question6') + answerTally('question7') + answerTally('question8') 
-    + answerTally('question9') + answerTally('question10'));
+    var calculateScore = (answerTally('question1') + answerTally('question2') + answerTally('question3') + answerTally('question4') +
+    answerTally('question5') + answerTally('question6') + answerTally('question7') + answerTally('question8') + answerTally('question9') + 
+    answerTally('question10'));
     console.log("CalculateScore: " + calculateScore); 
 
     /** use answerTally function to calculate score for 'actor quotes quiz'*/ 
-    var calculateScore1 = (answerTally('question1') + answerTally('question2') + answerTally('question3') + answerTally('question4')
-    + answerTally('question5') + answerTally('question6') + answerTally('question7') + answerTally('question8') 
-    + answerTally('question9') + answerTally('question10'));
+    var calculateScore1 = (answerTally('question1') + answerTally('question2') + answerTally('question3') + answerTally('question4') +
+    answerTally('question5') + answerTally('question6') + answerTally('question7') + answerTally('question8') + answerTally('question9') + 
+    answerTally('question10'));
     console.log("CalculateScore1: " + calculateScore1); 
 
     /** use correctAnswer function to return correct option as a string */
@@ -80,12 +80,13 @@ function submitQuiz() {
     /** show correct answers out of questionCount */
     var showResults = "<strong>Your Score: </strong>" + calculateScore +"/" + questionCounter;
     if (calculateScore === questionCounter) {
-        showResults = showResults + "&nbsp; <strong>Well done, a perfect score!</strong>"
+        showResults = showResults + "&nbsp; <strong>Well done, a perfect score!</strong>";
     } else {
-        showResults = showResults + "&nbsp; <strong>Better luck next time!</strong>"
-    };
+        showResults = showResults + "&nbsp; <strong>Better luck next time!</strong>";
+    }
     document.getElementById('userScore').innerHTML = showResults;
 }
+
 /** button to reset quiz */
 function resetQuiz () {
     window.location.reload(false);
@@ -96,6 +97,7 @@ var timeRemaining = 20;
   var downloadTimer = setInterval(function () {
     document.getElementById("countdown").innerHTML = `${timeRemaining} seconds left`;
     timeRemaining -= 1;
+
     if (timeRemaining <= 0) {
       clearInterval(downloadTimer);
       document.getElementById("countdown").innerHTML = "Time's up!  Click Reset button to try again.";
