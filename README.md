@@ -34,6 +34,7 @@ The live project can be found here ...
 * As a new user, I want to see my overall results from a quiz, along with correct answers if needed
 * As a new user, I want to complete the quiz against a countdown timer
 * As a new user, I want to be able to 'reset' the quiz and start again, if I should so choose
+* As a new user, I would like the option of entering a username.
 
 #### Regular User Goals
 * As a regular user, I want to be able to easily contact the organisation
@@ -63,7 +64,7 @@ The live project can be found here ...
 * Links are provided within the page in the form of high visibility buttons to take the user directly to the 'Actor Quotes Quiz' and the 'Movie Quotes Quiz' pages.
 * The user has the option of entering a username should they choose to.
 * Rules for playing the quizzes are provided on this page.
-* This feature fulfills the user stories: *'As a new user, I want to immediately understand the main purpose of the website'* and *'As a new user, the navigational layout must be easy to understand and follow'*.
+* This feature fulfills the user stories: *'As a new user, I want to immediately understand the main purpose of the website'* and *'As a new user, the navigational layout must be easy to understand and follow'* and *'As a new user, I would like the option of entering a username'*.
 
 #### The 'Actors Quote Quiz and the 'Movie Quotes Quiz' pages
 * These two pages each contain a different quiz, but the layout and functionality are identical in both pages.
@@ -72,13 +73,14 @@ The live project can be found here ...
 * A 'submit' button allows the user to submit their chosen answers.  Upon submitting a results container will display any question numbers that were answered incorrectly along with its particular correct answer.  An overall score out of 10 is also displayed.
 * This feature fulfills the user stories: *'As a new user, I want to see my overall results from a quiz, along with correct answers if needed'*, and *'As a new user, I want to complete the quiz against a countdown timer'*, and *'As a new user, I want to be able to 'reset' the quiz and start again, if I should so choose'*.
 
+#### The 'Contact Us' page
+* This page provies information on how the user can contact the organisation, through the provision of an email address.
+* All present on this page is an 'About Us' section providing details on the organisation.
+* This feature fulfills the user story: *'As a new user, I want to be able to easily contact the organisation'*.
 
-
-
-
-
-
-
+#### The 'Terms of Service' page
+* This page provides the organisation's legal wording for the purposes of conducting a online quiz service.
+* This feature fulfills the user story: *'As a new user, I want to see the 'terms of service' applicable to Quizz-Pro'*.
 
 ### Design of the Quizz-Pro website
 
