@@ -54,6 +54,21 @@ The live project can be found here ...
 * Links to the 'Actor Quotes Quiz' page and the 'Movie Quotes Quiz' page have been provided on the home page in the form of buttons to allow for higher visibility and immediate access to the different quizzes.
 * This feature fulfills the user stories: *'As a new user, the navigational layout must be easy to understand and follow'* and *'As a new user, I want information on what services they offer'*.
 
+#### Footer Element
+* Present on all five pages of the website, the footer contains navigational links to the rest of website.
+* This feature fulfills the user stories: *'As a regular user, I want to be able to easily contact the organisation'* and *'As a new user, I want to see the 'terms of service' applicable to Quizz-Pro'*.
+
+#### The 'Home' Page or Landing Page
+* This page is intended to provide an at-a-glance view of the main purpose of the website - the option of completing online quizzes.
+* Links are provided within the page in the form of high visibility buttons to take the user directly to the 'Actor Quotes Quiz' and the 'Movie Quotes Quiz' pages.
+* The user has the option of entering a username should they choose to.
+* Rules for playing the quizzes are provided on this page.
+* This feature fulfills the user stories: *'As a new user, I want to immediately understand the main purpose of the website'* and *'As a new user, the navigational layout must be easy to understand and follow'*.
+
+
+
+
+
 
 
 
