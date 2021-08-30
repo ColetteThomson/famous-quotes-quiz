@@ -84,8 +84,57 @@ The live project can be found here ...
 
 ### Design of the Quizz-Pro website
 
+#### Colour Scheme
+
+#### Fonts
+
+#### Imagery
+
+#### Limitations
+
+#### Features
+
+## Technologies
+
+* HTML - the structure of this website project uses HTML as the main language.
+* CSS - the styling of this website encompasses custom written CSS.
+* Javascript - website interaction provided by custom written Javascript.
+* [Google Fonts](https://fonts.google.com/) - utilised for ...
+* [GitHub](https://github.com/) - hosting site for storage of source code for the website and [Git Pages](https://pages.github.com/) for the deployment of the website.
+* [Git](https://git-scm.com/) - used as version control software to commit and push code to a GitHub repository where all source code is located.
+* [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) - these are built in developer tools used to inspect page elements (eg. responsive design); debug issues; and test different CSS styling options.
+
+
+
+
 ## Testing
 
+### Test Cases
+
+### Code Validation
+
+### Lighthouse Report
+
 ## Deployment
+### Project Creation
+The project was created using GitHub and choosing a new ...
+The following terminal commands were used during this project:
+* git add . - this command adds a change in the working directory to the staging area.
+* git commit -m "*message*" - this command details the change/s made in the 'message' section and then commits the changes to the local repository.
+* git push - this command is used to push all changes to the GitHub repository.
+
+### Using GitHub Pages
+* Navigate to the GitHub ...
+* Select 'Settings'.
+* Scroll down to 'GitHub Pages'.
+* Select 'Main' branch as the source and click 'Save' button.
+* Select link to go to live published page.
 
 ## Credits
+### Code
+* The private collaboration and knowledge sharing SaaS platform [Stack Overflow](https://stackoverflow.com/) was an invaluable resource for general coding queries.
+* Use was made of Code Institute tutor support for help with persistent coding issues.
+
+### Content
+* Inspiration was taken from the concept of online quizzing.
+* Legal wording for the 'Terms of Service' page was taken from the website [Fun Quizzes](https://www.funquizzes.uk/tos/) 
