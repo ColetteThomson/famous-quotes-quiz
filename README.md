@@ -65,6 +65,14 @@ The live project can be found here ...
 * Rules for playing the quizzes are provided on this page.
 * This feature fulfills the user stories: *'As a new user, I want to immediately understand the main purpose of the website'* and *'As a new user, the navigational layout must be easy to understand and follow'*.
 
+#### The 'Actors Quote Quiz and the 'Movie Quotes Quiz' pages
+* These two pages each contain a different quiz, but the layout and functionality are identical in both pages.
+* Users complete the quiz against a countdown timer set to 60 seconds.  When the timer runs out, a message is displayed telling the user that the quiz will automatically 'reset' within 4 seconds. The user is unable to continue until the quiz has reset.
+* Users can choose to 'reset' the quiz themselves, should they so wish - by clicking the 'reset' button present underneath the 10 questions.
+* A 'submit' button allows the user to submit their chosen answers.  Upon submitting a results container will display any question numbers that were answered incorrectly along with its particular correct answer.  An overall score out of 10 is also displayed.
+* This feature fulfills the user stories: *'As a new user, I want to see my overall results from a quiz, along with correct answers if needed'*, and *'As a new user, I want to complete the quiz against a countdown timer'*, and *'As a new user, I want to be able to 'reset' the quiz and start again, if I should so choose'*.
+
+
 
 
 
