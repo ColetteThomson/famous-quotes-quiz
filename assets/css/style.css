@@ -249,6 +249,34 @@ h1 {
   padding-left: 5px;
 }
 
+/* overlay to be displayed when user scores 10/10 on quizzes */
+#overlay {
+  background-color: rgb(252, 240, 240, 0.5);
+  position: relative fixed;
+  float: left;
+  display: none;
+  width: 300px;
+  height: 120px;
+  margin-top: 100px;
+  margin-left: 150px;
+  z-index: 30;
+  transform: rotate(-20deg);
+  border-radius: 25px;
+}
+
+#overlay_text {
+  position: absolute;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 30px;
+  color: black;
+}
+
+.gradient {
+  background-image: linear-gradient(to right, pink, lightblue, silver, pink, lightblue);
+}
+
 /* FOOTER */
 .footer {
   clear: both;
@@ -564,6 +592,21 @@ h1 {
   }
 
   .quizScore {
+    font-size: 20px;
+  }
+
+  /* overlay to be displayed when user scores 10/10 on quizzes */
+  #overlay {
+    width: 200px;
+    height: 100px;
+    margin-top: 0;
+    margin-left: 60px;
+    background-color: black;
+  }
+
+  #overlay_text {
+    padding-top: 5px;
+    padding-bottom: 5px;
     font-size: 20px;
   }
 
