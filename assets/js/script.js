@@ -103,16 +103,21 @@ function resetQuiz () {
 }
 
 /* countdown timer for quizzes, starts when page loads */
-var timeRemaining = 20;
+var timeRemaining = 45;
   var downloadTimer = setInterval(function () {
-    document.getElementById("countdown").innerHTML = `${timeRemaining} seconds left`;
+    document.getElementById("countdown").innerHTML = `${timeRemaining} secs left`;
     timeRemaining -= 1;
 
     if (timeRemaining <= 0) {
       clearInterval(downloadTimer);
-      document.getElementById("countdown").innerHTML = "Time's up!  Click Reset button to try again.";
+      document.getElementById("countdown").innerHTML = "<strong>Time's up!</strong> <br> Quiz'<br> will reset in 7 secs.";
     }
   }, 1000);
+
+/* time delay before page reloads when countdown timer expires */
+setTimeout(function () {
+    window.location.reload();
+}, 51000);
 
 /*prompt user to enter username and display in 'result' */
 const form = document.getElementById('form1')
