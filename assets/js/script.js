@@ -5,10 +5,10 @@ function submitQuiz() {
     /**  get each answer tally and its radio button value */
     function answerTally (qName) {
         var radioButtons = document.getElementsByName(qName);
-
+        var answerValue;
         for (var i = 0, length = radioButtons.length; i < length; i++) {
                if (radioButtons[i].checked) {
-                    var answerValue = Number(radioButtons[i].value);
+                    answerValue = Number(radioButtons[i].value);
         }
     }
     if (isNaN(answerValue)) {
@@ -33,7 +33,7 @@ function submitQuiz() {
     function correctAnswer (correctOptionNumber, questionNumber) {
         console.log("questionNumber: " + questionNumber);  
 
-        return ("The correct answer for Q" + questionNumber + " is &nbsp;<strong>" +
+        return ("Q" + questionNumber + " answer is <strong>" + +
             (document.getElementById(correctOptionNumber).innerHTML) + "</strong>");
     }
 
@@ -80,11 +80,16 @@ function submitQuiz() {
     /** show correct answers out of questionCount */
     var showResults = "<strong>Your Score: </strong>" + calculateScore +"/" + questionCounter;
     if (calculateScore === questionCounter) {
-        showResults = showResults + "&nbsp; <strong>Well done, a perfect score!</strong>";
+        on();
     } else {
         showResults = showResults + "&nbsp; <strong>Better luck next time!</strong>";
     }
     document.getElementById('userScore').innerHTML = showResults;
+}
+
+/*displays 'overlay message' for 10/10 scores */
+function on() {
+    document.getElementById("overlay").style.display = "block";
 }
 
 /** button to reset quiz */
