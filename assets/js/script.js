@@ -7,8 +7,8 @@ function submitQuiz() {
         var radioButtons = document.getElementsByName(qName);
         var answerValue;
         for (var i = 0, length = radioButtons.length; i < length; i++) {
-               if (radioButtons[i].checked) {
-                    answerValue = Number(radioButtons[i].value);
+            if (radioButtons[i].checked) {
+            answerValue = Number(radioButtons[i].value);
         }
     }
     if (isNaN(answerValue)) {
@@ -33,7 +33,7 @@ function submitQuiz() {
     function correctAnswer (correctOptionNumber, questionNumber) {
         console.log("questionNumber: " + questionNumber);  
 
-        return ("Q" + questionNumber + " answer is <strong>" + +
+        return ("Q" + questionNumber + " answer is <strong>" +
             (document.getElementById(correctOptionNumber).innerHTML) + "</strong>");
     }
 
@@ -120,7 +120,7 @@ setTimeout(function () {
 }, 51000);
 
 /*prompt user to enter username and display in 'result' */
-const form = document.getElementById('form1')
+const form = document.getElementById('form1');
 form.addEventListener("submit", (event) => {
     event.preventDefault();
     const userName = event.target.name.value;
