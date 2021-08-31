@@ -92,6 +92,11 @@ function on() {
     document.getElementById("overlay").style.display = "block";
 }
 
+/* return scroll position to top of page, before resetQuiz() reloads the page */
+window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+};
+
 /** button to reset quiz */
 function resetQuiz () {
     window.location.reload(false);
