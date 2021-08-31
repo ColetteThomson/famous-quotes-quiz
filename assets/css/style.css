@@ -244,6 +244,7 @@ h1 {
   float: left;
   position: absolute;
   z-index: 8;
+  margin-top: 20px;
   padding-left: 35px;
   line-height: 35px;
 }
@@ -594,10 +595,10 @@ h1 {
 
   /* container: to display user results */
   .results_container {
-    padding-left: 17px;
-    padding-right: 15px;
-    margin-top: 10px;
-    line-height: 20px;
+    padding-left: 10px;
+    padding-right: 5px;
+    margin-top: 22px;
+    line-height: 30px;
     font-size: 18px;
     z-index: 10;
     background-color: black;
