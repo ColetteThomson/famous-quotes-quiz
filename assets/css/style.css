@@ -223,13 +223,13 @@ h1 {
 
   /*countdown timer on 'movie quotes', 'actor quotes' pages */
   #countdown {
-    color: rgb(155, 224, 247);
+    color: greenyellow;
     text-align: right;
     font-size: 18px;
     margin-left: 46%;
     padding-right: 5px;
     position: fixed;
-    max-width: 95px;
+    max-width: 60px;
     background-color: rgba(255, 255, 255, 0.3);
     z-index: 20;
   }
@@ -383,9 +383,9 @@ h1 {
 
   /*countdown timer on 'movie quotes', 'actor quotes' pages */
   #countdown {
-    margin-left: 43%;
-    font-size: 16px;
-    max-width: 82px;
+    margin-left: 45%;
+    font-size: 17px;
+    max-width: 60px;
   }
 
   /* 'movie quotes quiz' and 'actor quotes quiz' question & answer blocks */
@@ -514,9 +514,11 @@ h1 {
   #countdown {
     float: right;
     display: block;
-    max-width: 70px;
-    margin-left: 75%;
-    font-size: 15px;
+    max-width: 56px;
+    margin-left: 78%;
+    font-size: 16px;
+    line-height: 22px;
+    background-color: rgba(255, 255, 255, 0.3);
   } 
 
   /* 'movie quotes quiz' and 'actor quotes quiz' heading and positioning */
