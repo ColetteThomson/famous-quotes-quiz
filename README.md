@@ -94,7 +94,7 @@ The logo and the logo byline are using **Windsong**; all headings are using **Mi
 Images for the website have been downloaded from **Pexels** and compressed and pixelated for a fast-loading website, using **tinyjpg**.
 
 #### Limitations
-This website has been designed to not retain user information.
+This website has been designed to not retain user information. ???...
 
 #### Features
 * A countdown timer set to 90 seconds has been added for the 'Actor Quotes Quiz' and the 'Movie Quotes Quiz' pages.  If the timer expires before the user completes the quiz, it will automatically reset (reload) the page, move to the top of the page and restart the timer.
@@ -117,21 +117,27 @@ This website has been designed to not retain user information.
 * All navigational links should direct to the correct html web page as per their names.  The exception here is the 'Home' page, as it will redirect to 'index.html'.
 
 ### Test Cases
+Test cases can be found [here](..)
 
 ### Code Validation
+All HTML pages were run through the [W3C Markup Validation Service](https://validator.w3.org/) and showed no errors.<br>
+The CSS stylesheet was run through the [CSS Validation Service-Jigsaw](https://jigsaw.w3.org/css-validator/) and showed no errors.
+<br>
+The Javascript file was run  through the [JSHint](https://jshint.com/) and showed ...
 
 ### Lighthouse Report
+...insert screenshots for each page
 
 ## Deployment
 ### Project Creation
-The project was created using GitHub and choosing a new ...
+The project was created using GitHub and choosing a new [repository](..).<br>
 The following terminal commands were used during this project:
 * git add . - this command adds a change in the working directory to the staging area.
 * git commit -m "*message*" - this command details the change/s made in the 'message' section and then commits the changes to the local repository.
 * git push - this command is used to push all changes to the GitHub repository.
 
 ### Using GitHub Pages
-* Navigate to the GitHub ...
+* Navigate to the GitHub [repository](..).
 * Select 'Settings'.
 * Scroll down to 'GitHub Pages'.
 * Select 'Main' branch as the source and click 'Save' button.
@@ -145,3 +151,4 @@ The following terminal commands were used during this project:
 ### Content
 * Inspiration was taken from the concept of online quizzing.
 * Legal wording for the 'Terms of Service' page was taken from the website [Fun Quizzes](https://www.funquizzes.uk/tos/) 
+* Ideas for quote questions were taken from the website [AFI's 100 years](https://www.afi.com/afis-100-years-100-movie-quotes/).
