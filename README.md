@@ -3,7 +3,7 @@
 # Quizz-Pro
 
 ## Purpose
-This website was created to provide entertainment for users through the medium of online quizzes.
+This website was created to provide light-hearted entertainment for users through the medium of online quizzes.  The user has the option of entering a username if they so wish.  The user can also choose not to answer every question, as their intent may just be to learn where a particular quote originated from, rather than a test of knowledge.
 Quiz content comprises quotes from the movies made famous by the film and/or the actor.
 The website is currently comprised of two quizzes:
 * Famous Movie Quotes - this quiz has an easier difficulty level, as it comprises well known quotes from popular movies/films.
