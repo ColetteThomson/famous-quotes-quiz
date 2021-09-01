@@ -87,7 +87,7 @@ function submitQuiz() {
     document.getElementById('userScore').innerHTML = showResults;
 }
 
-/*displays 'overlay message' for 10/10 scores */
+/*displays 'overlay' message for 10/10 scores */
 function on() {
     document.getElementById("overlay").style.display = "block";
 }
