@@ -3,11 +3,11 @@
 # Quizz-Pro
 
 ## Purpose
-This website was created to provide light-hearted entertainment for users through the medium of online quizzes.  The user has the option of entering a username if they so wish.  The user can also choose not to answer every question, as their intent may just be to learn where a particular quote originated from, rather than a test of knowledge.
+This website was created to provide light-hearted entertainment for users through the medium of online quizzes.  The user has the option of entering a username if they so wish.  The user can also choose not to answer every question, as their intent may just be to learn where a particular quote originated from, rather than a test of their knowledge.
 Quiz content comprises quotes from the movies made famous by the film and/or the actor.
 The website is currently comprised of two quizzes:
 * Famous Movie Quotes - this quiz has an easier difficulty level, as it comprises well known quotes from popular movies/films.
-* Famous Actor Quotes - this quiz has a higher difficulty level, as quotes are attributed to the actor that said them, rather than the movie/film. This quiz also has a year displayed in brackets - eg: (1951) - after the quote, as there may have been later releases of the particular movie from which they are taken.
+* Famous Actor Quotes - this quiz has a higher difficulty level, as quotes are attributed to the actor that said them, rather than to the movie/film. This quiz also has a year displayed in brackets after the quote - eg: (1951) - as there may have been later releases of the particular movie from which they are taken.
 
 The website pages are as follows:
 * Home page
@@ -85,29 +85,36 @@ The live project can be found here ...
 ### Design of the Quizz-Pro website
 
 #### Colour Scheme
+The colour palette chosen consists of three basic colours: #ADD8E6(light blue); #FFC0CB (pink); and #ADFF2F (greenyellow).  The body text is mostly #FFFFFF (white) and the background is #000000 (black).  The 'overlay' message block is comprised of a css gradient with the colours:  #ADD8E6(light blue); #FFC0CB (pink); and #C0C0C0 (silver).  The colours were chosen to compliment each other and provide the necessary contrasts.
 
 #### Fonts
+The logo and the logo byline are using **Windsong**; all headings are using **Mitr**; and the body text is using **Comfortaa**.  The back-up font is **sans-serif**.  Fonts were downloaded from **Google Fonts**.
 
 #### Imagery
+Images for the website have been downloaded from **Pexels** and compressed and pixelated for a fast-loading website, using **tinyjpg**.
 
 #### Limitations
+This website has been designed to not retain user information.
 
 #### Features
+* A countdown timer set to 90 seconds has been added for the 'Actor Quotes Quiz' and the 'Movie Quotes Quiz' pages.  If the timer expires before the user completes the quiz, it will automatically reset (reload) the page, move to the top of the page and restart the timer.
+* On the 'Actor Quotes Quiz' and the 'Movie Quotes Quiz' pages, a congratulatory message will display should the user achieve a 10/10 score.
 
 ## Technologies
 
 * HTML - the structure of this website project uses HTML as the main language.
 * CSS - the styling of this website encompasses custom written CSS.
 * Javascript - website interaction provided by custom written Javascript.
-* [Google Fonts](https://fonts.google.com/) - utilised for ...
+* [Google Fonts](https://fonts.google.com/) - utilised for the logo and byline (Windsong); the headings (Mitr); and the body text (Comfortaa).
 * [GitHub](https://github.com/) - hosting site for storage of source code for the website and [Git Pages](https://pages.github.com/) for the deployment of the website.
 * [Git](https://git-scm.com/) - used as version control software to commit and push code to a GitHub repository where all source code is located.
-* [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) - these are built in developer tools used to inspect page elements (eg. responsive design); debug issues; and test different CSS styling options.
-
-
-
+* [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) - these are built in developer tools used to inspect page elements (eg. responsive design); debug issues; and test different CSS styling options; and the Lighthouse Report.
 
 ## Testing
+* Testing will be performed to check for back-end functionality (Javascript), as well as visual effects and website layout (html and css).
+* Testing will be performed to check for compatibility across three web browsers (Google Chrome; Firefox; and Opera) 
+* Responsive design will be tested across the different screen sizes: desktops/laptops (1024px); tablets (min-width 426px to max-width 769px); mobiles (to a max-width of 426px); and large laptops (min-width 1025px to max-width 1441px).
+* All navigational links should direct to the correct html web page as per their names.  The exception here is the 'Home' page, as it will redirect to 'index.html'.
 
 ### Test Cases
 
