@@ -4,7 +4,7 @@
 /*body headings and paragraphs */
 
 #content {
-  width: 1024px;
+  max-width: 1024px;
 }
 
 h1 {
@@ -80,7 +80,7 @@ h1 {
   }
 
   #result {
-    color: lightblue;
+    color: greenyellow;
     font-size: 25px;
     background-color: black;
     margin-top: 0;
@@ -258,13 +258,13 @@ h1 {
 
 /* overlay to be displayed when user scores 10/10 on quizzes */
 #overlay {
-  background-color: rgb(252, 240, 240, 0.5);
-  position: relative fixed;
+  background-color: black;
+  position: absolute;
   float: left;
   display: none;
-  width: 300px;
+  width: 200px;
   height: 120px;
-  margin-top: 100px;
+  margin-top: 120px;
   margin-left: 150px;
   z-index: 30;
   transform: rotate(-20deg);
@@ -277,7 +277,7 @@ h1 {
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 30px;
-  color: black;
+  color: greenyellow;
 }
 
 .gradient {
@@ -639,16 +639,15 @@ h1 {
 
   /* overlay to be displayed when user scores 10/10 on quizzes */
   #overlay {
-    width: 200px;
-    height: 100px;
-    margin-top: 0;
-    margin-left: 60px;
+    width: 250px;
+    height: 130px;
+    margin-top: 130px;
+    margin-left: 40px;
     background-color: black;
   }
 
   #overlay_text {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 15px;
     font-size: 20px;
   }
 
