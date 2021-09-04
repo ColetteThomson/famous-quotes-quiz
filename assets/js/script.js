@@ -17,13 +17,13 @@ function submitQuiz() {
     return answerValue;
 }
 
-    /** use answerTally function to calculate score for 'movie quotes quiz' */ 
+    /** use answerTally function to calculate score for 'Movie Quotes Quiz' */ 
     var calculateScore = (answerTally('question1') + answerTally('question2') + answerTally('question3') + answerTally('question4') +
     answerTally('question5') + answerTally('question6') + answerTally('question7') + answerTally('question8') + answerTally('question9') + 
     answerTally('question10'));
     console.log("CalculateScore: " + calculateScore); 
 
-    /** use answerTally function to calculate score for 'actor quotes quiz'*/ 
+    /** use answerTally function to calculate score for 'Actor Quotes Quiz'*/ 
     var calculateScore1 = (answerTally('question1') + answerTally('question2') + answerTally('question3') + answerTally('question4') +
     answerTally('question5') + answerTally('question6') + answerTally('question7') + answerTally('question8') + answerTally('question9') + 
     answerTally('question10'));
@@ -90,6 +90,8 @@ function submitQuiz() {
 /*displays 'overlay' message for 10/10 scores */
 function on() {
     document.getElementById("overlay").style.display = "block";
+    document.getElementById("overlay").innerText = "Congratulations " +
+    window.localStorage.getItem('users') + "! You scored the perfect 10!";
 }
 
 /* return scroll position to top of page, before resetQuiz() reloads the page */
@@ -102,17 +104,26 @@ function resetQuiz () {
     window.location.reload(false);
 }
 
-/* countdown timer for quizzes, starts when page loads */
-var timeRemaining = 45;
-  var downloadTimer = setInterval(function () {
-    document.getElementById("countdown").innerHTML = `${timeRemaining} secs left`;
-    timeRemaining -= 1;
+/* check if element exists  */
+if (document.getElementById("countdown")) {
+    /* countdown timer for quizzes, starts when page loads  */
+    var timeRemaining = 45;
+    var downloadTimer = setInterval(function () {
+        document.getElementById("countdown").innerHTML = `${timeRemaining}<br> secs left`;
+        timeRemaining -= 1;
 
-    if (timeRemaining <= 0) {
-      clearInterval(downloadTimer);
-      document.getElementById("countdown").innerHTML = "<strong>Time's up!</strong> <br> Quiz'<br> will reset in 7 secs.";
-    }
-  }, 1000);
+        if (timeRemaining <= 0) {
+            clearInterval(downloadTimer);
+            document.getElementById("countdown").innerHTML = "<strong>Time's up!</strong> <br> Quiz'<br> will reset in 7 secs.";
+            
+            setTimeout(function () {
+                window.location.reload();
+            }, 7000);
+        }
+    }, 1000);
+} else {
+  console.log('countdown element missing');
+} 
 
 /* time delay before page reloads when countdown timer expires */
 setTimeout(function () {
