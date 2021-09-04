@@ -170,10 +170,10 @@
  <!--submit button for quiz-->
 <div class="submitter">
   <span><input class="quiz_submit" id="submitButton" onclick="submitQuiz()"
-     type="submit" value="Submit">
+     type="submit" value="Submit" style="cursor: pointer">
 
    <!--reset button for quiz-->
-   <input id="resetButton" class="reset_styling"
+   <input id="resetButton" class="reset_styling" style="cursor: pointer"
   type="reset" value="Reset" onclick="resetQuiz()"></span>
 </div> 
 
@@ -202,27 +202,28 @@
 </div>
 <br>
 	<!--overlay block that appears when user scores 10/10-->
-	<div id="overlay" class="gradient">
-		<div id="overlay_text">Congratulations!<br> You scored the perfect 10!</div>
-	</div> 
+	<div id="overlay" class="overlay_text"> 
+	</div>
 
 <!--footer-->
 <footer class="footer">
   <div>
     <!--button to move to a different quiz -->
     <form method="get" action="/actor_quotes_quiz.html">
-      <button class="next_quiz" type="submit">Try our Actor Quotes Quiz!</button>
+      <button class="next_quiz" type="submit" style="cursor: pointer">Try our Actor Quotes Quiz!</button>
     </form>
   </div>
 
-  <!--button to 'return to home page'-->
+  <!--link to 'Home' page-->
 	<a class="btn btn-outline-success return_homepage" href="/index.html"
   role="button" aria-pressed="true">Home Page</a>
 
+  <!--link to 'Contact Us' page-->
 	<a class="btn btn-outline-success footer_link" href="/contact_us.html"
         role="button" aria-pressed="true">Contact Us</a>
 
-    <a class="btn btn-outline-success footer_link" href="/terms_of_service.html"
+  <!--link to 'Terms of Service' page-->      
+  <a class="btn btn-outline-success footer_link" href="/terms_of_service.html"
         role="button" aria-pressed="true">Terms of Service</a>
 </footer>
 
