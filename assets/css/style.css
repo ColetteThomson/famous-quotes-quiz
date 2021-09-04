@@ -280,10 +280,6 @@ h1 {
   color: greenyellow;
 }
 
-.gradient {
-  background-image: linear-gradient(to right, pink, lightblue, silver, pink, lightblue);
-}
-
 /* FOOTER */
 .footer {
   clear: both;
@@ -295,13 +291,13 @@ h1 {
 .footer_link {
   color: lightblue;
   font-size: 20px;
-  padding-right: 40px;
+  padding-right: 60px;
 }
 
 /* button: return to homepage */
 .return_homepage {
-  padding-right: 40px;
-  color: lightblue;
+  padding-right: 20px;
+  color: white;
 }
 
 /* button: to go to next quiz */
@@ -422,27 +418,20 @@ h1 {
   }
 
   /*  FOOTER */
-  .footer_link {
+  /*.footer_link {
     font-size: 18px;
     padding-right: 30px;
-  }
+  }*/
   
-  /* button: return to homepage */
-  .return_homepage {
-    font-size: 18px;
-    padding-right: 30px;
-    padding-left: 10px;
-  }
-
   /* button: to go to next quiz */
   .next_quiz {
     font-size: 18px;
     margin-right: 20px;
   }
 
-  .mq {
+  /*.mq {
     padding-left: 24px;
-  }
+  }*/
 
 }
 
@@ -654,34 +643,35 @@ h1 {
   /* FOOTER */
   .footer {
     padding: 0;
+    margin-left: 30px;
+    clear: both;
   }
 
+  /* button: to go to next quiz */
   .next_quiz {
     float: left;
     display: block;
     padding-left: 5px;
     padding-right: 5px;
     margin-bottom: 30px;
-    margin-top: 100px;
+    margin-top: 90px;
     font-size: 22px;
   }
 
   .footer_link {
     font-size: 20px;
     display: block;
-    padding-top: 16px;
-    padding-left: 20px;
+    padding-top: 20px;
+    padding-left: 15px;
     margin-bottom: 10px;
-    margin-top: 10px;
   }
 
   /* button: return to homepage */
   .return_homepage {
     font-size: 20px;
-    padding-top: 22px;
+    padding-top: 30px;
     padding-left: 20px;
-}
-
+  }
 }
 
 /* L A R G E   L A P T O P  Screens between 1025px and 1441px */
