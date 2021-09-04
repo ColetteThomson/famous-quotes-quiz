@@ -69,7 +69,7 @@ function submitQuiz() {
         document.getElementById('userAnswer10').innerHTML = correctAnswer('correctOption10', 10);
     }
 
-    /** calculate number of questions using html class'question' */
+    /** calculate number of questions using html class: 'question' */
     var questionCount = document.getElementsByClassName('question');
 
     var questionCounter = 0;
@@ -104,18 +104,20 @@ function resetQuiz () {
     window.location.reload(false);
 }
 
-/* check if element exists  */
+/* check if element exists (only exists on the 2 quiz pages) */
 if (document.getElementById("countdown")) {
-    /* countdown timer for quizzes, starts when page loads  */
+    /* countdown timer for quizzes, starts when page loads */
     var timeRemaining = 45;
     var downloadTimer = setInterval(function () {
         document.getElementById("countdown").innerHTML = `${timeRemaining}<br> secs left`;
         timeRemaining -= 1;
 
+        /* message displayed to user when countdown reaches 0 secs */
         if (timeRemaining <= 0) {
             clearInterval(downloadTimer);
             document.getElementById("countdown").innerHTML = "<strong>Time's up!</strong> <br> Quiz'<br> will reset in 7 secs.";
             
+            /* time delay of 7 secs before countdown restarts */
             setTimeout(function () {
                 window.location.reload();
             }, 7000);
@@ -125,17 +127,19 @@ if (document.getElementById("countdown")) {
   console.log('countdown element missing');
 } 
 
-/* time delay before page reloads when countdown timer expires */
-setTimeout(function () {
-    window.location.reload();
-}, 51000);
-
-/*prompt user to enter username and display in 'result' */
+/*prompt user to enter username and display result in html id: 'message' on homepage */
 const form = document.getElementById('form1');
 form.addEventListener("submit", (event) => {
     event.preventDefault();
     const userName = event.target.name.value;
-    document.getElementById("result").innerText = "Hello " + userName;
+
+    /* store username in local storage */
+    localStorage.setItem('users', userName);
+    var data = localStorage.getItem('users');
+
+    /* message displayed to user */
+    document.getElementById("message").innerText = "Hello " + data;
+
     /* to hide form, once 'submit' is pressed */
-    document.getElementById("form1").style.display="none";
+     document.getElementById("form1").style.display = "none"; 
 });

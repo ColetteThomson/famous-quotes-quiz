@@ -8,7 +8,7 @@
     <link href="assets/css/style.css" rel="stylesheet" type="text/css">
     <title>Quizz-Pro</title>
 </head>
-<body>
+<body id="content"> 
     <!--heading with business name and byline-->
     <h1>Quizz-Pro</h1>
         <p class="logo_byline">...for quizzing from the entertainment world</p>
@@ -17,7 +17,7 @@
     <section>    
         <!--image on home page-->
         <div class="image">
-            <img src="/assets/images/lpopcorn_sq_comp.jpg" class="scale" alt="box_of_popcorn">
+            <img src="/assets/images/lpopcorn_sq_comp.jpg" class="scale" alt="popcorn">
         </div>
 
         <!--user name prompt -->
@@ -27,7 +27,7 @@
                 <input type="text" name="name" id="name" required>
                 <input type="submit" id="submitPrompt" value="Submit">
             </form>
-            <p id="result"></p>
+            <div id="message"></div>
         </div>
         
             <!--body of home page (1)-->
