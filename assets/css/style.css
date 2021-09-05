@@ -94,7 +94,7 @@ h1 {
 
   /* image on home page */
   .image {
-    content: url(assets/images/popcorn_750x184_comp.jpg);
+    content: url(../images/popcorn_750x184_comp.jpg);
     max-width: 750px;
     height: 184px;
     padding: 0;
@@ -155,6 +155,7 @@ h1 {
     text-decoration: none;
     transition-duration: 0.5s;
     box-shadow: 0 0 10px 5px lightblue;
+    margin-right: 10px;
   }
 
   .quiz_button:hover {
@@ -282,21 +283,21 @@ h1 {
   clear: both;
   padding-top: 120px;
   padding-bottom: 50px;
-  padding-left: 40px;
-  
+  padding-left: 60px;
 }
 
 .footer2 {
   clear: both;
-  padding-top: 120px;
-  padding-bottom: 50px;
+  padding-top: 60px;
+  padding-bottom: 40px;
   padding-left: 15px;
 }
 
 .footer_link {
   color: lightblue;
   font-size: 20px;
-  padding-right: 50px;
+  padding-right: 70px;
+  margin-top: 0;
 }
 
 #mq {
@@ -305,16 +306,20 @@ h1 {
 
 /* button: return to homepage */
 .return_homepage {
-  padding-right: 50px;
+  padding-right: 70px;
   padding-left: 20px;
   color: lightblue;
+  margin-top: 0;
 }
 
 /* button: to go to next quiz */
 .next_quiz {
-  float: right;
-  margin-right: 90px;
-  padding-bottom: 30px;
+  float: left;
+  position: relative;
+  clear: both;
+  font-size: 18px;
+  margin-left: 15px;
+  margin-top: 115px;
   display: block;
     
   color: lightblue;
@@ -377,7 +382,7 @@ h1 {
 
   /* image on home page */
   .image {
-    content: url(assets/images/popcorn_640x144_comp.jpg);
+    content: url(../images/popcorn_640x144_comp.jpg);
     width: 640px;
     height: 144px;
     margin-right: 20px;
@@ -429,24 +434,36 @@ h1 {
   }
 
   /*  FOOTER */
+  .footer2 {
+    padding-top: 30px;
+
+  }
+
   .footer_link {
     float: left;
     display: block;
     font-size: 18px;
-    padding-right: 30px;
+    padding-right: 60px;
+    margin-top: 0;
   }
 
   .return_homepage {
     float: left;
     display: block;
     font-size: 18px;
-    padding-right: 30px;
+    padding-right: 60px;
+    margin-top: 0;
   }
   
   /* button: to go to next quiz */
   .next_quiz {
+    float: left;
+    position: relative;
+    clear: both;
     font-size: 18px;
-    margin-right: 20px;
+    margin-left: 15px;
+    margin-top: 115px;
+    margin-bottom: 20px;
   }
 }
 
@@ -519,7 +536,7 @@ h1 {
 
   /* image on home page */
   .image {
-    content: url(assets/images/lpopcorn_mobile_comp.jpg);
+    content: url(../images/lpopcorn_mobile_comp.jpg);
     width: 300px;
     height: 67px;
     float: left;
@@ -666,12 +683,13 @@ h1 {
   /* FOOTER */
   .footer {
     padding: 0;
-    margin-left: 18px;
+    margin-left: 10px;
     clear: both;
   }
 
   .footer2 {
     padding-top: 0;
+    padding-left: 0;
   }
 
   /* button: to go to next quiz */
@@ -682,6 +700,7 @@ h1 {
     padding-right: 5px;
     margin-bottom: 30px;
     margin-top: 90px;
+    margin-left: 0;
     font-size: 22px;
   }
 
@@ -689,18 +708,18 @@ h1 {
     font-size: 20px;
     display: block;
     padding-top: 30px;
-    padding-left: 15px;
+    padding-left: 20px;
   }
 
   #mq {
-    padding-left: 18px;
+    padding-left: 20px;
   }
 
   /* button: return to homepage */
   .return_homepage {
     font-size: 20px;
     padding-top: 30px;
-    padding-left: 15px;
+    padding-left: 20px;
   }
 }
 

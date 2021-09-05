@@ -107,7 +107,7 @@ function resetQuiz () {
 /* check if element exists (only exists on the 2 quiz pages) */
 if (document.getElementById("countdown")) {
     /* countdown timer for quizzes, starts when page loads */
-    var timeRemaining = 45;
+    var timeRemaining = 200;
     var downloadTimer = setInterval(function () {
         document.getElementById("countdown").innerHTML = `${timeRemaining}<br> secs left`;
         timeRemaining -= 1;
