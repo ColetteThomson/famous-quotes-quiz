@@ -341,7 +341,7 @@ h1 {
 /* M E D I A   Q U E R I E S   for tablets and mobiles */
 
 /* T A B L E T S */
-@media (max-width: 769px) and (min-width: 426px) {
+@media (max-width: 769px) and (min-width: 427px) {
 
   /* body headings and paragraphs */
   #content {
