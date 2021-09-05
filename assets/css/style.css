@@ -94,7 +94,7 @@ h1 {
 
   /* image on home page */
   .image {
-    content: url(/assets/images/popcorn_750x184_comp.jpg);
+    content: url(assets/images/popcorn_750x184_comp.jpg);
     max-width: 750px;
     height: 184px;
     padding: 0;
@@ -377,7 +377,7 @@ h1 {
 
   /* image on home page */
   .image {
-    content: url(/assets/images/popcorn_640x144_comp.jpg);
+    content: url(assets/images/popcorn_640x144_comp.jpg);
     width: 640px;
     height: 144px;
     margin-right: 20px;
@@ -519,7 +519,7 @@ h1 {
 
   /* image on home page */
   .image {
-    content: url(/assets/images/lpopcorn_mobile_comp.jpg);
+    content: url(assets/images/lpopcorn_mobile_comp.jpg);
     width: 300px;
     height: 67px;
     float: left;
