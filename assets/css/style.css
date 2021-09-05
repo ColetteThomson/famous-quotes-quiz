@@ -345,7 +345,7 @@ h1 {
 
   /* body headings and paragraphs */
   #content {
-    width: 768px;
+    max-width: 768px;
   }
 
   .logo_byline {
@@ -662,6 +662,10 @@ h1 {
     padding: 0;
     margin-left: 18px;
     clear: both;
+  }
+
+  .footer2 {
+    padding-top: 0;
   }
 
   /* button: to go to next quiz */
