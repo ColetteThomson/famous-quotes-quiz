@@ -430,11 +430,15 @@ h1 {
 
   /*  FOOTER */
   .footer_link {
+    float: left;
+    display: block;
     font-size: 18px;
     padding-right: 30px;
   }
 
   .return_homepage {
+    float: left;
+    display: block;
     font-size: 18px;
     padding-right: 30px;
   }
