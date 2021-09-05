@@ -66,8 +66,9 @@ h1 {
   }
 
   #form1 {
-    font-size: 20px;
+    font-size: 22px;
     z-index: 1;
+    color: greenyellow;
   }
 
   #name {
@@ -79,7 +80,7 @@ h1 {
     font-size: 20px;
   }
 
-  #result {
+  #message {
     color: greenyellow;
     font-size: 25px;
     background-color: black;
@@ -88,6 +89,7 @@ h1 {
     z-index: 2;
     display: block;
     padding-bottom: 20px;
+    padding-left: 20px;
   }
 
   /* image on home page */
@@ -184,12 +186,6 @@ h1 {
     transform: scale(1.2); 
   }
 
-  /* button: return to homepage */
-    .return_homepage {
-    padding-left: 20px;
-    color: white;
-  }
-
   /* button: reset */
    #resetButton {
     display: inline;
@@ -271,7 +267,7 @@ h1 {
   border-radius: 25px;
 }
 
-#overlay_text {
+.overlay_text {
   position: absolute;
   text-align: center;
   padding-top: 10px;
@@ -285,19 +281,32 @@ h1 {
   clear: both;
   padding-top: 120px;
   padding-bottom: 50px;
-  padding-left: 25px;
+  padding-left: 40px;
+  
+}
+
+.footer2 {
+  clear: both;
+  padding-top: 120px;
+  padding-bottom: 50px;
+  padding-left: 15px;
 }
 
 .footer_link {
   color: lightblue;
   font-size: 20px;
-  padding-right: 60px;
+  padding-right: 50px;
+}
+
+#mq {
+  padding-left: 28px;
 }
 
 /* button: return to homepage */
 .return_homepage {
-  padding-right: 20px;
-  color: white;
+  padding-right: 50px;
+  padding-left: 20px;
+  color: lightblue;
 }
 
 /* button: to go to next quiz */
@@ -354,7 +363,7 @@ h1 {
 
   /* username prompt on home page */
   #form1 {
-    font-size: 18px;
+    font-size: 20px;
   }
   
   #name {
@@ -418,21 +427,21 @@ h1 {
   }
 
   /*  FOOTER */
-  /*.footer_link {
+  .footer_link {
     font-size: 18px;
     padding-right: 30px;
-  }*/
+  }
+
+  .return_homepage {
+    font-size: 18px;
+    padding-right: 30px;
+  }
   
   /* button: to go to next quiz */
   .next_quiz {
     font-size: 18px;
     margin-right: 20px;
   }
-
-  /*.mq {
-    padding-left: 24px;
-  }*/
-
 }
 
 /* M O B I L E S */
@@ -452,10 +461,10 @@ h1 {
   } 
 
   .logo_byline {
-    font-size: 23px;
+    font-size: 25px;
   }
 
-  h2 {
+  h2, h3, h4 {
     padding-left: 10px;
   }
 
@@ -486,7 +495,7 @@ h1 {
   }
 
   #form1 {
-    font-size: 16px;
+    font-size: 18px;
   }
   
   #name {
@@ -497,7 +506,7 @@ h1 {
     font-size: 16px;
   }
 
-  #result {
+  #message {
     padding-left: 22px;
     font-size: 18px;
   }
@@ -532,6 +541,10 @@ h1 {
   /* button: start quiz on 'home page' */
   .quiz_button {
     font-size: 20px;
+  }
+
+  .quiz_button_mq {
+    padding-left: 10px;
   }
 
   /*countdown timer on 'movie quotes', 'actor quotes' pages */
@@ -640,10 +653,14 @@ h1 {
     font-size: 20px;
   }
 
+  .rules {
+    padding-left: 30px;
+  }
+
   /* FOOTER */
   .footer {
     padding: 0;
-    margin-left: 30px;
+    margin-left: 18px;
     clear: both;
   }
 
@@ -661,16 +678,19 @@ h1 {
   .footer_link {
     font-size: 20px;
     display: block;
-    padding-top: 20px;
+    padding-top: 30px;
     padding-left: 15px;
-    margin-bottom: 10px;
+  }
+
+  #mq {
+    padding-left: 18px;
   }
 
   /* button: return to homepage */
   .return_homepage {
     font-size: 20px;
     padding-top: 30px;
-    padding-left: 20px;
+    padding-left: 15px;
   }
 }
 

@@ -11,7 +11,7 @@
 <body id="content"> 
     <!--heading with business name and byline-->
     <h1>Quizz-Pro</h1>
-        <p class="logo_byline">...for quizzing from the entertainment world</p>
+        <p class="logo_byline"><strong>...</strong>for quizzing from the entertainment world</p>
     <br>
 
     <section>    
@@ -23,7 +23,7 @@
         <!--user name prompt (optional)-->
         <div class="prompt">
             <form name="myPrompt" id="form1">
-                <label for="name">Your user name (optional)</label><br>
+                <label for="name">Your user name (required)</label><br>
                 <input type="text" name="name" id="name" required>
                 <input type="submit" id="submitPrompt" value="Submit">
             </form>
@@ -41,7 +41,7 @@
             </p>
 
             <!--button to start 'movie quotes quiz'-->
-            <form method="get" action="/movie_quotes_quiz.html">
+            <form method="get" action="/movie_quotes_quiz.html" class="quiz_button_mq">
                 <button type="submit" style="cursor: pointer" class="quiz_button">Start Movie Quotes Quiz!</button>
             </form>
             <br>
@@ -55,14 +55,14 @@
             </p>
 
             <!--button to start 'actor quotes quiz'-->
-            <form method="get" action="/actor_quotes_quiz.html">
+            <form method="get" action="/actor_quotes_quiz.html" class="quiz_button_mq">
                 <button type="submit" style="cursor: pointer" class="quiz_button">Start Actor Quotes Quiz!</button>
             </form>
                 
         <!--rules for quizzes-->
         <br>
             <h2>Rules</h2>
-            <ul>
+            <ul class="rules">
                 <li>Questions are multiple choice and only one answer can be selected.</li>
                 <li>If a question is unanswered, it will be given a score of incorrect.</li>
             </ul>
