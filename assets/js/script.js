@@ -87,12 +87,17 @@ function submitQuiz() {
     document.getElementById('userScore').innerHTML = showResults;
 }
 
-/*displays 'overlay' message for 10/10 scores */
+/*displays 'overlay message' for 10/10 scores */
 function on() {
+    if (localStorage.getItem("users")) {
     document.getElementById("overlay").style.display = "block";
     document.getElementById("overlay").innerText = "Congratulations " +
     window.localStorage.getItem('users') + "! You scored the perfect 10!";
+} else {
+    document.getElementById("overlay").style.display = "block";
+    document.getElementById("overlay").innerText = "Congratulations! You scored the perfect 10!";
 }
+} 
 
 /* return scroll position to top of page, before resetQuiz() reloads the page */
 window.onbeforeunload = function () {
