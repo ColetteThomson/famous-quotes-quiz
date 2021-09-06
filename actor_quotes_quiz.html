@@ -168,15 +168,18 @@
 	<br>
 	</form>
 
-	<!--submit button for quiz-->
-	<div class="submitter">
-    	<span><input class="quiz_submit" id="submitButton" onclick="submitQuiz()"
-       		type="submit" value="Submit" style="cursor: pointer">
-
-	   	<!--reset button for quiz-->
-	   	<input id="resetButton" class="reset_styling" style="cursor: pointer"
-			type="reset" value="Reset" onclick="resetQuiz()"></span>
-	</div>
+<!--table that contains 'submit' and 'reset' buttons -->
+<table class="submitter table">
+	<tr>
+		<!--submit button for quiz-->
+		<th><input class="quiz_submit" id="submitButton" onclick="submitQuiz()"		
+			type="submit" value="Submit" style="cursor: pointer"></th>
+		
+		<!--reset button for quiz-->
+		<th><input id="resetButton" class="reset_styling" style="cursor: pointer"
+			type="reset" value="Reset" onclick="resetQuiz()"></th>
+	</tr>
+</table>
 
 	<!--image on 'actor quotes quiz' page-->
 	<div>
