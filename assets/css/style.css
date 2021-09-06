@@ -122,27 +122,30 @@ h1 {
   /* images on 'movie quotes quiz', 'actor quotes quiz' pages*/
   .quiz_positioning {
     position: relative;
+    max-width: 1024px;
   }
   
   .image_positioning {
     float: right;
     position: relative;
-    margin-right: 100px;
+    margin-right: 0;
+    
     margin-top: 0;
     padding: 0;
+    padding-right: 50px;
     width: 280px;
     height: 350px;
   }
 
-  .image_positioning_2 {
+  /*.image_positioning_2 {
     float: right;
     position: relative;
-    margin-right: 100px;
+    margin-right: 0;
     margin-top: 0;
     padding: 0;
     width: 248px;
     height: 325px;
-  }
+  }*/
 
   /* button: start quiz on 'home page' */
 .quiz_button {
@@ -166,7 +169,7 @@ h1 {
   /* 'movie quotes quiz' and 'actor quotes quiz' question & answer blocks */
     .question-left {
     float: left;
-    width: 45%;
+    width: 43%;
     margin-right: 0;
     clear: both;
   }
@@ -181,6 +184,7 @@ h1 {
   .question {
     color: pink;
     font-weight: 600;
+    width: 90%;
   }
 
   /* radio button size*/
@@ -190,18 +194,20 @@ h1 {
 
   /* table that contains 'submit' and 'reset' buttons */
   table {
-    width: 1000px;
+    width: 900px;
     table-layout: fixed;
+    margin: 0;
   }
 
   th {
-    width: 500px;
+    width: 450px;
+    table-layout: fixed;
   }
 
   /* button: reset */
    #resetButton {
-    float: right;
-    margin-right: 50px;
+    float: left;
+    margin-right: 20px;
   }
   
   .reset_styling {
@@ -218,7 +224,10 @@ h1 {
   .submitter {
     clear: both;
     top: 60px;
-    left: 10px;
+    /*left: 10px;*/
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
     margin-bottom: 20px;
   }
 
@@ -675,6 +684,7 @@ h1 {
   /* button: submit */
   .submitter {
     margin-top: 0;
+
   }
 
   .quiz_submit {
