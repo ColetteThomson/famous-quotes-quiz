@@ -106,9 +106,8 @@ window.onbeforeunload = function () {
 
 /** button to reset quiz */
 function resetQuiz () {
-    location.reload();
+    window.location.href = window.location.href;
 }
-
 
 
 /* check if element exists (only exists on the 2 quiz pages) */
