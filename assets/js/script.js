@@ -80,7 +80,7 @@ function submitQuiz() {
     /** show correct answers out of questionCount */
     var showResults = "<strong>Your Score: </strong>" + calculateScore +"/" + questionCounter;
     if (calculateScore === questionCounter) {
-        on();
+        message1();
     } else {
         showResults = showResults + "&nbsp; <strong>Better luck next time!</strong>";
     }
@@ -88,7 +88,7 @@ function submitQuiz() {
 }
 
 /*displays 'overlay message' for 10/10 scores */
-function on() {
+function message1() {
     if (localStorage.getItem("users")) {
     document.getElementById("overlay").style.display = "block";
     document.getElementById("overlay").innerText = "Congratulations " +
