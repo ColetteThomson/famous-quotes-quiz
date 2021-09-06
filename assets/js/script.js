@@ -106,7 +106,7 @@ window.onbeforeunload = function () {
 
 /** button to reset quiz */
 function resetQuiz () {
-    window.location.reload();
+    location.reload();
 }
 
 
