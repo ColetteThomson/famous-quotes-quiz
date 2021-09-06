@@ -188,13 +188,20 @@ h1 {
     transform: scale(1.2); 
   }
 
+  /* table that contains 'submit' and 'reset' buttons */
+  table {
+    width: 1000px;
+    table-layout: fixed;
+  }
+
+  th {
+    width: 500px;
+  }
+
   /* button: reset */
    #resetButton {
-    clear: both;
-    display: inline;
     float: right;
-    margin-right: 30px;
-    margin-top: 20px;
+    margin-right: 50px;
   }
   
   .reset_styling {
@@ -209,13 +216,10 @@ h1 {
 
   /* button: submit */
   .submitter {
-    display: inline;
     clear: both;
     top: 60px;
     left: 10px;
-    padding-left: 30px;
     margin-bottom: 20px;
-    margin-left: 25px;
   }
 
   .quiz_submit {
@@ -248,7 +252,7 @@ h1 {
   position: absolute;
   z-index: 8;
   margin-top: 20px;
-  padding-left: 35px;
+  padding-left: 43px;
   line-height: 35px;
 }
 
@@ -342,7 +346,7 @@ h1 {
   color: black;
   }
 
-  /* terms of service page */
+  /* margins for 'terms of service' and 'contact us' pages */
  .body_margins {
   margin-left: 10px;
   margin-right: 20px;
@@ -438,10 +442,24 @@ h1 {
     margin-right: 20px;
   }
 
+  /* table that contains 'submit' and 'reset' buttons */
+  table {
+    width: 750px;
+    table-layout: fixed;
+  }
+
+  th {
+    width: 375px;
+  }
+  
+  /* button: reset */
+  #resetButton {
+    margin-right: 35px;
+  }
+
   /*  FOOTER */
   .footer2 {
     padding-top: 30px;
-
   }
 
   .footer_link {
@@ -643,15 +661,33 @@ h1 {
     padding-bottom: 20px;
   }
 
+  /* table that contains 'submit' and 'reset' buttons */
+  table {
+    width: 318px;
+    table-layout: fixed;
+  }
+
+  th {
+    width: 159px;
+  }
+
+  /* button: submit */
+  .submitter {
+    margin-top: 0;
+  }
+
+  .quiz_submit {
+    margin: 0;
+    float: left;
+    margin-left: 16px;
+  }
+
   /* button: reset */
   #resetButton {
-    position: absolute;
     float: right;
-    margin-top: 0px;
-    margin-left: 90px;
-    margin-right: 0;
+    margin: 0;
     clear: both;
-    margin-top: 20px;
+    margin-right: 20px;
   }
 
   /* container: to display user results */
@@ -744,5 +780,15 @@ h1 {
 
   .question-right {
     width: 46%;
+  }
+
+  /* table that contains 'submit' and 'reset' buttons */
+  table {
+    width: 1400px;
+    table-layout: fixed;
+  }
+
+  th {
+    width: 700px;
   }
 }
