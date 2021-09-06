@@ -106,8 +106,10 @@ window.onbeforeunload = function () {
 
 /** button to reset quiz */
 function resetQuiz () {
-    window.location.reload(false);
+    window.location.reload();
 }
+
+
 
 /* check if element exists (only exists on the 2 quiz pages) */
 if (document.getElementById("countdown")) {
