@@ -169,14 +169,14 @@ h1 {
   /* 'movie quotes quiz' and 'actor quotes quiz' question & answer blocks */
     .question-left {
     float: left;
-    width: 43%;
+    width: 44%;
     margin-right: 0;
     clear: both;
   }
 
   .question-right {
     float: right;
-    width: 43%;
+    width: 44%;
     margin-right: 20px;
     clear: right;
   }
@@ -192,21 +192,24 @@ h1 {
     transform: scale(1.2); 
   }
 
-  /* table that contains 'submit' and 'reset' buttons */
-  table {
-    width: 900px;
-    table-layout: fixed;
-    margin: 0;
+  /* containers for 'submit' and 'reset' buttons */
+  .submit-left {
+    float: left;
+    width: 44%;
+    margin-right: 0;
+    clear: both;
   }
 
-  th {
-    width: 450px;
-    table-layout: fixed;
+  .reset-right {
+    float: right;
+    width: 44%;
+    margin-right: 20px;
+    clear: right;
   }
 
   /* button: reset */
    #resetButton {
-    float: left;
+    float: right;
     margin-right: 20px;
   }
   
@@ -248,7 +251,7 @@ h1 {
     color: greenyellow;
     text-align: right;
     font-size: 18px;
-    margin-left: 46%;
+    margin-left: 39%;
     padding-right: 5px;
     position: fixed;
     max-width: 60px;
@@ -261,7 +264,7 @@ h1 {
   float: left;
   position: absolute;
   z-index: 8;
-  margin-top: 20px;
+  margin-top: 30px;
   padding-left: 43px;
   line-height: 35px;
 }
@@ -452,16 +455,7 @@ h1 {
     margin-right: 20px;
   }
 
-  /* table that contains 'submit' and 'reset' buttons */
-  table {
-    width: 750px;
-    table-layout: fixed;
-  }
-
-  th {
-    width: 375px;
-  }
-  
+    
   /* button: reset */
   #resetButton {
     margin-right: 35px;
@@ -671,20 +665,24 @@ h1 {
     padding-bottom: 20px;
   }
 
-  /* table that contains 'submit' and 'reset' buttons */
-  table {
-    width: 318px;
-    table-layout: fixed;
+  /* containers for 'submit' and 'reset' buttons */
+  .submit-left {
+    float: left;
+    width: 30%;
+    margin-right: 0;
+    clear: both;
   }
 
-  th {
-    width: 159px;
+  .reset-right {
+    float: right;
+    width: 30%;
+    margin-right: 20px;
+    clear: right;
   }
 
   /* button: submit */
   .submitter {
     margin-top: 0;
-
   }
 
   .quiz_submit {
@@ -695,8 +693,8 @@ h1 {
 
   /* button: reset */
   #resetButton {
-    float: right;
-    margin: 0;
+    float: left;
+    margin-top: 0;
     clear: both;
     margin-right: 20px;
   }
