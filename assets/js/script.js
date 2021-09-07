@@ -125,7 +125,8 @@ if (document.getElementById("countdown")) {
             
             /* time delay of 7 secs before countdown restarts */
             setTimeout(function () {
-                window.location.reload();
+                window.location.href = window.location.href;
+                /*window.location.reload();*/
             }, 7000);
         }
     }, 1000);
