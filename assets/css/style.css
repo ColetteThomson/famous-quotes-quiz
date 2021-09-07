@@ -55,6 +55,11 @@ h1 {
     padding-left: 20px;
   }
 
+  /* 'movie quotes quiz' and 'actor quotes quiz' heading and positioning */  
+  .quiz_heading {
+    margin-bottom: 20px;
+  }
+
   /* username prompt on home page */
   .prompt {
     float: left;
@@ -378,6 +383,7 @@ h1 {
     font-size: 20px;
   }
 
+  /* 'movie quotes quiz' and 'actor quotes quiz' heading and positioning */  
   .quiz_heading {
     font-size: 52px;
     padding-right: 20px;
