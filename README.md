@@ -125,7 +125,7 @@ The CSS stylesheet was run through the [CSS Validation Service-Jigsaw](https://j
 <br>
 The Javascript file was run through the [JSHint](https://jshint.com) and showed no errors. 
 *Note*: The following message displayed:  "Two unused variables:  submitQuiz() and resetQuiz()".  Both of these variables are called from the html quiz pages: *'Actor Quotes Quiz'* and *'Movie Quotes Quiz'*.
-[JSHint report](assets/images/JSHint_code_validation.jpg) and [JSHint report](assets/images/picture6)
+[JSHint report](assets/images/JSHint_code_validation.jpg) and [JSHint report](assets/images/picture6.png)
 
 ### Lighthouse Report
 ...insert screenshots for each page
