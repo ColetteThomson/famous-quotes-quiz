@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Mitr:wght@300&family=WindSong:wght@500&display=swap');
 
 /*body headings and paragraphs */
-
 #content {
   max-width: 1024px;
 }
@@ -137,16 +136,6 @@ h1 {
     height: 350px;
   }
 
-  /*.image_positioning_2 {
-    float: right;
-    position: relative;
-    margin-right: 0;
-    margin-top: 0;
-    padding: 0;
-    width: 248px;
-    height: 325px;
-  }*/
-
   /* button: start quiz on 'home page' */
 .quiz_button {
     color: lightblue;
@@ -251,7 +240,7 @@ h1 {
     color: greenyellow;
     text-align: right;
     font-size: 18px;
-    margin-left: 39%;
+    margin-left: 45%;
     padding-right: 5px;
     position: fixed;
     max-width: 60px;
@@ -387,6 +376,11 @@ h1 {
 
   p {
     font-size: 20px;
+  }
+
+  .quiz_heading {
+    font-size: 52px;
+    padding-right: 20px;
   }
 
   /* username prompt on home page */
@@ -670,13 +664,15 @@ h1 {
     float: left;
     width: 30%;
     margin-right: 0;
+    margin-top: 20px;
     clear: both;
   }
 
   .reset-right {
     float: right;
     width: 30%;
-    margin-right: 20px;
+    margin-top: 20px;
+    margin-right: 54px;
     clear: right;
   }
 
@@ -703,7 +699,7 @@ h1 {
   .results_container {
     padding-left: 10px;
     padding-right: 5px;
-    margin-top: 22px;
+    margin-top: 70px;
     line-height: 30px;
     font-size: 18px;
     z-index: 10;
@@ -783,6 +779,18 @@ h1 {
     width: 1440px;
   }
 
+  /* images on 'movie quotes quiz', 'actor quotes quiz' pages*/
+  .quiz_positioning {
+    position: relative;
+    max-width: 1440px;
+  }
+  
+  .image_positioning {
+    float: right;
+    position: relative;
+    margin-right: 50px;
+  }
+
   /* 'movie quotes quiz' and 'actor quotes quiz' question & answer blocks */
   .question-left {
     width: 46%;
@@ -790,15 +798,19 @@ h1 {
 
   .question-right {
     width: 46%;
+    float: right;
   }
 
-  /* table that contains 'submit' and 'reset' buttons */
-  table {
-    width: 1400px;
-    table-layout: fixed;
-  }
+  /*countdown timer on 'movie quotes', 'actor quotes' pages */
+  #countdown {
+    margin-left: 46%;
+    }
 
-  th {
-    width: 700px;
-  }
+  /* container for 'reset' buttons */
+  .reset-right {
+    float: right;
+    width: 30%;
+    margin-right: 50px;
+    clear: right;
+  }  
 }
