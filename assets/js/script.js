@@ -33,7 +33,7 @@ function submitQuiz() {
     function correctAnswer (correctOptionNumber, questionNumber) {
         console.log("questionNumber: " + questionNumber);  
 
-        return ("Q" + questionNumber + " answer is <strong>" +
+        return ("Q" + questionNumber + " answer: <strong>" +
             (document.getElementById(correctOptionNumber).innerHTML) + "</strong>");
     }
 

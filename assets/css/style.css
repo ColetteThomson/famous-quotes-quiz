@@ -596,7 +596,7 @@ h1 {
     float: right;
     display: block;
     max-width: 56px;
-    margin-left: 78%;
+    margin-left: 79%;
     font-size: 16px;
     line-height: 22px;
     background-color: rgba(255, 255, 255, 0.3);
@@ -701,7 +701,7 @@ h1 {
     padding-right: 5px;
     margin-top: 70px;
     line-height: 30px;
-    font-size: 18px;
+    font-size: 16px;
     z-index: 10;
     background-color: black;
   }
@@ -715,7 +715,7 @@ h1 {
     width: 250px;
     height: 130px;
     margin-top: 130px;
-    margin-left: 40px;
+    margin-left: 30px;
     background-color: black;
   }
 
