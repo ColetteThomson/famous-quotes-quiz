@@ -2,42 +2,42 @@
 function submitQuiz() {
     console.log('submitted');
 
-    /**  get each answer tally and its radio button value */
-    function answerTally (qName) {
+    /* get each answer tally and its radio button value */
+    function answerTally(qName) {
         var radioButtons = document.getElementsByName(qName);
         var answerValue;
         for (var i = 0, length = radioButtons.length; i < length; i++) {
             if (radioButtons[i].checked) {
-            answerValue = Number(radioButtons[i].value);
+                answerValue = Number(radioButtons[i].value);
+            }
         }
+        if (isNaN(answerValue)) {
+            answerValue = 0;
+        }
+        return answerValue;
     }
-    if (isNaN(answerValue)) {
-        answerValue = 0;
-    }
-    return answerValue;
-}
 
-    /** use answerTally function to calculate score for 'Movie Quotes Quiz' */ 
+    /* use answerTally function to calculate score for 'Movie Quotes Quiz' */
     var calculateScore = (answerTally('question1') + answerTally('question2') + answerTally('question3') + answerTally('question4') +
-    answerTally('question5') + answerTally('question6') + answerTally('question7') + answerTally('question8') + answerTally('question9') + 
-    answerTally('question10'));
-    console.log("CalculateScore: " + calculateScore); 
+        answerTally('question5') + answerTally('question6') + answerTally('question7') + answerTally('question8') + answerTally('question9') +
+        answerTally('question10'));
+    console.log("CalculateScore: " + calculateScore);
 
-    /** use answerTally function to calculate score for 'Actor Quotes Quiz'*/ 
+    /* use answerTally function to calculate score for 'Actor Quotes Quiz'*/
     var calculateScore1 = (answerTally('question1') + answerTally('question2') + answerTally('question3') + answerTally('question4') +
-    answerTally('question5') + answerTally('question6') + answerTally('question7') + answerTally('question8') + answerTally('question9') + 
-    answerTally('question10'));
-    console.log("CalculateScore1: " + calculateScore1); 
+        answerTally('question5') + answerTally('question6') + answerTally('question7') + answerTally('question8') + answerTally('question9') +
+        answerTally('question10'));
+    console.log("CalculateScore1: " + calculateScore1);
 
-    /** use correctAnswer function to return correct option as a string */
-    function correctAnswer (correctOptionNumber, questionNumber) {
-        console.log("questionNumber: " + questionNumber);  
+    /* use correctAnswer function to return correct option as a string */
+    function correctAnswer(correctOptionNumber, questionNumber) {
+        console.log("questionNumber: " + questionNumber);
 
         return ("Q" + questionNumber + " answer: <strong>" +
             (document.getElementById(correctOptionNumber).innerHTML) + "</strong>");
     }
 
-    /** use correctAnswer function to print correct answers, if user answers incorrectly */
+    /* use correctAnswer function to print correct answers, if user answers incorrectly */
     if (answerTally('question1') === 0) {
         document.getElementById('userAnswer1').innerHTML = correctAnswer('correctOption1', 1);
     }
@@ -69,7 +69,7 @@ function submitQuiz() {
         document.getElementById('userAnswer10').innerHTML = correctAnswer('correctOption10', 10);
     }
 
-    /** calculate number of questions using html class: 'question' */
+    /* calculate number of questions using html class: 'question' */
     var questionCount = document.getElementsByClassName('question');
 
     var questionCounter = 0;
@@ -77,8 +77,8 @@ function submitQuiz() {
         questionCounter++;
     }
 
-    /** show correct answers out of questionCount */
-    var showResults = "<strong>Your Score: </strong>" + calculateScore +"/" + questionCounter;
+    /* show correct answers out of questionCount */
+    var showResults = "<strong>Your Score: </strong>" + calculateScore + "/" + questionCounter;
     if (calculateScore === questionCounter) {
         message1();
     } else {
@@ -87,25 +87,25 @@ function submitQuiz() {
     document.getElementById('userScore').innerHTML = showResults;
 }
 
-/*displays 'overlay message' for 10/10 scores */
+/* displays 'overlay message' for 10/10 scores */
 function message1() {
     if (localStorage.getItem("users")) {
-    document.getElementById("overlay").style.display = "block";
-    document.getElementById("overlay").innerText = "Congratulations " +
-    window.localStorage.getItem('users') + "! You scored the perfect 10!";
-} else {
-    document.getElementById("overlay").style.display = "block";
-    document.getElementById("overlay").innerText = "Congratulations! You scored the perfect 10!";
+        document.getElementById("overlay").style.display = "block";
+        document.getElementById("overlay").innerText = "Congratulations " +
+            window.localStorage.getItem('users') + "! You scored the perfect 10!";
+    } else {
+        document.getElementById("overlay").style.display = "block";
+        document.getElementById("overlay").innerText = "Congratulations! You scored the perfect 10!";
+    }
 }
-} 
 
 /* return scroll position to top of page, before resetQuiz() reloads the page */
 window.onbeforeunload = function () {
     window.scrollTo(0, 0);
 };
 
-/** button to reset quiz */
-function resetQuiz () {
+/* button to reset quiz */
+function resetQuiz() {
     window.location.href = window.location.href;
 }
 
@@ -113,7 +113,7 @@ function resetQuiz () {
 /* check if element exists (only exists on the 2 quiz pages) */
 if (document.getElementById("countdown")) {
     /* countdown timer for quizzes, starts when page loads */
-    var timeRemaining = 30;
+    var timeRemaining = 60;
     var downloadTimer = setInterval(function () {
         document.getElementById("countdown").innerHTML = `${timeRemaining}<br> secs left`;
         timeRemaining -= 1;
@@ -121,18 +121,17 @@ if (document.getElementById("countdown")) {
         /* message displayed to user when countdown reaches 0 secs */
         if (timeRemaining <= 0) {
             clearInterval(downloadTimer);
-            document.getElementById("countdown").innerHTML = "<strong>Time's up!</strong> <br> Quiz'<br> will reset in 7 secs.";
-            
+            document.getElementById("countdown").innerHTML = "<strong>Time's up!</strong> <br> Quiz<br> will reset in 7 secs.";
+
             /* time delay of 7 secs before countdown restarts */
             setTimeout(function () {
                 window.location.href = window.location.href;
-                /*window.location.reload();*/
             }, 7000);
         }
     }, 1000);
 } else {
-  console.log('countdown element missing');
-} 
+    console.log('countdown element missing');
+}
 
 /*prompt user to enter username and display result in html id: 'message' on homepage */
 const form = document.getElementById('form1');
@@ -147,6 +146,6 @@ form.addEventListener("submit", (event) => {
     /* message displayed to user */
     document.getElementById("message").innerText = "Hello " + data;
 
-    /* to hide form, once 'submit' is pressed */
-     document.getElementById("form1").style.display = "none"; 
+    /* to hide form, once 'submit' is clicked */
+    document.getElementById("form1").style.display = "none";
 });

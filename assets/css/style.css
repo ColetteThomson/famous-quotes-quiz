@@ -7,253 +7,253 @@
 }
 
 h1 {
-    font-family: "WindSong", sans-serif;
-    font-size: 60px;
-    color: lightblue;
-    letter-spacing: 2px;
-    margin-bottom: 10px;
-    padding-left: 30px;
+  font-family: "WindSong", sans-serif;
+  font-size: 60px;
+  color: lightblue;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  padding-left: 30px;
 }
 
 .logo_byline {
-    font-family: "WindSong", sans-serif;
-    font-size: 35px;
-    font-weight: 400;
-    color: lightblue;
-    letter-spacing: 2px;
-    margin: 0;
-    padding-left: 30px;
-  }
+  font-family: "WindSong", sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  color: lightblue;
+  letter-spacing: 2px;
+  margin: 0;
+  padding-left: 30px;
+}
 
-  body {
-    margin: 0;
-    font-family: "Comfortaa", sans-serif;
-    color: white;
-    font-size: 20px;
-    line-height: 30px;
-    background: black;
-    z-index: -1;
-  }
+body {
+  margin: 0;
+  font-family: "Comfortaa", sans-serif;
+  color: white;
+  font-size: 20px;
+  line-height: 30px;
+  background: black;
+  z-index: -1;
+}
 
-  h2, h3, h4 {
-    font-family: "Mitr", sans-serif;
-    color: pink;
-    padding-left: 20px;
-  }
-  
-  p {
-    padding-left: 20px;
-  }
-  
-  .paragraph {
-    color: pink;
-    font-size: 25px;
-    line-height: 35px;
-  }
+h2,
+h3,
+h4 {
+  font-family: "Mitr", sans-serif;
+  color: pink;
+  padding-left: 20px;
+}
 
-  form {
-    padding-left: 20px;
-  }
+p {
+  padding-left: 20px;
+}
 
-  /* 'movie quotes quiz' and 'actor quotes quiz' heading and positioning */  
-  .quiz_heading {
-    margin-bottom: 20px;
-  }
+.paragraph {
+  color: pink;
+  font-size: 25px;
+  line-height: 35px;
+}
 
-  /* username prompt on home page */
-  .prompt {
-    float: left;
-    max-width: 45%;
-    padding-left: 20px;
-    padding-bottom: 0;
-    margin: 0;
-  }
+/* 'movie quotes quiz' and 'actor quotes quiz' heading and positioning */
+form {
+  padding-left: 20px;
+}
 
-  #form1 {
-    font-size: 22px;
-    z-index: 1;
-    color: greenyellow;
-  }
+.quiz_heading {
+  margin-bottom: 35px;
+}
 
-  #name {
-    font-size: 20px;
-    z-index: 1;
-  }
+/* username prompt on home page */
+.prompt {
+  float: left;
+  max-width: 45%;
+  padding-left: 20px;
+  padding-bottom: 0;
+  margin: 0;
+}
 
-  #submitPrompt {
-    font-size: 20px;
-  }
+#form1 {
+  font-size: 22px;
+  z-index: 1;
+  color: greenyellow;
+}
 
-  #message {
-    color: greenyellow;
-    font-size: 25px;
-    background-color: black;
-    margin-top: 0;
-    padding-top: 0;
-    z-index: 2;
-    display: block;
-    padding-bottom: 20px;
-    padding-left: 20px;
-  }
+#name {
+  font-size: 20px;
+  z-index: 1;
+}
 
-  /* image on home page */
-  .image {
-    content: url(../images/popcorn_750x184_comp.jpg);
-    max-width: 750px;
-    height: 184px;
-    padding: 0;
-    padding-left: 40px;
-    margin-bottom: 20px;
-    clear: both;
-  } 
+#submitPrompt {
+  font-size: 20px;
+}
 
-  /* div positioning on homepage */
-  .homepage_div {
-    clear: left;
-    float: left;
-    max-width: 90%;
-    padding-right: 10px;
-    padding-left: 20px;
-    margin: 0;
-  }
+#message {
+  color: greenyellow;
+  font-size: 25px;
+  background-color: black;
+  margin-top: 0;
+  padding-top: 0;
+  z-index: 2;
+  display: block;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
 
-  .homepage_div_2 {
-    float: left;
-    width: 90%;
-    padding-left: 20px;
-  }
+/* image on home page */
+.image {
+  content: url(../images/popcorn_750x184_comp.jpg);
+  max-width: 750px;
+  height: 184px;
+  padding: 0;
+  padding-left: 40px;
+  margin-bottom: 20px;
+  clear: both;
+}
 
-  /* images on 'movie quotes quiz', 'actor quotes quiz' pages*/
-  .quiz_positioning {
-    position: relative;
-    max-width: 1024px;
-  }
-  
-  .image_positioning {
-    float: right;
-    position: relative;
-    margin-right: 0;
-    
-    margin-top: 0;
-    padding: 0;
-    padding-right: 50px;
-    width: 280px;
-    height: 350px;
-  }
+/* div positioning on homepage */
+.homepage_div {
+  clear: left;
+  float: left;
+  max-width: 90%;
+  padding-right: 10px;
+  padding-left: 20px;
+  margin: 0;
+}
 
-  /* button: start quiz on 'home page' */
+.homepage_div_2 {
+  float: left;
+  width: 90%;
+  padding-left: 20px;
+}
+
+/* images on 'movie quotes quiz', 'actor quotes quiz' pages*/
+.quiz_positioning {
+  position: relative;
+  max-width: 1024px;
+}
+
+.image_positioning {
+  float: right;
+  position: relative;
+  margin-right: 0;
+  margin-top: 0;
+  padding: 0;
+  padding-right: 50px;
+  width: 280px;
+  height: 350px;
+}
+
+/* button: start quiz on 'home page' */
 .quiz_button {
-    color: lightblue;
-    background-color: black;
-    border: 2px;
-    border-radius: 12px;
-    padding: 10px;
-    font-size: 25px;
-    text-decoration: none;
-    transition-duration: 0.5s;
-    box-shadow: 0 0 10px 5px lightblue;
-    margin-right: 10px;
-  }
+  color: lightblue;
+  background-color: black;
+  border: 2px;
+  border-radius: 12px;
+  padding: 10px;
+  font-size: 25px;
+  text-decoration: none;
+  transition-duration: 0.5s;
+  box-shadow: 0 0 10px 5px lightblue;
+  margin-right: 10px;
+}
 
-  .quiz_button:hover {
-    background-color: lightblue;
-    color: black;
-  }
+.quiz_button:hover {
+  background-color: lightblue;
+  color: black;
+}
 
-  /* 'movie quotes quiz' and 'actor quotes quiz' question & answer blocks */
-    .question-left {
-    float: left;
-    width: 44%;
-    margin-right: 0;
-    clear: both;
-  }
+/* 'movie quotes quiz' and 'actor quotes quiz' question & answer blocks */
+.question-left {
+  float: left;
+  width: 44%;
+  margin-right: 0;
+  clear: both;
+}
 
-  .question-right {
-    float: right;
-    width: 44%;
-    margin-right: 20px;
-    clear: right;
-  }
+.question-right {
+  float: right;
+  width: 44%;
+  margin-right: 20px;
+  clear: right;
+}
 
-  .question {
-    color: pink;
-    font-weight: 600;
-    width: 90%;
-  }
+.question {
+  color: pink;
+  font-weight: 600;
+  width: 90%;
+}
 
-  /* radio button size*/
-  input[type='radio'] { 
-    transform: scale(1.2); 
-  }
+/* radio button size*/
+input[type='radio'] {
+  transform: scale(1.2);
+}
 
-  /* containers for 'submit' and 'reset' buttons */
-  .submit-left {
-    float: left;
-    width: 44%;
-    margin-right: 0;
-    clear: both;
-  }
+/* containers for 'submit' and 'reset' buttons */
+.submit-left {
+  float: left;
+  width: 44%;
+  margin-right: 0;
+  clear: both;
+}
 
-  .reset-right {
-    float: right;
-    width: 44%;
-    margin-right: 20px;
-    clear: right;
-  }
+.reset-right {
+  float: right;
+  width: 44%;
+  margin-right: 20px;
+  clear: right;
+}
 
-  /* button: reset */
-   #resetButton {
-    float: right;
-    margin-right: 20px;
-  }
-  
-  .reset_styling {
-    color: black;
-    background-color: lightblue;
-    border-radius: 12px;
-    padding: 8px;
-    font-size: 20px;
-    font-weight: 600;
-    text-decoration: none;
-  }
+/* button: reset */
+#resetButton {
+  float: right;
+  margin-right: 20px;
+}
 
-  /* button: submit */
-  .submitter {
-    clear: both;
-    top: 60px;
-    /*left: 10px;*/
-    margin-left: 0;
-    margin-right: 0;
-    padding: 0;
-    margin-bottom: 20px;
-  }
+.reset_styling {
+  color: black;
+  background-color: lightblue;
+  border-radius: 12px;
+  padding: 8px;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
 
-  .quiz_submit {
-    color: black;
-    background-color: lightblue;
-    border-radius: 12px;
-    padding: 8px;
-    font-size: 20px;
-    font-weight: 600;
-    text-decoration: none;
-    float: left;
-    margin-left: 40px;
-  }
+/* button: submit */
+.submitter {
+  clear: both;
+  top: 60px;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
 
-  /*countdown timer on 'movie quotes', 'actor quotes' pages */
-  #countdown {
-    color: greenyellow;
-    text-align: right;
-    font-size: 18px;
-    margin-left: 45%;
-    padding-right: 5px;
-    position: fixed;
-    max-width: 60px;
-    background-color: rgba(255, 255, 255, 0.3);
-    z-index: 20;
-  }
+.quiz_submit {
+  color: black;
+  background-color: lightblue;
+  border-radius: 12px;
+  padding: 8px;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  float: left;
+  margin-left: 40px;
+}
 
-  /* container: to display user results */
+/*countdown timer on 'movie quotes', 'actor quotes' pages */
+#countdown {
+  color: greenyellow;
+  text-align: right;
+  font-size: 18px;
+  margin-left: 45%;
+  padding-right: 5px;
+  position: fixed;
+  max-width: 60px;
+  background-color: rgba(255, 255, 255, 0.3);
+  z-index: 20;
+}
+
+/* container: to display user results */
 .results_container {
   float: left;
   position: absolute;
@@ -336,7 +336,7 @@ h1 {
   margin-left: 15px;
   margin-top: 115px;
   display: block;
-    
+
   color: lightblue;
   background-color: black;
   border: 2px;
@@ -351,10 +351,10 @@ h1 {
 .next_quiz:hover {
   background-color: lightblue;
   color: black;
-  }
+}
 
-  /* margins for 'terms of service' and 'contact us' pages */
- .body_margins {
+/* margins for 'terms of service' and 'contact us' pages */
+.body_margins {
   margin-left: 10px;
   margin-right: 20px;
 }
@@ -363,7 +363,6 @@ h1 {
 
 /* T A B L E T S */
 @media screen and (max-width: 769px) {
-/*@media (max-width: 769px) and (min-width: 427px) {*/
 
   /* body headings and paragraphs */
   #content {
@@ -383,7 +382,7 @@ h1 {
     font-size: 20px;
   }
 
-  /* 'movie quotes quiz' and 'actor quotes quiz' heading and positioning */  
+  /* 'movie quotes quiz' and 'actor quotes quiz' heading and positioning */
   .quiz_heading {
     font-size: 52px;
     padding-right: 20px;
@@ -393,11 +392,11 @@ h1 {
   #form1 {
     font-size: 20px;
   }
-  
+
   #name {
     font-size: 18px;
   }
-  
+
   #submitPrompt {
     font-size: 18px;
   }
@@ -421,7 +420,7 @@ h1 {
     max-width: 88%;
     margin: 0;
   }
-  
+
   .homepage_div_2 {
     float: left;
     width: 88%;
@@ -450,12 +449,6 @@ h1 {
     margin-right: 20px;
   }
 
-  .image_positioning_2 {
-    float: right;
-    margin-right: 20px;
-  }
-
-    
   /* button: reset */
   #resetButton {
     margin-right: 35px;
@@ -481,7 +474,7 @@ h1 {
     padding-right: 60px;
     margin-top: 0;
   }
-  
+
   /* button: to go to next quiz */
   .next_quiz {
     float: left;
@@ -498,7 +491,8 @@ h1 {
 @media screen and (max-width: 426px) {
 
   /* settings to prevent horizontal scrolling for mobile screen */
-  html, body {
+  html,
+  body {
     overflow-x: hidden !important;
     max-width: 100% !important;
     margin: auto;
@@ -508,13 +502,15 @@ h1 {
   /* body headings and paragraphs */
   h1 {
     font-size: 40px;
-  } 
+  }
 
   .logo_byline {
     font-size: 25px;
   }
 
-  h2, h3, h4 {
+  h2,
+  h3,
+  h4 {
     padding-left: 10px;
   }
 
@@ -547,11 +543,11 @@ h1 {
   #form1 {
     font-size: 18px;
   }
-  
+
   #name {
     font-size: 16px;
   }
-  
+
   #submitPrompt {
     font-size: 16px;
   }
@@ -581,11 +577,11 @@ h1 {
     padding-left: 15px;
     margin: 0;
   }
-  
+
   .homepage_div_2 {
     float: left;
     width: 90%;
-    padding-left: 15px; 
+    padding-left: 15px;
   }
 
   /* button: start quiz on 'home page' */
@@ -606,7 +602,7 @@ h1 {
     font-size: 16px;
     line-height: 22px;
     background-color: rgba(255, 255, 255, 0.3);
-  } 
+  }
 
   /* 'movie quotes quiz' and 'actor quotes quiz' heading and positioning */
   .quiz_heading {
@@ -638,19 +634,11 @@ h1 {
   }
 
   /* radio button size*/
-  input[type='radio'] { 
-    transform: scale(1.5); 
+  input[type='radio'] {
+    transform: scale(1.5);
   }
 
   /* images on 'movie quotes quiz', 'actor quotes quiz' */
-  .image_positioning_2 {
-    float: left;
-    margin-top: 20px;
-    margin-bottom: 15px;
-    margin-left: 30px;
-    background-color: black;
-  }
-
   .image_positioning {
     float: left;
     margin-bottom: 5px;
@@ -781,7 +769,7 @@ h1 {
 
 /* L A R G E   L A P T O P  Screens between 1025px and 1441px */
 @media (max-width: 1441px) and (min-width: 1025px) {
-  
+
   #content {
     width: 1440px;
   }
@@ -791,7 +779,7 @@ h1 {
     position: relative;
     max-width: 1440px;
   }
-  
+
   .image_positioning {
     float: right;
     position: relative;
@@ -811,7 +799,7 @@ h1 {
   /*countdown timer on 'movie quotes', 'actor quotes' pages */
   #countdown {
     margin-left: 46%;
-    }
+  }
 
   /* container for 'reset' buttons */
   .reset-right {
@@ -819,5 +807,5 @@ h1 {
     width: 30%;
     margin-right: 50px;
     clear: right;
-  }  
+  }
 }

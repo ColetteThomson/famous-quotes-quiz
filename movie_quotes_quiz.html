@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--link to css style sheet-->
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
-    <title>Famous Movie Quotes!</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--link to css style sheet-->
+  <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+  <title>Famous Movie Quotes!</title>
 </head>
+
 <body>
   <!--page heading-->
   <h1 class="quiz_heading">Famous Movie Quotes!</h1>
-  
-	<!--countdown timer when page loads-->
+
+  <!--countdown timer when page loads-->
   <div id="countdown"></div>
 
-	<!--'movie quotes quiz' questions and possible radio button answers-->
-<form class="quiz_positioning">
+  <!--'movie quotes quiz' questions and possible radio button answers-->
+  <form class="quiz_positioning">
     <div class="question-left">
       <p class="question">1. "I see dead people."</p>
 
-    <p>
+      <p>
         <input class="answer" type="radio" name="question1" value="1">
         <label id="correctOption1">The Sixth Sense</label>
         <br>
@@ -29,13 +31,13 @@
         <br>
         <input class="answer" type="radio" name="question1" value="0">
         <label>Apollo 13</label>
-    </p>
-</div>
-  
-<div class="question-right">
+      </p>
+    </div>
+
+    <div class="question-right">
       <p class="question">2. "You had me at 'hello'."</p>
 
-    <p>
+      <p>
         <input class="answer" type="radio" name="question2" value="0" required>
         <label>Annie Hall</label>
         <br>
@@ -44,13 +46,13 @@
         <br>
         <input class="answer" type="radio" name="question2" value="0">
         <label>Wall Street</label>
-    </p>
-</div>
-  
-<div class="question-left">
+      </p>
+    </div>
+
+    <div class="question-left">
       <p class="question">3. "Here's Johnny!"</p>
 
-    <p>
+      <p>
         <input class="answer" type="radio" name="question3" value="0" required>
         <label>Citizen Kane</label>
         <br>
@@ -59,13 +61,13 @@
         <br>
         <input class="answer" type="radio" name="question3" value="1">
         <label id="correctOption3">The Shining</label>
-    </p>
-</div>
-  
-<div class="question-right">
-    <p class="question">4. "You talking to me?"</p>
+      </p>
+    </div>
 
-    <p>
+    <div class="question-right">
+      <p class="question">4. "You talking to me?"</p>
+
+      <p>
         <input class="answer" type="radio" name="question4" value="0" required>
         <label>Network</label>
         <br>
@@ -74,140 +76,140 @@
         <br>
         <input class="answer" type="radio" name="question4" value="0">
         <label>China Town</label>
-    </p>	
-</div>
+      </p>
+    </div>
 
-<div class="question-left">
-    <p class="question">5. "Say 'hello' to my little friend."</p>
-  <p>
-    <input class="answer" type="radio" name="question5" value="1">
-    <label id="correctOption5">Scarface</label>
-    <br>  
-    <input class="answer" type="radio" name="question5" value="0" required>
-    <label>Wall Street</label>
-     <br>
-    <input class="answer" type="radio" name="question5" value="0">
-    <label>Sudden Impact</label>
-  </p>
-</div>
+    <div class="question-left">
+      <p class="question">5. "Say 'hello' to my little friend."</p>
+      <p>
+        <input class="answer" type="radio" name="question5" value="1">
+        <label id="correctOption5">Scarface</label>
+        <br>
+        <input class="answer" type="radio" name="question5" value="0" required>
+        <label>Wall Street</label>
+        <br>
+        <input class="answer" type="radio" name="question5" value="0">
+        <label>Sudden Impact</label>
+      </p>
+    </div>
 
-<div class="question-right">
-  <p class="question">6. "Round up the usual suspects."</p>
+    <div class="question-right">
+      <p class="question">6. "Round up the usual suspects."</p>
 
-  <p>
-      <input class="answer" type="radio" name="question6" value="0" required>
-      <label>To Have and Have Not</label>
-      <br>
-      <input class="answer" type="radio" name="question6" value="1">
-      <label id="correctOption6">Casablanca</label>
-      <br>
-      <input class="answer" type="radio" name="question6" value="0">
-      <label>Jaws</label>
-    </p>	
-</div>
+      <p>
+        <input class="answer" type="radio" name="question6" value="0" required>
+        <label>To Have and Have Not</label>
+        <br>
+        <input class="answer" type="radio" name="question6" value="1">
+        <label id="correctOption6">Casablanca</label>
+        <br>
+        <input class="answer" type="radio" name="question6" value="0">
+        <label>Jaws</label>
+      </p>
+    </div>
 
-<div class="question-left">
-  <p class="question">7. "We rob banks."</p>
+    <div class="question-left">
+      <p class="question">7. "We rob banks."</p>
 
-  <p>
-    <input class="answer" type="radio" name="question7" value="0" required>
-    <label>Wall Street</label>
-    <br>
-    <input class="answer" type="radio" name="question7" value="0">
-    <label>Sunset Boulevard</label>
-    <br>
-    <input class="answer" type="radio" name="question7" value="1">
-    <label id="correctOption7">Bonnie and Clyde</label>
-  </p>
-</div>
+      <p>
+        <input class="answer" type="radio" name="question7" value="0" required>
+        <label>Wall Street</label>
+        <br>
+        <input class="answer" type="radio" name="question7" value="0">
+        <label>Sunset Boulevard</label>
+        <br>
+        <input class="answer" type="radio" name="question7" value="1">
+        <label id="correctOption7">Bonnie and Clyde</label>
+      </p>
+    </div>
 
-<div class="question-right">
-  <p class="question">8. "What we've got here is failure to communicate."</p>
+    <div class="question-right">
+      <p class="question">8. "What we've got here is failure to communicate."</p>
 
-  <p>
-  <input class="answer" type="radio" name="question8" value="1">
-  <label id="correctOption8">Cool Hand Luke</label>
-  <br>  
-  <input class="answer" type="radio" name="question8" value="0" required>
-    <label>Taxi Driver</label>
-    <br>
-    <input class="answer" type="radio" name="question8" value="0">
-    <label>Apocalypse Now</label>
-  </p>
-</div>
+      <p>
+        <input class="answer" type="radio" name="question8" value="1">
+        <label id="correctOption8">Cool Hand Luke</label>
+        <br>
+        <input class="answer" type="radio" name="question8" value="0" required>
+        <label>Taxi Driver</label>
+        <br>
+        <input class="answer" type="radio" name="question8" value="0">
+        <label>Apocalypse Now</label>
+      </p>
+    </div>
 
-<div class="question-left">
-  <p class="question">9. "Wait a minute. Ain't heard nothin' yet!"</p>
+    <div class="question-left">
+      <p class="question">9. "Wait a minute. Ain't heard nothin' yet!"</p>
 
-  <p>
-  <input class="answer" type="radio" name="question9" value="1">
-    <label id="correctOption9">The Jazz Singer</label>
-    <br>  
-  <input class="answer" type="radio" name="question9" value="0" required>
-    <label>Casablanca</label>
-    <br>
-    <input class="answer" type="radio" name="question9" value="0">
-    <label>All About Eve</label>
-  </p>
-</div>
+      <p>
+        <input class="answer" type="radio" name="question9" value="1">
+        <label id="correctOption9">The Jazz Singer</label>
+        <br>
+        <input class="answer" type="radio" name="question9" value="0" required>
+        <label>Casablanca</label>
+        <br>
+        <input class="answer" type="radio" name="question9" value="0">
+        <label>All About Eve</label>
+      </p>
+    </div>
 
-<div class="question-right">
-  <p class="question">10. "You can't handle the truth!"</p>
+    <div class="question-right">
+      <p class="question">10. "You can't handle the truth!"</p>
 
-  <p>
-    <input class="answer" type="radio" name="question10" value="0" required>
-    <label>Star Wars</label>
-    <br>
-    <input class="answer" type="radio" name="question10" value="0">
-    <label>Rocky</label>
-    <br>
-    <input class="answer" type="radio" name="question10" value="1">
-    <label id="correctOption10">A Few Good Men</label>
-  </p>
-</div>
-</form>
+      <p>
+        <input class="answer" type="radio" name="question10" value="0" required>
+        <label>Star Wars</label>
+        <br>
+        <input class="answer" type="radio" name="question10" value="0">
+        <label>Rocky</label>
+        <br>
+        <input class="answer" type="radio" name="question10" value="1">
+        <label id="correctOption10">A Few Good Men</label>
+      </p>
+    </div>
+  </form>
 
-<!--'container' for 'submit' and 'reset' buttons--> 
+  <!--'container' for 'submit' and 'reset' buttons-->
   <div class="submitter">
     <div class="submit-left">
-		<!--submit button for quiz-->
-		<input class="quiz_submit" id="submitButton" onclick="submitQuiz()"		
-			type="submit" value="Submit" style="cursor: pointer">
+      <!--submit button for quiz-->
+      <input class="quiz_submit" id="submitButton" onclick="submitQuiz()" type="submit" value="Submit"
+        style="cursor: pointer">
     </div>
-		<!--reset button for quiz-->
-		<div class="reset-right">
-    <input id="resetButton" class="reset_styling" style="cursor: pointer"
-			type="reset" value="Reset" onclick="resetQuiz()">
+    <!--reset button for quiz-->
+    <div class="reset-right">
+      <input id="resetButton" class="reset_styling" style="cursor: pointer" type="reset" value="Reset"
+        onclick="resetQuiz()">
     </div>
   </div>
 
-<!--image on 'movie quotes quiz' page-->
-<div>
-  <span><img src="assets/images/camera_comp.jpg" alt="movie camera" class="image_positioning"></span>
-</div>
-
-<!--on submit: displays incorrect user question number with correct answer-->
-<div class="results_container">
-  <div class="quizAnswers" id="userAnswer1"></div>
-  <div class="quizAnswers" id="userAnswer2"></div>
-	<div class="quizAnswers" id="userAnswer3"></div>
-	<div class="quizAnswers" id="userAnswer4"></div>
-	<div class="quizAnswers" id="userAnswer5"></div>
-	<div class="quizAnswers" id="userAnswer6"></div>
-	<div class="quizAnswers" id="userAnswer7"></div>
-	<div class="quizAnswers" id="userAnswer8"></div>
-	<div class="quizAnswers" id="userAnswer9"></div>
-	<div class="quizAnswers" id="userAnswer10"></div>
-
-  <!--on submit: displays final score-->
+  <!--image on 'movie quotes quiz' page-->
   <div>
-    <h2 class="quizScore" id="userScore"></h2>
+    <span><img src="assets/images/camera_comp.jpg" alt="movie camera" class="image_positioning"></span>
   </div>
-</div>
-<br>
-	<!--overlay block that appears when user scores 10/10-->
-	<div id="overlay" class="overlay_text"> 
-	</div>
+
+  <!--on submit: displays incorrect user question number with correct answer-->
+  <div class="results_container">
+    <div class="quizAnswers" id="userAnswer1"></div>
+    <div class="quizAnswers" id="userAnswer2"></div>
+    <div class="quizAnswers" id="userAnswer3"></div>
+    <div class="quizAnswers" id="userAnswer4"></div>
+    <div class="quizAnswers" id="userAnswer5"></div>
+    <div class="quizAnswers" id="userAnswer6"></div>
+    <div class="quizAnswers" id="userAnswer7"></div>
+    <div class="quizAnswers" id="userAnswer8"></div>
+    <div class="quizAnswers" id="userAnswer9"></div>
+    <div class="quizAnswers" id="userAnswer10"></div>
+
+    <!--on submit: displays final score-->
+    <div>
+      <h2 class="quizScore" id="userScore"></h2>
+    </div>
+  </div>
+  <br>
+  <!--overlay block that appears when user scores 10/10-->
+  <div id="overlay" class="overlay_text">
+  </div>
 
   <div>
     <!--button to move to a different quiz -->
@@ -216,22 +218,22 @@
     </form>
   </div>
 
-<!--footer-->
-<footer class="footer2">
-  <!--link to 'Home' page-->
-	<a class="btn btn-outline-success return_homepage" href="index.html"
-  role="button" aria-pressed="true">Home Page</a>
+  <!--footer-->
+  <footer class="footer2">
+    <!--link to 'Home' page-->
+    <a class="btn btn-outline-success return_homepage" href="index.html" role="button" aria-pressed="true">Home Page</a>
 
-  <!--link to 'Contact Us' page-->
-	<a class="btn btn-outline-success footer_link" href="contact_us.html"
-        role="button" aria-pressed="true">Contact Us</a>
+    <!--link to 'Contact Us' page-->
+    <a class="btn btn-outline-success footer_link" href="contact_us.html" role="button" aria-pressed="true">Contact
+      Us</a>
 
-  <!--link to 'Terms of Service' page-->      
-  <a class="btn btn-outline-success footer_link" href="terms_of_service.html"
-        role="button" aria-pressed="true">Terms of Service</a>
-</footer>
+    <!--link to 'Terms of Service' page-->
+    <a class="btn btn-outline-success footer_link" href="terms_of_service.html" role="button" aria-pressed="true">Terms
+      of Service</a>
+  </footer>
 
-<!--link to javascript file-->
-    <script src="assets/js/script.js"></script>    
+  <!--link to javascript file-->
+  <script src="assets/js/script.js"></script>
 </body>
+
 </html>
