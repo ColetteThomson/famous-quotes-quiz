@@ -112,7 +112,7 @@ This website has been designed to not retain user information. ???...
 
 ## Testing
 * Testing will be performed to check for back-end functionality (Javascript), as well as visual effects and website layout (html and css).
-* Testing will be performed to check for compatibility across three web browsers (Google Chrome; Firefox; and Opera) 
+* Testing will be performed to check for compatibility across three web browsers (Google Chrome; Firefox; and Opera). 
 * Responsive design will be tested across the different screen sizes: desktops/laptops (1024px); tablets (min-width 426px to max-width 769px); mobiles (to a max-width of 426px); and large laptops (min-width 1025px to max-width 1441px).
 * All navigational links should direct to the correct html web page as per their names.  The exception here is the 'Home' page, as it will redirect to 'index.html'.
 
@@ -120,7 +120,7 @@ This website has been designed to not retain user information. ???...
 Test cases can be found [here](..)
 
 ### Code Validation
-* All HTML pages were run through the [W3C Markup Validation Service](https://validator.w3.org/) and showed no errors. [HTML screenshot]().
+* All HTML pages were run through the [W3C Markup Validation Service](https://validator.w3.org/) and showed no errors. The following web pages were checked: index.html (home page); actor_quotes_quiz.html; movie_quotes_quiz.html; terms_of_service.html; contact_us.html.
 <br>
 * The CSS stylesheet was run through the [CSS Validation Service-Jigsaw](https://jigsaw.w3.org/css-validator/) and showed no errors. [CSS screenshot](assets/images/CSS_code_validation_comp.jpg).
 <br>
