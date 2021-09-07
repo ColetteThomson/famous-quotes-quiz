@@ -120,12 +120,14 @@ This website has been designed to not retain user information. ???...
 Test cases can be found [here](..)
 
 ### Code Validation
-All HTML pages were run through the [W3C Markup Validation Service](https://validator.w3.org/) and showed no errors.<br>
-The CSS stylesheet was run through the [CSS Validation Service-Jigsaw](https://jigsaw.w3.org/css-validator/) and showed no errors.
+* All HTML pages were run through the [W3C Markup Validation Service](https://validator.w3.org/) and showed no errors. [HTML screenshot]().
 <br>
-The Javascript file was run through the [JSHint](https://jshint.com) and showed no errors. 
-*Note*: The following message displayed:  "Two unused variables:  submitQuiz() and resetQuiz()".  Both of these variables are called from the html quiz pages: *'Actor Quotes Quiz'* and *'Movie Quotes Quiz'*.
-[JSHint report](assets/images/JSHint_code_validation.jpg) and [JSHint report](assets/images/picture6.png)
+* The CSS stylesheet was run through the [CSS Validation Service-Jigsaw](https://jigsaw.w3.org/css-validator/) and showed no errors. [CSS screenshot](assets/images/CSS_code_validation_comp.jpg).
+<br>
+* The Javascript file was run through the [JSHint Validation Service](https://jshint.com) and showed no errors. <br>
+*Note*: The following message displayed:  "Two unused variables:  submitQuiz() and resetQuiz()".  Both of these variables are called from both the html quiz pages: *'Actor Quotes Quiz'* and *'Movie Quotes Quiz'*.
+[JSHint screenshot](assets/images/JSHint_code_validation_comp.jpg).
+
 
 ### Lighthouse Report
 ...insert screenshots for each page
