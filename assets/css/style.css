@@ -707,7 +707,8 @@ h1 {
   }
 
   .quizScore {
-    font-size: 20px;
+    font-size: 18px;
+    margin-right: 50px;
   }
 
   /* overlay to be displayed when user scores 10/10 on quizzes */
