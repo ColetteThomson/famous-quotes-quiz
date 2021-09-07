@@ -138,8 +138,8 @@ form {
   margin-top: 0;
   padding: 0;
   padding-right: 50px;
-  width: 280px;
-  height: 350px;
+  width: 248px;
+  height: 325px;
 }
 
 /* button: start quiz on 'home page' */
@@ -512,6 +512,10 @@ input[type='radio'] {
   h3,
   h4 {
     padding-left: 10px;
+  }
+
+  h2 {
+    font-size: 25px;
   }
 
   ul {
