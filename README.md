@@ -3,14 +3,14 @@
 # Quizz-Pro
 
 ## Purpose
-This website was created to provide light-hearted entertainment for users through the medium of online quizzes.  The user has the option of entering a username if they so wish.  The user can also choose not to answer every question, as their intent may just be to learn where a particular quote originated from, rather than a test of their knowledge.
-Quiz content comprises quotes from the movies made famous by the film and/or the actor.
+This website was created to provide light-hearted entertainment for users through the medium of online quizzes.  On the homepage (index.html) the user has the option of entering a username if they so wish.  The user can also choose not to answer every question, as their intent may just be to learn where a particular quote originated from, rather than to test their knowledge.
+Quiz content comprises quotes from the movies made famous by the movie and/or the actor.
 The website is currently comprised of two quizzes:
-* Famous Movie Quotes - this quiz has an easier difficulty level, as it comprises well known quotes from popular movies/films.
-* Famous Actor Quotes - this quiz has a higher difficulty level, as quotes are attributed to the actor that said them, rather than to the movie/film. This quiz also has a year displayed in brackets after the quote - eg: (1951) - as there may have been later releases of the particular movie from which they are taken.
+* Famous Movie Quotes - this quiz has an easier difficulty level, as it comprises well known quotes from popular movies.
+* Famous Actor Quotes - this quiz has a higher difficulty level, as quotes are attributed to the actor that said them, rather than to the movie itself. This quiz also has a year displayed in brackets after the quote - eg: (1951) - as there may have been later releases of the particular movie from which they are taken.
 
 The website pages are as follows:
-* Home page
+* Home page (index.html)
 * Famous Movie Quotes Quiz
 * Famous Actor Quotes Quiz
 * Contact Us
@@ -123,7 +123,9 @@ Test cases can be found [here](..)
 All HTML pages were run through the [W3C Markup Validation Service](https://validator.w3.org/) and showed no errors.<br>
 The CSS stylesheet was run through the [CSS Validation Service-Jigsaw](https://jigsaw.w3.org/css-validator/) and showed no errors.
 <br>
-The Javascript file was run  through the [JSHint](https://jshint.com/) and showed ...
+The Javascript file was run through the [JSHint](https://jshint.com) and showed no errors. 
+*Note*: The following message displayed:  "Two unused variables:  submitQuiz() and resetQuiz()".  Both of these variables are called from the html quiz pages: *'Actor Quotes Quiz'* and *'Movie Quotes Quiz'*.
+[JSHint report](assets/images/JSHint_code_validation.jpg) and [JSHint report](assets/images/picture6)
 
 ### Lighthouse Report
 ...insert screenshots for each page
