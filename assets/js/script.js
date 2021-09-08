@@ -1,6 +1,7 @@
 /* submit quiz function */
 function submitQuiz() {
     console.log('submitted');
+    clearInterval(downloadTimer);
 
     /* get each answer tally and its radio button value */
     function answerTally(qName) {
@@ -81,9 +82,12 @@ function submitQuiz() {
     var showResults = "<strong>Your Score: </strong>" + calculateScore + "/" + questionCounter;
     if (calculateScore === questionCounter) {
         message1();
+    } else if (localStorage.getItem("users")) {
+        showResults = showResults + "&nbsp; <strong>Better luck next time </strong>" + 
+        window.localStorage.getItem('users');
     } else {
-        showResults = showResults + "&nbsp; <strong>Better luck next time!</strong>";
-    }
+        showResults = showResults + "&nbsp; <strong>Better luck next time </strong>"
+    } 
     document.getElementById('userScore').innerHTML = showResults;
 }
 
