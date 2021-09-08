@@ -86,7 +86,7 @@ function submitQuiz() {
         showResults = showResults + "&nbsp; Better luck next time " + 
         window.localStorage.getItem('users');
     } else {
-        showResults = showResults + "&nbsp; Better luck next time "
+        showResults = showResults + "&nbsp; Better luck next time! "
     } 
     document.getElementById('userScore').innerHTML = showResults;
 }
