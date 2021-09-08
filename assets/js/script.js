@@ -83,11 +83,11 @@ function submitQuiz() {
     if (calculateScore === questionCounter) {
         message1();
     } else if (localStorage.getItem("users")) {
-        showResults = showResults + "&nbsp; Better luck next time " + 
-        window.localStorage.getItem('users');
+        showResults = showResults + "&nbsp; Better luck next time " +
+            window.localStorage.getItem('users');
     } else {
         showResults = showResults + "&nbsp; Better luck next time! "
-    } 
+    }
     document.getElementById('userScore').innerHTML = showResults;
 }
 
@@ -145,7 +145,7 @@ form.addEventListener("submit", (event) => {
     /* store username in local storage */
     localStorage.setItem('users', userName);
     var data = localStorage.getItem('users');
-    
+
     /* message displayed to user */
     document.getElementById("message").innerText = "Hello " + data;
 

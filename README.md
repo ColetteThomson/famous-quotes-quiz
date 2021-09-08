@@ -117,7 +117,17 @@ This website has been designed to not retain user information. ???...
 * All navigational links should direct to the correct html web page as per their names.  The exception here is the 'Home' page, as it will redirect to 'index.html'.
 
 ### Test Cases
-Test cases can be found [here](..)
+* Test cases can be found here for the Home Page: <br> 
+[HomePage](assets/images/test_cases_homepage_comp.jpg).
+<br>
+* Test cases can be found here for the Movie Quotes and Actor Quotes pages: <br> 
+[part1](assets/images/test_cases_actor-movie-quotes_pages_part1_comp.jpg) and <br>
+[part2](assets/images/test_cases_actor-movie-quotes_pages_part2_comp.jpg) and <br>
+[part3](assets/images/test_cases_actor-movie-quotes_pages_part3_comp.jpg).
+<br>
+* Test cases can be found here for the Terms of Service and Contact Us pages: <br>
+[tos-ContactUs](assets/images/test_cases_tos_contact-us_pages_comp.jpg).
+
 
 ### Code Validation
 * All five HTML pages were run through the [W3C Markup Validation Service](https://validator.w3.org/) and showed no errors. The following web pages were checked: index.html (home page); actor_quotes_quiz.html; movie_quotes_quiz.html; terms_of_service.html; contact_us.html.
