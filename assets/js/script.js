@@ -152,3 +152,5 @@ form.addEventListener("submit", (event) => {
     /* to hide form, once 'submit' is clicked */
     document.getElementById("form1").style.display = "none";
 });
+
+
