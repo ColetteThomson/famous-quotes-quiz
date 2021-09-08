@@ -266,7 +266,7 @@ input[type='radio'] {
 .quizScore {
   font-size: 25px;
   color: pink;
-  padding-left: 5px;
+  padding-left: 0;
 }
 
 /* overlay to be displayed when user scores 10/10 on quizzes */
