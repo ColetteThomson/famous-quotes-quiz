@@ -1,4 +1,4 @@
-![Quizz-Pro]() to add link to website
+![Quizz-Pro](https://colettethomson.github.io/quizz-pro/)
 
 # Quizz-Pro
 
@@ -16,7 +16,7 @@ The website pages are as follows:
 * Contact Us
 * Terms of Service
 
-The live project can be found here ...
+The live project can be found [here](https://colettethomson.github.io/quizz-pro/)
 
 ## User Experience Design
 
@@ -180,14 +180,14 @@ This website has been designed to not retain user information, with username inf
 
 ## Deployment
 ### Project Creation
-The project was created using GitHub and choosing a new [repository](..).<br>
+The project was created using GitHub and choosing a new repository [Quizz-Pro](https://colettethomson.github.io/quizz-pro/).<br>
 The following terminal commands were used during this project:
 * git add . - this command adds a change in the working directory to the staging area.
 * git commit -m "*message*" - this command details the change/s made in the 'message' section and then commits the changes to the local repository.
 * git push - this command is used to push all changes to the GitHub repository.
 
 ### Using GitHub Pages
-* Navigate to the GitHub [repository](..).
+* Navigate to the GitHub repository [Quizz-Pro](https://colettethomson.github.io/quizz-pro/).
 * Select 'Settings'.
 * Scroll down to 'GitHub Pages'.
 * Select 'Main' branch as the source and click 'Save' button.
