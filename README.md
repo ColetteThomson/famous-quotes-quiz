@@ -48,17 +48,17 @@ The live project can be found here ...
 
 #### Navigation Options
 * This feature is intended to enable the user to quickly and easily navigate between web pages without having to utilise the browser 'back' button.
-* Present on all five pages of the website, the fully navigational menu links, present either on the bottom of each page, or in the form of buttons provides access to other pages in the website.
+* Present on all five pages of the website, the fully navigational menu links, present either on the bottom of each page, or in the form of buttons, provides access to other pages in the website.
 * The 'Actor Quotes Quiz' page and the 'Movie Quotes Quiz' page have a button near the bottom of the page, which provides an easily identifiable link to another quiz.
 * Links to the 'Actor Quotes Quiz' page and the 'Movie Quotes Quiz' page have been provided on the home page in the form of buttons to allow for higher visibility and immediate access to the different quizzes.
 * This feature fulfills the user stories: *'As a new user, the navigational layout must be easy to understand and follow'* and *'As a new user, I want information on what services they offer'*.
 
 #### Footer Element
 * Present on all five pages of the website, the footer contains navigational links to the rest of website.
+* With the exception of the home page (index.html), each page has a link back to the home page.
 * This feature fulfills the user stories: *'As a regular user, I want to be able to easily contact the organisation'* and *'As a new user, I want to see the 'terms of service' applicable to Quizz-Pro'* and *'As a new user, the navigational layout must be easy to understand and follow'* and *'As a new user, I want information on what services they offer'*.
 
-### Quizz-Pro web pages
-
+### Quizz-Pro Web Pages
 #### The 'Home' Page or Landing Page
 
 
@@ -68,6 +68,7 @@ The live project can be found here ...
 * Links are provided within the page in the form of high visibility buttons to take the user directly to the 'Actor Quotes Quiz' and the 'Movie Quotes Quiz' pages.
 * The user has the option of choosing the 'Actor Quotes Quiz', should they require to test their knowledge against a higher difficulty level quiz.
 * Rules for playing the quizzes are provided on this page.
+* The footer provides navigational links to other pages in the website.
 * This feature fulfills the user stories: *'As a new user, I want to immediately understand the main purpose of the website'* and *'As a new user, the navigational layout must be easy to understand and follow'* and *'As a new user, I would like the option of entering a username'* and *As a regular user, I want the option of quizzes with increasing levels of difficulty*.
 
 #### The 'Actors Quote Quiz and the 'Movie Quotes Quiz' pages
@@ -107,13 +108,12 @@ The logo; logo byline; and quiz pages' main heading are using **Windsong**; all 
 Images for the website have been downloaded from **Pexels** and compressed and pixelated for a fast-loading website, using **tinyjpg**.
 
 #### Limitations
-This website has been designed to not retain user information, with username info only being stored within the local storage feature on the user's device.
+This website has been designed to not retain user information, with username info only being stored within the local storage feature (in developer tools) on the user's device.
 
 #### Features
-* The home page has a feature allowing the user to enter a username, should they wish to.  There is no limitation on this field and letters, numbers or special characters may be entered.  This field is totally optional and quiz completion messages (on 'Actor Quotes Quiz' and 'Movie Quotes Quiz' pages) will be displayed either with the entered username, or without if no username was chosen.
+* The home page has a feature allowing the user to enter a username, should they wish to.  There is no limitation on this field and letters, numbers or special characters may be entered.  This field is totally optional and quiz completion messages (on 'Actor Quotes Quiz' and 'Movie Quotes Quiz' pages) will be displayed either with the entered username, or without if no username was entered.
 * A Countdown Timer set to 70 seconds has been added for the 'Actor Quotes Quiz' and the 'Movie Quotes Quiz' pages.  If the timer expires before the user completes the quiz, the onscreen timer will display a message warning the user that after a delay of 5 seconds - the timer will automatically reset (reload) the page, move to the top of the page and restart.
-* The Countdown Timer will also reset (reload) the page and move to the top of the page, should the user click the Reset Button.
-* The Reset Button will reset (reload) the page and move to the top of the page.  This button can be selected by the user at any time.
+* Clicking the Reset Button will also reset (reload) the page, move to the top of the page and restart the countdown timer. This button can be selected by the user at any time.
 * If the user submits their answers and then decides to re-attempt the quiz, they will need to click the Reset Button to 'clear' their answers and results, reload the page and restart the timer.
 * On the 'Actor Quotes Quiz' and the 'Movie Quotes Quiz' pages, a congratulatory message will display should the user achieve a 10/10 score. An alternative encouraging message will appear should the user achieve less than 10/10.
 * The Submit Button tallies the user's score comparing their answers against correct answers.  Upon clicking this button, the countdown timer will be halted.  This allows the user to compare the time they took to complete the quiz against the displayed seconds remaining.
@@ -124,10 +124,10 @@ This website has been designed to not retain user information, with username inf
 * HTML - the structure of this website project uses HTML as the main language.
 * CSS - the styling of this website encompasses custom written CSS.
 * Javascript - website interaction provided by custom written Javascript.
-* [Google Fonts](https://fonts.google.com/) - utilised for the logo and byline (Windsong); the headings (Mitr); and the body text (Comfortaa).
+* [Google Fonts](https://fonts.google.com/) - utilised for the logo, byline and quiz page main heading (Windsong); the remaining headings (Mitr); and the body text (Comfortaa).
 * [GitHub](https://github.com/) - hosting site for storage of source code for the website and [Git Pages](https://pages.github.com/) for the deployment of the website.
 * [Git](https://git-scm.com/) - used as version control software to commit and push code to a GitHub repository where all source code is located.
-* [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) - these are built in developer tools used to inspect page elements (eg. responsive design); debug issues; and test different CSS styling options; and the Lighthouse Report.
+* [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) - these are built in developer tools used to inspect page elements (eg. responsive design; debug issues; testing of different CSS styling options; and the Lighthouse Report.
 * [tinyjpg](https://tinyjpg.com/) - used for compression of .jpg images to allow for faster web page loading times.
 * [Pexels](https://www.pexels.com/) - selection of images for Quizz-Pro website.
 * [ami.responsivedesign](http://ami.responsivedesign.is/) - used to generate Mockup of Quizz-Pro Website.
@@ -135,7 +135,7 @@ This website has been designed to not retain user information, with username inf
 ## Testing
 * Testing will be performed to check for back-end functionality (Javascript), as well as visual effects and website layout (html and css).
 * Testing will be performed to check for compatibility across three web browsers (Google Chrome, Firefox, Opera).
-* Responsive design will be tested across the different screen sizes: desktops/laptops (1024px); tablets (min-width 426px to max-width 769px); mobiles (to a max-width of 426px); and large laptops (min-width 1025px to max-width 1441px).
+* Responsive design will be tested across the different screen sizes: desktops/laptops (1024px); tablets (max-width 769px); mobiles (to a max-width of 426px); and large laptops (min-width 1025px to max-width 1441px).
 * All navigational links should direct to the correct html web page as per their names.  The exception here is the 'Home' page, as it will redirect to 'index.html'.
 
 ### Test Cases
@@ -167,7 +167,7 @@ This website has been designed to not retain user information, with username inf
 * The CSS stylesheet was run through the [CSS Validation Service-Jigsaw](https://jigsaw.w3.org/css-validator/) and showed no errors. [CSS screenshot](assets/images/CSS_code_validation_comp.jpg).
 <br>
 * The Javascript file was run through the [JSHint Validation Service](https://jshint.com) and showed no errors. <br>
-*Note*: The following message displayed:  "Two unused variables:  submitQuiz() and resetQuiz()".  Both of these variables are called from both the html quiz pages: *'Actor Quotes Quiz'* and *'Movie Quotes Quiz'*.
+*Note*: The following message displayed:  'Two unused variables:  submitQuiz() and resetQuiz()'.  Both of these variables are called from within both the html quiz pages: *'Actor Quotes Quiz'* and *'Movie Quotes Quiz'*.
 [JSHint screenshot](assets/images/JSHint_code_validation_comp.jpg).
 
 
@@ -177,7 +177,6 @@ This website has been designed to not retain user information, with username inf
 * The lighthouse report for the Actor Quotes Quiz page can be found [here](assets/images/lighthouse_report_actor-quotes-quiz_comp.jpg).
 * The lighthouse report for the Contact Us page can be found [here](assets/images/lighthouse_report_contact-us_comp.jpg).
 * The lighthouse report for the Terms of Service page can be found [here](assets/images/lighthouse_report_tos_comp.jpg).
-
 
 ## Deployment
 ### Project Creation
