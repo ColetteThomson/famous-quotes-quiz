@@ -138,13 +138,13 @@ This website has been designed to not retain user information, with username inf
 
 ### Test Cases
 * Test cases can be found here for the Home Page: <br> 
-[HomePage](assets/images/test_cases_homepage_comp.jpg).
+[homepage](assets/images/test_cases_homepage_comp.jpg)
 * Test cases can be found here for the Movie Quotes and Actor Quotes pages: <br> 
-[part1](assets/images/test_cases_actor-movie-quotes_pages_part1_comp.jpg) and <br>
-[part2](assets/images/test_cases_actor-movie-quotes_pages_part2_comp.jpg) and <br>
-[part3](assets/images/test_cases_actor-movie-quotes_pages_part3_comp.jpg).
+[part1](assets/images/test_cases_actor-movie-quotes_pages_part1_comp.jpg)<br>
+[part2](assets/images/test_cases_actor-movie-quotes_pages_part2_comp.jpg)<br>
+[part3](assets/images/test_cases_actor-movie-quotes_pages_part3_comp.jpg)
 * Test cases can be found here for the Terms of Service and Contact Us pages: <br>
-[tos-ContactUs](assets/images/test_cases_tos_contact-us_pages_comp.jpg).
+[tos_contact-us](assets/images/test_cases_tos_contact-us_pages_comp.jpg).
 
 #### Testing Issues and Resolutions
 * **Countdown Timer:** <br>
