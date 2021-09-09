@@ -141,12 +141,10 @@ This website has been designed to not retain user information, with username inf
 ### Test Cases
 * Test cases can be found here for the Home Page: <br> 
 [HomePage](assets/images/test_cases_homepage_comp.jpg).
-<br>
 * Test cases can be found here for the Movie Quotes and Actor Quotes pages: <br> 
 [part1](assets/images/test_cases_actor-movie-quotes_pages_part1_comp.jpg) and <br>
 [part2](assets/images/test_cases_actor-movie-quotes_pages_part2_comp.jpg) and <br>
 [part3](assets/images/test_cases_actor-movie-quotes_pages_part3_comp.jpg).
-<br>
 * Test cases can be found here for the Terms of Service and Contact Us pages: <br>
 [tos-ContactUs](assets/images/test_cases_tos_contact-us_pages_comp.jpg).
 
@@ -158,14 +156,12 @@ This website has been designed to not retain user information, with username inf
 *Issue*: This function included a 'location.reload()' method, intended to reload the page, clear away the users answers and quiz results and restart the countdown timer.  It was found that Firefox does not support the reload() method, or the alternative 'history.go(0)' method.<br>
 *Resolution*: the 'window.location.href' method was found to work across all browsers.
 * **Image on Home Page:** <br>
-*Issue*: The image on the home page (popcorn) demonstrated continual layout problems on Firefox, and produced a low result in the lighthouse report - in spite of several different images being tried and tested for compatibility and website responsiveness. 
+*Issue*: The image on the home page (popcorn) demonstrated continual layout problems on Firefox, and produced a low result in the lighthouse report - in spite of several different images being tried and tested for compatibility and website responsiveness.<br> 
 *Resolution*: this was resolved through the calling of three different images (sized according to device type) via CSS using the 'content: url()' option.
 
 ### Code Validation
 * All five HTML pages were run through the [W3C Markup Validation Service](https://validator.w3.org/) and showed no errors. The following web pages were checked: index.html (home page); actor_quotes_quiz.html; movie_quotes_quiz.html; terms_of_service.html; contact_us.html.
-<br>
 * The CSS stylesheet was run through the [CSS Validation Service-Jigsaw](https://jigsaw.w3.org/css-validator/) and showed no errors. [CSS screenshot](assets/images/CSS_code_validation_comp.jpg).
-<br>
 * The Javascript file was run through the [JSHint Validation Service](https://jshint.com) and showed no errors.<br>
 *Note*: The following message displayed:  'Two unused variables:  submitQuiz() and resetQuiz()'.  Both of these variables are called from within both the html quiz pages: *'Actor Quotes Quiz'* and *'Movie Quotes Quiz'*. [JSHint screenshot](assets/images/JSHint_code_validation_comp.jpg).
 
@@ -179,7 +175,7 @@ This website has been designed to not retain user information, with username inf
 
 ## Deployment
 ### Project Creation
-The project was created using GitHub and choosing a new repository [Quizz-Pro](https://colettethomson.github.io/quizz-pro/).<br>
+The project was created using GitHub and choosing a new repository.<br>
 The following terminal commands were used during this project:
 * git add . - this command adds a change in the working directory to the staging area.
 * git commit -m "*message*" - this command details the change/s made in the 'message' section and then commits the changes to the local repository.
