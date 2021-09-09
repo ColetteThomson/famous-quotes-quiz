@@ -60,6 +60,9 @@ The live project can be found here ...
 ### Quizz-Pro web pages
 
 #### The 'Home' Page or Landing Page
+
+
+
 * This page is intended to provide an at-a-glance view of the main purpose of the website, i.e. the option of completing online quizzes.
 * The user has the option of entering a username should they choose to.
 * Links are provided within the page in the form of high visibility buttons to take the user directly to the 'Actor Quotes Quiz' and the 'Movie Quotes Quiz' pages.
@@ -68,6 +71,9 @@ The live project can be found here ...
 * This feature fulfills the user stories: *'As a new user, I want to immediately understand the main purpose of the website'* and *'As a new user, the navigational layout must be easy to understand and follow'* and *'As a new user, I would like the option of entering a username'* and *As a regular user, I want the option of quizzes with increasing levels of difficulty*.
 
 #### The 'Actors Quote Quiz and the 'Movie Quotes Quiz' pages
+
+
+
 * These two pages each contain a different quiz, but the layout and functionality are identical in both pages.
 * Users complete the quiz against a countdown timer set to 70 seconds.  When the timer runs out, a message is displayed telling the user that the quiz will automatically 'reset' within 5 seconds. 
 * Users can choose to 'reset' the quiz themselves at any time, should they so wish - by clicking the 'reset' button present underneath the 10 questions.
@@ -75,31 +81,43 @@ The live project can be found here ...
 * This feature fulfills the user stories: *'As a new user, I want to see my overall results from a quiz, along with correct answers if needed'*, and *'As a new user, I want to complete the quiz against a countdown timer'*, and *'As a new user, I want to be able to 'reset' the quiz and start again, if I should so choose'*, and *As a regular user, I want the option of quizzes with increasing levels of difficulty*.
 
 #### The 'Contact Us' page
+
+
+
 * This page provies information on how the user can contact the organisation, through the provision of an email address.
 * Also present on this page is an 'About Us' section providing details on the organisation.
 * This feature fulfills the user story: *'As a new user, I want to be able to easily contact the organisation'*.
 
 #### The 'Terms of Service' page
+
+
+
 * This page provides the organisation's legal wording for the purposes of conducting a online quiz service.
 * This feature fulfills the user story: *'As a new user, I want to see the 'terms of service' applicable to Quizz-Pro'*.
 
 ### Design of the Quizz-Pro website
 
 #### Colour Scheme
-The colour palette chosen consists of three basic colours: #ADD8E6(light blue); #FFC0CB (pink); and #ADFF2F (greenyellow).  The body text is mostly #FFFFFF (white) and the background is #000000 (black).  The 'overlay' message block is comprised of a css gradient with the colours:  #ADD8E6(light blue); #FFC0CB (pink); and #C0C0C0 (silver).  The colours were chosen to compliment each other and provide the necessary contrasts.
+The colour palette chosen consists of three basic colours: #ADD8E6(light blue); #FFC0CB (pink); and #ADFF2F (greenyellow).  The body text is mostly #FFFFFF (white) and the background is #000000 (black).  The colours were chosen to compliment each other and provide the necessary contrasts.
 
 #### Fonts
-The logo and the logo byline are using **Windsong**; all headings are using **Mitr**; and the body text is using **Comfortaa**.  The back-up font is **sans-serif**.  Fonts were downloaded from **Google Fonts**.
+The logo; logo byline; and quiz pages' main heading are using **Windsong**; all other headings are using **Mitr**; and the body text is using **Comfortaa**.  The back-up font is **sans-serif**.  Fonts were downloaded from **Google Fonts**.
 
 #### Imagery
 Images for the website have been downloaded from **Pexels** and compressed and pixelated for a fast-loading website, using **tinyjpg**.
 
 #### Limitations
-This website has been designed to not retain user information. ???...
+This website has been designed to not retain user information, with username info only being stored within the local storage feature on the user's device.
 
 #### Features
-* A countdown timer set to 90 seconds has been added for the 'Actor Quotes Quiz' and the 'Movie Quotes Quiz' pages.  If the timer expires before the user completes the quiz, it will automatically reset (reload) the page, move to the top of the page and restart the timer.
-* On the 'Actor Quotes Quiz' and the 'Movie Quotes Quiz' pages, a congratulatory message will display should the user achieve a 10/10 score.
+* The home page has a feature allowing the user to enter a username, should they wish to.  There is no limitation on this field and letters, numbers or special characters may be entered.  This field is totally optional and quiz completion messages (on 'Actor Quotes Quiz' and 'Movie Quotes Quiz' pages) will be displayed either with the entered username, or without if no username was chosen.
+* A Countdown Timer set to 70 seconds has been added for the 'Actor Quotes Quiz' and the 'Movie Quotes Quiz' pages.  If the timer expires before the user completes the quiz, the onscreen timer will display a message warning the user that after a delay of 5 seconds - the timer will automatically reset (reload) the page, move to the top of the page and restart.
+* The Countdown Timer will also reset (reload) the page and move to the top of the page, should the user click the Reset Button.
+* The Reset Button will reset (reload) the page and move to the top of the page.  This button can be selected by the user at any time.
+* If the user submits their answers and then decides to re-attempt the quiz, they will need to click the Reset Button to 'clear' their answers and results, reload the page and restart the timer.
+* On the 'Actor Quotes Quiz' and the 'Movie Quotes Quiz' pages, a congratulatory message will display should the user achieve a 10/10 score. An alternative encouraging message will appear should the user achieve less than 10/10.
+* The Submit Button tallies the user's score comparing their answers against correct answers.  Upon clicking this button, the countdown timer will be halted.  This allows the user to compare the time they took to complete the quiz against the displayed seconds remaining.
+* The user's quiz results and score will appear underneath the Submit Button, when this button is clicked by the user. Only the answers for the incorrectly and/or unanswered questions, will be displayed - along with the appropriate correct answer.
 
 ## Technologies
 
@@ -110,6 +128,9 @@ This website has been designed to not retain user information. ???...
 * [GitHub](https://github.com/) - hosting site for storage of source code for the website and [Git Pages](https://pages.github.com/) for the deployment of the website.
 * [Git](https://git-scm.com/) - used as version control software to commit and push code to a GitHub repository where all source code is located.
 * [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) - these are built in developer tools used to inspect page elements (eg. responsive design); debug issues; and test different CSS styling options; and the Lighthouse Report.
+* [tinyjpg](https://tinyjpg.com/) - used for compression of .jpg images to allow for faster web page loading times.
+* [Pexels](https://www.pexels.com/) - selection of images for Quizz-Pro website.
+* [ami.responsivedesign](http://ami.responsivedesign.is/) - used to generate Mockup of Quizz-Pro Website.
 
 ## Testing
 * Testing will be performed to check for back-end functionality (Javascript), as well as visual effects and website layout (html and css).
