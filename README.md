@@ -1,5 +1,3 @@
-![Quizz-Pro](https://colettethomson.github.io/quizz-pro/)
-
 # Quizz-Pro
 
 ## Purpose
