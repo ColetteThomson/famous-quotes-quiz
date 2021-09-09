@@ -134,7 +134,7 @@ This website has been designed to not retain user information, with username inf
 
 ## Testing
 * Testing will be performed to check for back-end functionality (Javascript), as well as visual effects and website layout (html and css).
-* Testing will be performed to check for compatibility across three web browsers (Google Chrome; Firefox; and Opera). 
+* Testing will be performed to check for compatibility across three web browsers (Google Chrome, Firefox, Opera).
 * Responsive design will be tested across the different screen sizes: desktops/laptops (1024px); tablets (min-width 426px to max-width 769px); mobiles (to a max-width of 426px); and large laptops (min-width 1025px to max-width 1441px).
 * All navigational links should direct to the correct html web page as per their names.  The exception here is the 'Home' page, as it will redirect to 'index.html'.
 
@@ -150,6 +150,16 @@ This website has been designed to not retain user information, with username inf
 * Test cases can be found here for the Terms of Service and Contact Us pages: <br>
 [tos-ContactUs](assets/images/test_cases_tos_contact-us_pages_comp.jpg).
 
+#### Testing Issues and Resolutions
+* **Countdown Timer:** <br>
+*Issue*: Several different timer options were tried and found to not work across one or more of the three different browsers (Chrome, Firefox, Opera).  When a countdown timer was finally found to work across all browsers, it was then shown to affect all the Quizz-Pro website pages - in that each of the five webpages (not just the required 'Actor Quotes Quiz' and the 'Movie Quotes Quiz' pages) would 'reload' and jump to the top of the page after 70 seconds, thereby providing a disruptive experience for the user. <br>
+*Resolution*: enclosing the timer within an 'if statement' where the timer would only operate if the HTML div element with the id:'countdown' was detected.  This html element 'countdown' is only present on the 'Actor Quotes Quiz' and the 'Movie Quotes Quiz' pages and is where the visible countdown timer would be displayed to the user.
+* **The resetQuiz() function in Javascript:** <br>
+*Issue*: This function included a 'location.reload()' method, intended to reload the page, clear away the users answers and quiz results and restart the countdown timer.  It was found that Firefox does not support the reload() method, or the alternative 'history.go(0)' method.<br>
+*Resolution*: the 'window.location.href' method was found to work across all browsers.
+* **Image on Home Page:** <br>
+*Issue*: The image on the home page (popcorn) demonstrated continual layout problems on Firefox, in spite of several different images being tried and tested for compatibility and website responsiveness.<br>  
+*Resolution*: this was resolved through the calling of three different images (sized according to device type) via CSS using the 'content: url()' option.
 
 ### Code Validation
 * All five HTML pages were run through the [W3C Markup Validation Service](https://validator.w3.org/) and showed no errors. The following web pages were checked: index.html (home page); actor_quotes_quiz.html; movie_quotes_quiz.html; terms_of_service.html; contact_us.html.
