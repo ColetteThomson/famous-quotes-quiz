@@ -108,7 +108,7 @@ The logo; logo byline; and quiz pages' main heading are using **Windsong**; all 
 Images for the website have been downloaded from **Pexels** and compressed and pixelated for a fast-loading website, using **tinyjpg**.
 
 #### Limitations
-This website has been designed to not retain user information, with username info only being stored within the local storage feature (in developer tools) on the user's device.
+This website has been designed to not retain user information, with username information only being stored within the local storage feature (in developer tools) on the user's device.
 
 #### Features
 * The home page has a feature allowing the user to enter a username, should they wish to.  There is no limitation on this field and letters, numbers or special characters may be entered.  This field is totally optional and quiz completion messages (on 'Actor Quotes Quiz' and 'Movie Quotes Quiz' pages) will be displayed either with the entered username, or without if no username was entered.
@@ -116,7 +116,7 @@ This website has been designed to not retain user information, with username inf
 * Clicking the Reset Button will also reset (reload) the page, move to the top of the page and restart the countdown timer. This button can be selected by the user at any time.
 * If the user submits their answers and then decides to re-attempt the quiz, they will need to click the Reset Button to 'clear' their answers and results, reload the page and restart the timer.
 * On the 'Actor Quotes Quiz' and the 'Movie Quotes Quiz' pages, a congratulatory message will display should the user achieve a 10/10 score. An alternative encouraging message will appear should the user achieve less than 10/10.
-* The Submit Button tallies the user's score comparing their answers against correct answers.  Upon clicking this button, the countdown timer will be halted.  This allows the user to compare the time they took to complete the quiz against the displayed seconds remaining.
+* The Submit Button tallies the user's score comparing their answers against correct answers.  Upon clicking this button, the countdown timer will be halted.  This allows the user to assess their own time taken to complete the quiz against the displayed seconds remaining.
 * The user's quiz results and score will appear underneath the Submit Button, when this button is clicked by the user. Only the answers for the incorrectly and/or unanswered questions, will be displayed - along with the appropriate correct answer.
 
 ## Technologies
@@ -133,7 +133,7 @@ This website has been designed to not retain user information, with username inf
 * [ami.responsivedesign](http://ami.responsivedesign.is/) - used to generate Mockup of Quizz-Pro Website.
 
 ## Testing
-* Testing will be performed to check for back-end functionality (Javascript), as well as visual effects and website layout (html and css).
+* Testing will be performed to check for back-end functionality (Javascript), as well as visual effects and website layout (HTML and CSS).
 * Testing will be performed to check for compatibility across three web browsers (Google Chrome, Firefox, Opera).
 * Responsive design will be tested across the different screen sizes: desktops/laptops (1024px); tablets (max-width 769px); mobiles (to a max-width of 426px); and large laptops (min-width 1025px to max-width 1441px).
 * All navigational links should direct to the correct html web page as per their names.  The exception here is the 'Home' page, as it will redirect to 'index.html'.
@@ -158,7 +158,7 @@ This website has been designed to not retain user information, with username inf
 *Issue*: This function included a 'location.reload()' method, intended to reload the page, clear away the users answers and quiz results and restart the countdown timer.  It was found that Firefox does not support the reload() method, or the alternative 'history.go(0)' method.<br>
 *Resolution*: the 'window.location.href' method was found to work across all browsers.
 * **Image on Home Page:** <br>
-*Issue*: The image on the home page (popcorn) demonstrated continual layout problems on Firefox, and produced a low result in the lighthouse report - in spite of several different images being tried and tested for compatibility and website responsiveness.<br>  
+*Issue*: The image on the home page (popcorn) demonstrated continual layout problems on Firefox, and produced a low result in the lighthouse report - in spite of several different images being tried and tested for compatibility and website responsiveness. 
 *Resolution*: this was resolved through the calling of three different images (sized according to device type) via CSS using the 'content: url()' option.
 
 ### Code Validation
@@ -166,9 +166,8 @@ This website has been designed to not retain user information, with username inf
 <br>
 * The CSS stylesheet was run through the [CSS Validation Service-Jigsaw](https://jigsaw.w3.org/css-validator/) and showed no errors. [CSS screenshot](assets/images/CSS_code_validation_comp.jpg).
 <br>
-* The Javascript file was run through the [JSHint Validation Service](https://jshint.com) and showed no errors. <br>
-*Note*: The following message displayed:  'Two unused variables:  submitQuiz() and resetQuiz()'.  Both of these variables are called from within both the html quiz pages: *'Actor Quotes Quiz'* and *'Movie Quotes Quiz'*.
-[JSHint screenshot](assets/images/JSHint_code_validation_comp.jpg).
+* The Javascript file was run through the [JSHint Validation Service](https://jshint.com) and showed no errors.<br>
+*Note*: The following message displayed:  'Two unused variables:  submitQuiz() and resetQuiz()'.  Both of these variables are called from within both the html quiz pages: *'Actor Quotes Quiz'* and *'Movie Quotes Quiz'*. [JSHint screenshot](assets/images/JSHint_code_validation_comp.jpg).
 
 
 ### Lighthouse Report
