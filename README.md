@@ -172,11 +172,11 @@ This website has been designed to not retain user information, with username inf
 
 
 ### Lighthouse Report
-* The lighthouse report for the Home page (index.html) can be found [here]().
-* The lighthouse report for the Movie Quotes Quiz page can be found [here]().
-* The lighthouse report for the Actor Quotes Quiz page can be found [here]().
-* The lighthouse report for the Contact Us page can be found [here]().
-* The lighthouse report for the Terms of Service page can be found [here]().
+* The lighthouse report for the Home page (index.html) can be found [here](assets/images/lighthouse_report_homepage_comp.jpg).
+* The lighthouse report for the Movie Quotes Quiz page can be found [here](assets/images/lighthouse_report_movie-quotes-quiz_comp.jpg).
+* The lighthouse report for the Actor Quotes Quiz page can be found [here](assets/images/lighthouse_report_actor-quotes-quiz_comp.jpg).
+* The lighthouse report for the Contact Us page can be found [here](assets/images/lighthouse_report_contact-us_comp.jpg).
+* The lighthouse report for the Terms of Service page can be found [here](assets/images/lighthouse_report_tos_comp.jpg).
 
 
 ## Deployment
