@@ -1,13 +1,12 @@
 /* submit quiz function */
 function submitQuiz() {
-    console.log('submitted');
     clearInterval(downloadTimer);
 
     /* get each answer tally and its radio button value */
     function answerTally(qName) {
-        var radioButtons = document.getElementsByName(qName);
-        var answerValue;
-        for (var i = 0, length = radioButtons.length; i < length; i++) {
+        let radioButtons = document.getElementsByName(qName);
+        let answerValue;
+        for (let i = 0, length = radioButtons.length; i < length; i++) {
             if (radioButtons[i].checked) {
                 answerValue = Number(radioButtons[i].value);
             }
@@ -19,20 +18,20 @@ function submitQuiz() {
     }
 
     /* use answerTally function to calculate score for 'Movie Quotes Quiz' */
-    var calculateScore = (answerTally('question1') + answerTally('question2') + answerTally('question3') + answerTally('question4') +
+    let calculateScore = (answerTally('question1') + answerTally('question2') + answerTally('question3') + answerTally('question4') +
         answerTally('question5') + answerTally('question6') + answerTally('question7') + answerTally('question8') + answerTally('question9') +
         answerTally('question10'));
-    console.log("CalculateScore: " + calculateScore);
+    /*console.log("CalculateScore: " + calculateScore);*/
 
-    /* use answerTally function to calculate score for 'Actor Quotes Quiz'*/
-    var calculateScore1 = (answerTally('question1') + answerTally('question2') + answerTally('question3') + answerTally('question4') +
+    /* use answerTally function to calculate score for 'Actor Quotes Quiz' 
+    let calculateScore1 = (answerTally('question1') + answerTally('question2') + answerTally('question3') + answerTally('question4') +
         answerTally('question5') + answerTally('question6') + answerTally('question7') + answerTally('question8') + answerTally('question9') +
-        answerTally('question10'));
-    console.log("CalculateScore1: " + calculateScore1);
+        answerTally('question10')); */
+    /*console.log("CalculateScore1: " + calculateScore1);*/
 
     /* use correctAnswer function to return correct option as a string */
     function correctAnswer(correctOptionNumber, questionNumber) {
-        console.log("questionNumber: " + questionNumber);
+        /*console.log("questionNumber: " + questionNumber);*/
 
         return ("Q" + questionNumber + " answer: <strong>" +
             (document.getElementById(correctOptionNumber).innerHTML) + "</strong>");
@@ -71,17 +70,17 @@ function submitQuiz() {
     }
 
     /* calculate number of questions using html class: 'question' */
-    var questionCount = document.getElementsByClassName('question');
+    const questionCount = document.getElementsByClassName('question');
 
-    var questionCounter = 0;
-    for (var i = 0, length = questionCount.length; i < length; i++) {
+    let questionCounter = 0;
+    for (let i = 0, length = questionCount.length; i < length; i++) {
         questionCounter++;
     }
 
     /* show correct answers out of questionCount */
-    var showResults = "<strong>Your Score: </strong>" + calculateScore + "/" + questionCounter;
+    let showResults = "<strong>Your Score: </strong>" + calculateScore + "/" + questionCounter;
     if (calculateScore === questionCounter) {
-        message1();
+        message();
     } else if (localStorage.getItem("users")) {
         showResults = showResults + "&nbsp; Better luck next time " +
             window.localStorage.getItem('users');
@@ -92,7 +91,7 @@ function submitQuiz() {
 }
 
 /* displays 'overlay message' for 10/10 scores */
-function message1() {
+function message() {
     if (localStorage.getItem("users")) {
         document.getElementById("overlay").style.display = "block";
         document.getElementById("overlay").innerText = "Congratulations " +
@@ -117,7 +116,7 @@ function resetQuiz() {
 if (document.getElementById("countdown")) {
     /* countdown timer for quizzes, starts when page loads */
     var timeRemaining = 80;
-    var downloadTimer = setInterval(function () {
+    var downloadTimer = setInterval(function() {
         document.getElementById("countdown").innerHTML = `${timeRemaining}<br> secs left`;
         timeRemaining -= 1;
 
@@ -132,8 +131,6 @@ if (document.getElementById("countdown")) {
             }, 7000);
         }
     }, 1000);
-} else {
-    console.log('countdown element missing');
 }
 
 /*prompt user to enter username and display result in html id: 'message' on homepage */
@@ -144,7 +141,7 @@ form.addEventListener("submit", (event) => {
 
     /* store username in local storage */
     localStorage.setItem('users', userName);
-    var data = localStorage.getItem('users');
+    let data = localStorage.getItem('users');
 
     /* message displayed to user */
     document.getElementById("message").innerText = "Hello " + data;
