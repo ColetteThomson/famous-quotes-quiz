@@ -21,10 +21,10 @@ function submitQuiz() {
     let calculateScore = (answerTally('question1') + answerTally('question2') + answerTally('question3') + answerTally('question4') +
         answerTally('question5') + answerTally('question6') + answerTally('question7') + answerTally('question8') + answerTally('question9') +
         answerTally('question10'));
-    
+
     /* use correctAnswer function to return correct option as a string */
     function correctAnswer(correctOptionNumber, questionNumber) {
-            return ("Q" + questionNumber + " answer: <strong>" +
+        return ("Q" + questionNumber + " answer: <strong>" +
             (document.getElementById(correctOptionNumber).innerHTML) + "</strong>");
     }
 
@@ -76,7 +76,7 @@ function submitQuiz() {
         showResults = showResults + "&nbsp; Better luck next time " +
             window.localStorage.getItem('users');
     } else {
-        showResults = showResults + "&nbsp; Better luck next time! "
+        showResults = showResults + "&nbsp; Better luck next time!";
     }
     document.getElementById('userScore').innerHTML = showResults;
 }
@@ -107,7 +107,7 @@ function resetQuiz() {
 if (document.getElementById("countdown")) {
     /* countdown timer for quizzes, starts when page loads */
     var timeRemaining = 70;
-    var downloadTimer = setInterval(function() {
+    var downloadTimer = setInterval(function () {
         document.getElementById("countdown").innerHTML = `${timeRemaining}<br> secs left`;
         timeRemaining -= 1;
 

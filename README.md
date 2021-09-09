@@ -4,10 +4,10 @@
 
 ## Purpose
 This website was created to provide light-hearted entertainment for users through the medium of online quizzes.  On the homepage (index.html) the user has the option of entering a username if they so wish.  The user can also choose not to answer every question, as their intent may just be to learn where a particular quote originated from, rather than to test their knowledge.
-Quiz content comprises quotes from the movies made famous by the movie and/or the actor.
-The website is currently comprised of two quizzes:
-* Famous Movie Quotes - this quiz has an easier difficulty level, as it comprises well known quotes from popular movies.
-* Famous Actor Quotes - this quiz has a higher difficulty level, as quotes are attributed to the actor that said them, rather than to the movie itself. This quiz also has a year displayed in brackets after the quote - eg: (1951) - as there may have been later releases of the particular movie from which they are taken.
+Quiz content comprises quotes from the movies made famous by the movie or the actor.
+The website currently has two quizzes:
+* Famous Movie Quotes - this quiz has an easier difficulty level, as it contains well known quotes from popular movies.
+* Famous Actor Quotes - this quiz has a higher difficulty level, as quotes are attributed to the actor that said them, rather than to the movie itself. This quiz also has a year displayed in brackets after the quote - eg: (1951) - as there may have been later or earlier releases of the particular movie from which they are taken.
 
 The website pages are as follows:
 * Home page (index.html)
@@ -23,7 +23,7 @@ The live project can be found here ...
 ## User Experience Design
 
 ### User Stories
-#### New User Goals
+#### New User Usability Goals
 * As a new user, I want to immediately understand the main purpose of the website
 * As a new user, I want information on what services they offer
 * As a new user, I want to be able to easily contact the organisation
@@ -37,7 +37,6 @@ The live project can be found here ...
 * As a new user, I would like the option of entering a username.
 
 #### Regular User Goals
-* As a regular user, I want to be able to easily contact the organisation
 * As a regular user, I want the option of quizzes with increasing levels of difficulty
 
 ### Structure of the Quizz-Pro website
@@ -50,32 +49,34 @@ The live project can be found here ...
 #### Navigation Options
 * This feature is intended to enable the user to quickly and easily navigate between web pages without having to utilise the browser 'back' button.
 * Present on all five pages of the website, the fully navigational menu links, present either on the bottom of each page, or in the form of buttons provides access to other pages in the website.
-* The 'Actor Quotes Quiz' page and the 'Movie Quotes Quiz' page have their 'Home Page' link at the top of the page to allow for quick return to the Home Page, should the user for example, change their mind about which quiz they wish to complete.
-* The 'Actor Quotes Quiz' page and the 'Movie Quotes Quiz' page have a link in the form of a button at the bottom of the page, which provides a link to another quiz.
+* The 'Actor Quotes Quiz' page and the 'Movie Quotes Quiz' page have a button near the bottom of the page, which provides an easily identifiable link to another quiz.
 * Links to the 'Actor Quotes Quiz' page and the 'Movie Quotes Quiz' page have been provided on the home page in the form of buttons to allow for higher visibility and immediate access to the different quizzes.
 * This feature fulfills the user stories: *'As a new user, the navigational layout must be easy to understand and follow'* and *'As a new user, I want information on what services they offer'*.
 
 #### Footer Element
 * Present on all five pages of the website, the footer contains navigational links to the rest of website.
-* This feature fulfills the user stories: *'As a regular user, I want to be able to easily contact the organisation'* and *'As a new user, I want to see the 'terms of service' applicable to Quizz-Pro'*.
+* This feature fulfills the user stories: *'As a regular user, I want to be able to easily contact the organisation'* and *'As a new user, I want to see the 'terms of service' applicable to Quizz-Pro'* and *'As a new user, the navigational layout must be easy to understand and follow'* and *'As a new user, I want information on what services they offer'*.
+
+### Quizz-Pro web pages
 
 #### The 'Home' Page or Landing Page
-* This page is intended to provide an at-a-glance view of the main purpose of the website - the option of completing online quizzes.
-* Links are provided within the page in the form of high visibility buttons to take the user directly to the 'Actor Quotes Quiz' and the 'Movie Quotes Quiz' pages.
+* This page is intended to provide an at-a-glance view of the main purpose of the website, i.e. the option of completing online quizzes.
 * The user has the option of entering a username should they choose to.
+* Links are provided within the page in the form of high visibility buttons to take the user directly to the 'Actor Quotes Quiz' and the 'Movie Quotes Quiz' pages.
+* The user has the option of choosing the 'Actor Quotes Quiz', should they require to test their knowledge against a higher difficulty level quiz.
 * Rules for playing the quizzes are provided on this page.
-* This feature fulfills the user stories: *'As a new user, I want to immediately understand the main purpose of the website'* and *'As a new user, the navigational layout must be easy to understand and follow'* and *'As a new user, I would like the option of entering a username'*.
+* This feature fulfills the user stories: *'As a new user, I want to immediately understand the main purpose of the website'* and *'As a new user, the navigational layout must be easy to understand and follow'* and *'As a new user, I would like the option of entering a username'* and *As a regular user, I want the option of quizzes with increasing levels of difficulty*.
 
 #### The 'Actors Quote Quiz and the 'Movie Quotes Quiz' pages
 * These two pages each contain a different quiz, but the layout and functionality are identical in both pages.
-* Users complete the quiz against a countdown timer set to 60 seconds.  When the timer runs out, a message is displayed telling the user that the quiz will automatically 'reset' within 4 seconds. The user is unable to continue until the quiz has reset.
-* Users can choose to 'reset' the quiz themselves, should they so wish - by clicking the 'reset' button present underneath the 10 questions.
+* Users complete the quiz against a countdown timer set to 70 seconds.  When the timer runs out, a message is displayed telling the user that the quiz will automatically 'reset' within 5 seconds. 
+* Users can choose to 'reset' the quiz themselves at any time, should they so wish - by clicking the 'reset' button present underneath the 10 questions.
 * A 'submit' button allows the user to submit their chosen answers.  Upon submitting a results container will display any question numbers that were answered incorrectly along with its particular correct answer.  An overall score out of 10 is also displayed.
-* This feature fulfills the user stories: *'As a new user, I want to see my overall results from a quiz, along with correct answers if needed'*, and *'As a new user, I want to complete the quiz against a countdown timer'*, and *'As a new user, I want to be able to 'reset' the quiz and start again, if I should so choose'*.
+* This feature fulfills the user stories: *'As a new user, I want to see my overall results from a quiz, along with correct answers if needed'*, and *'As a new user, I want to complete the quiz against a countdown timer'*, and *'As a new user, I want to be able to 'reset' the quiz and start again, if I should so choose'*, and *As a regular user, I want the option of quizzes with increasing levels of difficulty*.
 
 #### The 'Contact Us' page
 * This page provies information on how the user can contact the organisation, through the provision of an email address.
-* All present on this page is an 'About Us' section providing details on the organisation.
+* Also present on this page is an 'About Us' section providing details on the organisation.
 * This feature fulfills the user story: *'As a new user, I want to be able to easily contact the organisation'*.
 
 #### The 'Terms of Service' page
