@@ -109,13 +109,22 @@ Images for the website have been downloaded from **Pexels** and compressed and p
 This website has been designed to not retain user information, with username information only being stored within the local storage feature (in developer tools) on the user's device.
 
 #### Features
-* The home page has a feature allowing the user to enter a username, should they wish to.  There is no limitation on this field and letters, numbers or special characters may be entered.  This field is totally optional.  If a username is entered, a greeting will be displayed to the user. Additionally, the quiz completion messages (on 'Actor Quotes Quiz' and 'Movie Quotes Quiz' pages) will be displayed either with the entered username, or without if no username was entered.
-* A Countdown Timer set to 70 seconds has been added for the 'Actor Quotes Quiz' and the 'Movie Quotes Quiz' pages.  If the timer expires before the user completes the quiz, the onscreen timer will display a message warning the user that after a delay of 5 seconds - the timer will automatically reset (reload) the page, move to the top of the page and restart.
-* Clicking the Reset Button will also reset (reload) the page, move to the top of the page and restart the countdown timer. This button can be selected by the user at any time.
+* The home page has a feature allowing the user to enter a username, should they wish to.  There is no limitation on this field and letters, numbers or special characters may be entered.  This field is totally optional.  If a username is entered, a greeting will be displayed to the user. <br>
+The username field can be found [here](assets/images/feature_username_comp.jpg) <br>
+The username greeting can be found [here](assets/images/feature_username_result_if_username_entered_comp.jpg)
+* A Countdown Timer set to 70 seconds has been added for the 'Actor Quotes Quiz' and the 'Movie Quotes Quiz' pages.  If the timer expires before the user completes the quiz, the onscreen timer will display a message warning the user that after a delay of 5 seconds - the timer will automatically reset (reload) the page, move to the top of the page and restart.<br>
+The countdown timer can be found [here](assets/images/feature_countdown-timer_comp.jpg)<br>
+The countdown expiry message can be found [here](assets/images/feature_timer-expiry_comp.jpg)
+* Clicking the Reset Button will also reset (reload) the page, move to the top of the page and restart the countdown timer. This button can be selected by the user at any time.<br>
+The reset button can be found [here](assets/images/feature_reset-button_comp.jpg)
 * If the user submits their answers and then decides to re-attempt the quiz, they will need to click the Reset Button to 'clear' their answers and results, reload the page and restart the timer.
-* On the 'Actor Quotes Quiz' and the 'Movie Quotes Quiz' pages, a congratulatory message will display should the user achieve a 10/10 score. An alternative encouraging message will appear should the user achieve less than 10/10.
-* The Submit Button tallies the user's score comparing their answers against correct answers.  Upon clicking this button, the countdown timer will be halted.  This allows the user to assess their own time taken to complete the quiz against the displayed seconds remaining.
-* The user's quiz results and score will appear underneath the Submit Button, when this button is clicked by the user. Only the answers for the incorrectly and/or unanswered questions, will be displayed - along with the appropriate correct answer.
+* The Submit Button tallies the user's score comparing their answers against correct answers.  Upon clicking this button, the countdown timer will be halted.  This allows the user to assess their own time taken to complete the quiz against the displayed seconds remaining.<br>
+The submit button can be found [here](assets/images/feature_submit-button_comp.jpg)
+* The user's quiz results and score will appear underneath the Submit Button, when this button is clicked by the user. Only the answers for the incorrectly and/or unanswered questions, will be displayed - along with the appropriate correct answer. On the 'Actor Quotes Quiz' and the 'Movie Quotes Quiz' pages, a congratulatory message will display should the user achieve a 10/10 score. An alternative encouraging message will appear should the user achieve less than 10/10. Messages will contain the username if entered via the home page username field.  Alternatively the same message will be displayed, but without a username.<br>
+Alternative message *with* a username can be found [here](assets/images/feature_user-results-container_with_username_comp.jpg) <br>
+Alternative message *without* a username can be found [here](assets/images/feature_user-results-container_comp.jpg) <br>
+Congratulatory message *with* a username can be found [here](assets/images/feature_congrats-message_with_username_comp.jpg) <br>
+Congratulatory message *without* a username can be found [here](assets/images/feature_congrats-message_comp.jpg) 
 
 ## Technologies
 
