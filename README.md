@@ -18,8 +18,6 @@ The website pages are as follows:
 
 The live project can be found here ...
 
-## Mockup of the Quizz-Pro website
-
 ## User Experience Design
 
 ### User Stories
@@ -61,7 +59,7 @@ The live project can be found here ...
 ### Quizz-Pro Web Pages
 #### The 'Home' Page or Landing Page
 
-
+A mockup of the Home Page (index.html) can be found [here](assets/images/mockup_home-page_comp.jpg). <br>
 
 * This page is intended to provide an at-a-glance view of the main purpose of the website, i.e. the option of completing online quizzes.
 * The user has the option of entering a username should they choose to.
@@ -71,9 +69,11 @@ The live project can be found here ...
 * The footer provides navigational links to other pages in the website.
 * This feature fulfills the user stories: *'As a new user, I want to immediately understand the main purpose of the website'* and *'As a new user, the navigational layout must be easy to understand and follow'* and *'As a new user, I would like the option of entering a username'* and *As a regular user, I want the option of quizzes with increasing levels of difficulty*.
 
-#### The 'Actors Quote Quiz and the 'Movie Quotes Quiz' pages
+#### The 'Movie Quotes Quiz and the 'Actor Quotes Quiz' pages
 
+A mockup of the Movie Quotes Quiz Page can be found [here](assets/images/mockup_movie-quotes-quiz_comp.jpg). <br>
 
+A mockup of the Actor Quotes Quiz Page can be found [here](assets/images/mockup_actor-quotes-quiz_comp.jpg). <br>
 
 * These two pages each contain a different quiz, but the layout and functionality are identical in both pages.
 * Users complete the quiz against a countdown timer set to 70 seconds.  When the timer runs out, a message is displayed telling the user that the quiz will automatically 'reset' within 5 seconds. 
@@ -83,7 +83,7 @@ The live project can be found here ...
 
 #### The 'Contact Us' page
 
-
+A mockup of the Contact Us Page can be found [here](assets/images/mockup_contact-us_comp.jpg). <br>
 
 * This page provies information on how the user can contact the organisation, through the provision of an email address.
 * Also present on this page is an 'About Us' section providing details on the organisation.
@@ -91,7 +91,7 @@ The live project can be found here ...
 
 #### The 'Terms of Service' page
 
-
+A mockup of the Terms of Service Page can be found [here](assets/images/mockup_terms-of-service_comp.jpg). <br>
 
 * This page provides the organisation's legal wording for the purposes of conducting a online quiz service.
 * This feature fulfills the user story: *'As a new user, I want to see the 'terms of service' applicable to Quizz-Pro'*.
