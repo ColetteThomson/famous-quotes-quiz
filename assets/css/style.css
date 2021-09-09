@@ -142,6 +142,17 @@ form {
   height: 325px;
 }
 
+.image_positioning_2 {
+  float: right;
+  position: relative;
+  margin-right: 0;
+  margin-top: 0;
+  padding: 0;
+  padding-right: 50px;
+  width: 280px;
+  height: 350px;
+}
+
 /* button: start quiz on 'home page' */
 .quiz_button {
   color: lightblue;
@@ -449,6 +460,11 @@ input[type='radio'] {
     margin-right: 20px;
   }
 
+  .image_positioning_2 {
+    float: right;
+    margin-right: 20px;
+  }
+
   /* button: reset */
   #resetButton {
     margin-right: 35px;
@@ -652,6 +668,13 @@ input[type='radio'] {
     margin-left: 30px;
   }
 
+  .image_positioning_2{
+    float: left;
+    margin-bottom: 5px;
+    margin-top: 25px;
+    margin-left: 30px;
+  }
+
   /* button: return to homepage */
   .return_homepage {
     font-size: 20px;
@@ -787,6 +810,12 @@ input[type='radio'] {
   }
 
   .image_positioning {
+    float: right;
+    position: relative;
+    margin-right: 50px;
+  }
+
+  .image_positioning_2 {
     float: right;
     position: relative;
     margin-right: 50px;
