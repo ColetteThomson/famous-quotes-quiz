@@ -611,7 +611,8 @@ input[type='radio'] {
   /* 'movie quotes quiz' and 'actor quotes quiz' heading and positioning */
   .quiz_heading {
     font-size: 35px;
-    padding-right: 20px;
+    padding-right: 25px;
+    padding-left: 10px;
     margin-bottom: 15px;
   }
 

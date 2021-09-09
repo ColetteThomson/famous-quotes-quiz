@@ -158,7 +158,7 @@ This website has been designed to not retain user information, with username inf
 *Issue*: This function included a 'location.reload()' method, intended to reload the page, clear away the users answers and quiz results and restart the countdown timer.  It was found that Firefox does not support the reload() method, or the alternative 'history.go(0)' method.<br>
 *Resolution*: the 'window.location.href' method was found to work across all browsers.
 * **Image on Home Page:** <br>
-*Issue*: The image on the home page (popcorn) demonstrated continual layout problems on Firefox, in spite of several different images being tried and tested for compatibility and website responsiveness.<br>  
+*Issue*: The image on the home page (popcorn) demonstrated continual layout problems on Firefox, and produced a low result in the lighthouse report - in spite of several different images being tried and tested for compatibility and website responsiveness.<br>  
 *Resolution*: this was resolved through the calling of three different images (sized according to device type) via CSS using the 'content: url()' option.
 
 ### Code Validation
@@ -172,7 +172,12 @@ This website has been designed to not retain user information, with username inf
 
 
 ### Lighthouse Report
-...insert screenshots for each page
+* The lighthouse report for the Home page (index.html) can be found [here]().
+* The lighthouse report for the Movie Quotes Quiz page can be found [here]().
+* The lighthouse report for the Actor Quotes Quiz page can be found [here]().
+* The lighthouse report for the Contact Us page can be found [here]().
+* The lighthouse report for the Terms of Service page can be found [here]().
+
 
 ## Deployment
 ### Project Creation
