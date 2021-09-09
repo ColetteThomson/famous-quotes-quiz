@@ -17,23 +17,14 @@ function submitQuiz() {
         return answerValue;
     }
 
-    /* use answerTally function to calculate score for 'Movie Quotes Quiz' */
+    /* use answerTally function to calculate scores for 'Movie Quotes Quiz' and 'Actor Quotes Quiz' */
     let calculateScore = (answerTally('question1') + answerTally('question2') + answerTally('question3') + answerTally('question4') +
         answerTally('question5') + answerTally('question6') + answerTally('question7') + answerTally('question8') + answerTally('question9') +
         answerTally('question10'));
-    /*console.log("CalculateScore: " + calculateScore);*/
-
-    /* use answerTally function to calculate score for 'Actor Quotes Quiz' 
-    let calculateScore1 = (answerTally('question1') + answerTally('question2') + answerTally('question3') + answerTally('question4') +
-        answerTally('question5') + answerTally('question6') + answerTally('question7') + answerTally('question8') + answerTally('question9') +
-        answerTally('question10')); */
-    /*console.log("CalculateScore1: " + calculateScore1);*/
-
+    
     /* use correctAnswer function to return correct option as a string */
     function correctAnswer(correctOptionNumber, questionNumber) {
-        /*console.log("questionNumber: " + questionNumber);*/
-
-        return ("Q" + questionNumber + " answer: <strong>" +
+            return ("Q" + questionNumber + " answer: <strong>" +
             (document.getElementById(correctOptionNumber).innerHTML) + "</strong>");
     }
 
@@ -115,7 +106,7 @@ function resetQuiz() {
 /* check if element exists (only exists on the 2 quiz pages) */
 if (document.getElementById("countdown")) {
     /* countdown timer for quizzes, starts when page loads */
-    var timeRemaining = 80;
+    var timeRemaining = 70;
     var downloadTimer = setInterval(function() {
         document.getElementById("countdown").innerHTML = `${timeRemaining}<br> secs left`;
         timeRemaining -= 1;
@@ -123,12 +114,12 @@ if (document.getElementById("countdown")) {
         /* message displayed to user when countdown reaches 0 secs */
         if (timeRemaining <= 0) {
             clearInterval(downloadTimer);
-            document.getElementById("countdown").innerHTML = "<strong>Time's up!</strong> <br> Quiz<br> will reset in 7 secs.";
+            document.getElementById("countdown").innerHTML = "<strong>Time's up!</strong> <br> Quiz<br> will reset in 5 secs.";
 
-            /* time delay of 7 secs before countdown restarts */
+            /* time delay of 5 secs before countdown restarts */
             setTimeout(function () {
                 window.location.href = window.location.href;
-            }, 7000);
+            }, 5000);
         }
     }, 1000);
 }
