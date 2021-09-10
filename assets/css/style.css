@@ -396,7 +396,7 @@ input[type='radio'] {
   /* 'movie quotes quiz' and 'actor quotes quiz' heading and positioning */
   .quiz_heading {
     font-size: 52px;
-    padding-right: 20px;
+    padding-right: 1.25em;
   }
 
   /* username prompt on home page */
@@ -417,10 +417,10 @@ input[type='radio'] {
     content: url(../images/popcorn_640x144_comp.jpg);
     width: 640px;
     height: 144px;
-    margin-right: 20px;
+    margin-right: 1.25em;
     margin-top: 0;
-    margin-left: 39px;
-    margin-bottom: 20px;
+    margin-left: 2.4375em;
+    margin-bottom: 1.25em;
     padding: 0;
     clear: right;
   }
@@ -435,7 +435,7 @@ input[type='radio'] {
   .homepage_div_2 {
     float: left;
     width: 88%;
-    padding-left: 20px;
+    padding-left: 1.25em;
   }
 
   /*countdown timer on 'movie quotes', 'actor quotes' pages */
@@ -457,29 +457,29 @@ input[type='radio'] {
   /* images on 'movie quotes quiz', 'actor quotes quiz' */
   .image_positioning {
     float: right;
-    margin-right: 20px;
+    margin-right: 1.25em;
   }
 
   .image_positioning_2 {
     float: right;
-    margin-right: 20px;
+    margin-right: 1.25em;
   }
 
   /* button: reset */
   #resetButton {
-    margin-right: 35px;
+    margin-right: 2.1875em;
   }
 
   /*  FOOTER */
   .footer2 {
-    padding-top: 30px;
+    padding-top: 1.875em;
   }
 
   .footer_link {
     float: left;
     display: block;
     font-size: 18px;
-    padding-right: 60px;
+    padding-right: 3.75em;
     margin-top: 0;
   }
 
@@ -487,7 +487,16 @@ input[type='radio'] {
     float: left;
     display: block;
     font-size: 18px;
-    padding-right: 60px;
+    padding-right: 3.75em;
+    margin-top: 0;
+  }
+
+  .return_homepage1 {
+    float: left;
+    display: block;
+    font-size: 18px;
+    padding-right: 3.75em;
+    padding-left: 1.875em;
     margin-top: 0;
   }
 
@@ -497,9 +506,9 @@ input[type='radio'] {
     position: relative;
     clear: both;
     font-size: 18px;
-    margin-left: 15px;
-    margin-top: 115px;
-    margin-bottom: 20px;
+    margin-left: 0.9375em;
+    margin-top: 7.1875em;
+    margin-bottom: 1.25em;
   }
 }
 
@@ -527,7 +536,7 @@ input[type='radio'] {
   h2,
   h3,
   h4 {
-    padding-left: 10px;
+    padding-left: 0.4375em;
   }
 
   h2 {
@@ -535,28 +544,28 @@ input[type='radio'] {
   }
 
   ul {
-    padding: 17px;
+    padding: 1.0625em;
     margin: 0;
   }
 
   .paragraph {
     font-size: 20px;
-    padding-left: 15px;
-    padding-right: 10px;
+    padding-left: 0.5625em;
+    padding-right: 0.625em;
     margin-top: 0;
   }
 
   p {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 0.625em;
+    padding-right: 0.625em;
   }
 
   /* username prompt on home page */
   .prompt {
     float: left;
     max-width: 100%;
-    padding-top: 15px;
-    padding-left: 5px;
+    padding-top: 0.9375em;
+    padding-left: 0.25em;
     margin: 0;
   }
 
@@ -573,7 +582,7 @@ input[type='radio'] {
   }
 
   #message {
-    padding-left: 22px;
+    padding-left: 1.125em;
     font-size: 18px;
   }
 
@@ -593,15 +602,15 @@ input[type='radio'] {
   .homepage_div {
     float: left;
     width: 90%;
-    padding-right: 10px;
-    padding-left: 15px;
+    padding-right: 0.625em;
+    padding-left: 0.75em;
     margin: 0;
   }
 
   .homepage_div_2 {
     float: left;
     width: 90%;
-    padding-left: 15px;
+    padding-left: 0.75em;
   }
 
   /* button: start quiz on 'home page' */
@@ -610,7 +619,7 @@ input[type='radio'] {
   }
 
   .quiz_button_mq {
-    padding-left: 10px;
+    padding-left: 0.625em;
   }
 
   /*countdown timer on 'movie quotes', 'actor quotes' pages */
@@ -627,13 +636,13 @@ input[type='radio'] {
   /* 'movie quotes quiz' and 'actor quotes quiz' heading and positioning */
   .quiz_heading {
     font-size: 35px;
-    padding-right: 25px;
-    padding-left: 10px;
-    margin-bottom: 15px;
+    padding-right: 1.125em;
+    padding-left: 0.625em;
+    margin-bottom: 0.625em;
   }
 
   .quiz_positioning {
-    padding-top: 30px;
+    padding-top: 0.9375em;
     margin-right: 0;
     padding-left: 0;
   }
@@ -663,23 +672,23 @@ input[type='radio'] {
   /* images on 'movie quotes quiz', 'actor quotes quiz' */
   .image_positioning {
     float: left;
-    margin-bottom: 5px;
-    margin-top: 25px;
-    margin-left: 30px;
+    margin-bottom: 0.3125em;
+    margin-top: 1.5625em;
+    margin-left: 1.875em;
   }
 
   .image_positioning_2 {
     float: left;
-    margin-bottom: 5px;
-    margin-top: 25px;
-    margin-left: 30px;
+    margin-bottom: 0.3125em;
+    margin-top: 1.5625em;
+    margin-left: 1.875em;
   }
 
   /* button: return to homepage */
   .return_homepage {
     font-size: 20px;
-    padding-top: 30px;
-    padding-bottom: 20px;
+    padding-top: 1.875em;
+    padding-bottom: 1.25em;
   }
 
   /* containers for 'submit' and 'reset' buttons */
@@ -687,15 +696,15 @@ input[type='radio'] {
     float: left;
     width: 30%;
     margin-right: 0;
-    margin-top: 20px;
+    margin-top: 1.25em;
     clear: both;
   }
 
   .reset-right {
     float: right;
     width: 30%;
-    margin-top: 20px;
-    margin-right: 54px;
+    margin-top: 1.25em;
+    margin-right: 3.375em;
     clear: right;
   }
 
@@ -707,7 +716,7 @@ input[type='radio'] {
   .quiz_submit {
     margin: 0;
     float: left;
-    margin-left: 16px;
+    margin-left: 1em;
   }
 
   /* button: reset */
@@ -715,14 +724,14 @@ input[type='radio'] {
     float: left;
     margin-top: 0;
     clear: both;
-    margin-right: 20px;
+    margin-right: 1.25em;
   }
 
   /* container: to display user results */
   .results_container {
-    padding-left: 10px;
-    padding-right: 5px;
-    margin-top: 70px;
+    padding-left: 0.625em;
+    padding-right: 0.3125em;
+    margin-top: 4.375em;
     line-height: 30px;
     font-size: 16px;
     z-index: 10;
@@ -731,25 +740,26 @@ input[type='radio'] {
 
   .quizScore {
     font-size: 18px;
-    margin-right: 50px;
+    margin-right: 3.125em;
   }
 
   /* overlay to be displayed when user scores 10/10 on quizzes */
   #overlay {
     width: 260px;
     height: 130px;
-    margin-top: 130px;
-    margin-left: 30px;
+    margin-top: 6.875em;
+    margin-left: 1.25em;
     background-color: black;
   }
 
   #overlay_text {
-    padding: 15px;
+    padding: 0.9375em;
     font-size: 20px;
   }
 
+  /*Rules on home page */
   .rules {
-    padding-left: 30px;
+    padding-left: 1.375em;
   }
 
   /* FOOTER */
