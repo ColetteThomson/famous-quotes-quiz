@@ -173,7 +173,7 @@ Congratulatory message *without* a username can be found [here](assets/images/fe
 *Note*: The following message displayed:  'Two unused variables:  submitQuiz() and resetQuiz()'.  Both of these variables are called from within both the html quiz pages: *'Actor Quotes Quiz'* and *'Movie Quotes Quiz'*. [JSHint screenshot](assets/images/JSHint_code_validation_comp.jpg).
 
 
-### Lighthouse Report
+### Lighthouse Reports
 * The lighthouse report for the Home page (index.html) can be found [here](assets/images/lighthouse_report_homepage_comp.jpg).
 * The lighthouse report for the Movie Quotes Quiz page can be found [here](assets/images/lighthouse_report_movie-quotes-quiz_comp.jpg).
 * The lighthouse report for the Actor Quotes Quiz page can be found [here](assets/images/lighthouse_report_actor-quotes-quiz_comp.jpg).

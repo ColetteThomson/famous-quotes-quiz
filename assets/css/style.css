@@ -449,7 +449,7 @@ input[type='radio'] {
 
   /*countdown timer on 'movie quotes', 'actor quotes' pages */
   #countdown {
-    margin-left: 45%;
+    margin-left: 46%;
     font-size: 17px;
     max-width: 60px;
   }
@@ -477,6 +477,11 @@ input[type='radio'] {
   /* button: reset */
   #resetButton {
     margin-right: 2.1875em;
+  }
+
+  /* container: to display user results */
+  .quizScore {
+    margin-right: 17em;
   }
 
   /* overlay to be displayed when user scores 10/10 on quizzes */
@@ -754,7 +759,7 @@ input[type='radio'] {
 
   .quizScore {
     font-size: 18px;
-    margin-right: 60px;
+    margin-right: 6.875em;
   }
 
   /* overlay to be displayed when user scores 10/10 on quizzes */
