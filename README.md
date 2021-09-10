@@ -108,7 +108,7 @@ Images for the website have been downloaded from **Pexels** and compressed and p
 #### Limitations
 This website has been designed to not retain user information, with username information only being stored within the local storage feature (in developer tools) on the user's device.
 
-#### Features
+## Features
 * The home page has a feature allowing the user to enter a username, should they wish to.  There is no limitation on this field and letters, numbers or special characters may be entered.  This field is totally optional.  If a username is entered, a greeting will be displayed to the user. <br>
 The username field can be found [here](assets/images/feature_username_comp.jpg) <br>
 The username greeting can be found [here](assets/images/feature_username_result_if_username_entered_comp.jpg)
@@ -165,6 +165,7 @@ Congratulatory message *without* a username can be found [here](assets/images/fe
 * **Image on Home Page:** <br>
 *Issue*: The image on the home page (popcorn) demonstrated continual layout problems on Firefox, and produced a low result in the lighthouse report - in spite of several different images being tried and tested for compatibility and website responsiveness.<br> 
 *Resolution*: this was resolved through the calling of three different images (sized according to device type) via CSS using the 'content: url()' option.
+* An attempt was made to add aria-labels to the website buttons and links, but this was abandoned when the 'performance' section of the lighthouse reports, dropped dramatically into the 'low orange' values.
 
 ### Code Validation
 * All five HTML pages were run through the [W3C Markup Validation Service](https://validator.w3.org/) and showed no errors. The following web pages were checked: index.html (home page); actor_quotes_quiz.html; movie_quotes_quiz.html; terms_of_service.html; contact_us.html.
