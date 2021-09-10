@@ -479,6 +479,10 @@ input[type='radio'] {
     margin-right: 2.1875em;
   }
 
+  /* overlay to be displayed when user scores 10/10 on quizzes */
+  #overlay {
+    margin-left: 3.125em;
+  }
   /*  FOOTER */
   .footer2 {
     padding-top: 1.875em;
@@ -750,7 +754,7 @@ input[type='radio'] {
 
   .quizScore {
     font-size: 18px;
-    margin-right: 3.125em;
+    margin-right: 60px;
   }
 
   /* overlay to be displayed when user scores 10/10 on quizzes */
@@ -791,7 +795,7 @@ input[type='radio'] {
     padding-left: 0.3125em;
     padding-right: 0.3125em;
     margin-bottom: 1.875em;
-    margin-top: 3.75em;
+    margin-top: 5.625em;
     margin-left: 0;
     font-size: 22px;
   }
