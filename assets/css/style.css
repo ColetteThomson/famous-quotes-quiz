@@ -308,8 +308,14 @@ input[type='radio'] {
 .footer {
   clear: both;
   padding-top: 120px;
-  padding-bottom: 50px;
   padding-left: 60px;
+}
+
+.footer1 {
+  clear: both;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  padding-left: 16px;
 }
 
 .footer2 {
@@ -323,6 +329,9 @@ input[type='radio'] {
   color: lightblue;
   font-size: 20px;
   padding-right: 70px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  padding-top: 20px;
   margin-top: 0;
 }
 
@@ -487,6 +496,7 @@ input[type='radio'] {
     float: left;
     display: block;
     font-size: 18px;
+    padding-top: 20px;
     padding-right: 3.75em;
     margin-top: 0;
   }
@@ -765,7 +775,7 @@ input[type='radio'] {
   /* FOOTER */
   .footer {
     padding: 0;
-    margin-left: 10px;
+    margin-left: 0.625em;
     clear: both;
   }
 
@@ -778,10 +788,10 @@ input[type='radio'] {
   .next_quiz {
     float: left;
     display: block;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-bottom: 30px;
-    margin-top: 90px;
+    padding-left: 0.3125em;
+    padding-right: 0.3125em;
+    margin-bottom: 1.875em;
+    margin-top: 3.75em;
     margin-left: 0;
     font-size: 22px;
   }
@@ -789,20 +799,19 @@ input[type='radio'] {
   .footer_link {
     font-size: 20px;
     display: block;
-    padding-top: 30px;
-    padding-left: 20px;
+    padding-top: 1.25em;
+    padding-left: 1.25em;
   }
 
   #mq {
-    padding-left: 20px;
+    padding-left: 1.25em;
   }
 
   /* button: return to homepage */
   .return_homepage {
     font-size: 20px;
-    padding-top: 30px;
-    padding-left: 20px;
-    padding-bottom: 0;
+    padding-top: 1.875em;
+    padding-left: 1.25em;
   }
 }
 
@@ -822,13 +831,13 @@ input[type='radio'] {
   .image_positioning {
     float: right;
     position: relative;
-    margin-right: 50px;
+    margin-right: 3.125em;
   }
 
   .image_positioning_2 {
     float: right;
     position: relative;
-    margin-right: 50px;
+    margin-right: 3.125em;
   }
 
   /* 'movie quotes quiz' and 'actor quotes quiz' question & answer blocks */
@@ -850,7 +859,7 @@ input[type='radio'] {
   .reset-right {
     float: right;
     width: 30%;
-    margin-right: 50px;
+    margin-right: 3.125em;
     clear: right;
   }
 }
